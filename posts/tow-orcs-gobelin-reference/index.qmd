@@ -36,6 +36,11 @@ D'autres documents peuvent s'avéré utile comme le [Aide de jeu v2.2](https://t
 
 *Remarque sur le document*: Le symbole `[§]` dans les bulles de règles signale que la description a été réccourcie ou modifier tout en essayant de garder la logique de la règle.
 
+
+```{r_dependacy, echo=FALSE}
+
+```
+
 <details>
 
 <summary>Début et mise en place de la partie</summary>
@@ -515,6 +520,8 @@ Chaque figurine du rang combattant peut attaquer, bien que les figurines qui ne 
 </p>
 
 </details>
+
+
 
 ```{r, echo=FALSE}
 # I) ---------------------------------------------------------------------------
