@@ -31,7 +31,7 @@ categories: [TOW, Aides de jeu, Orcs&Gobs]
 ::: {.column width="60%"}
 **Introduction**: Inspiré par Embackup et son document récapitulatif : [SeqWarfoEmbackO&Gdn](https://touteslesplublicationsgw.com/s/2TbRArpi78Qo9Td?path=%2FLogigrammes%2Fpar%20Embackup). Voici un reformatage du document permettant une meilleur lecture. Les mots souligner renvoi à la règle tandis que des menus déroulants sont signalés sur le côté par un triangle à gauche.
 
-D'autres documents peuvent s'avéré utile comme le [Aide de jeu v2.2](https://touteslesplublicationsgw.com/s/2TbRArpi78Qo9Td?dir=undefined&path=%2FFeuille%20de%20r%C3%A9f%C3%A9rence%20g%C3%A9n%C3%A9rale&openfile=827462) par TheGuest.
+D'autres documents peuvent s'avéré utile comme l'[Aide de jeu v2.2](https://touteslesplublicationsgw.com/s/2TbRArpi78Qo9Td?dir=undefined&path=%2FFeuille%20de%20r%C3%A9f%C3%A9rence%20g%C3%A9n%C3%A9rale&openfile=827462) par TheGuest.
 
 :::
 
@@ -310,15 +310,17 @@ Sauvegardes d'Armure : Pour chaque blessure, votre adversaire fait un jet de Sau
 
 -   Une unité [**ne peut pas tirer**]{style="color:red"} ou **lancer un vortex et projectile** si elle a **chargé** ou effectué une **marche forcée** (p 137).
 -   Vérifier les lignes de vue comme décrit page 103 et vérifier la portée.
--   Tir de volée des Arcs Court et de Guerre (p 216) \>la moitié au supérieur des rangs antérieurs peuvent tirer en plus du frontal. Si colline c’est 2 rang + La 1/2. Tir de volée s’annule si mouvement (p 180).
+-   Les [Orques]{style="color:#3a5f0b"} ont des <u id='arc_de_guerre'>Arcs de Guerre</u> lesquelles ont la règle <u id='tir_de_Volee'>Tir de Volée</u> 
+-   Les [Gobelins]{style="color:#6b8e23"} ont des <u id='arc_court'>Arcs Court</u> lesquelles ont les règles <u id='tir_rapide'>Tir rapide</u> et <u id='tir_de_Volee'>Tir de Volée</u> 
 -   **Vortex et projectiles magiques éventuels** en sachant Loi du nombre ➜ Si chaman orque dans pack à PU 10 \>+1 au lancement de sort (HS p14) :
     -   Magie Waagh ➜ <u id='kraz_tête'>Kraz'Tête</u> / <u id='regard_de_gork'>Regard de Gork</u> / <u id='poing_de_gork'>Poing De Gork</u> / <u id='regard_vindicatif'>Regard Vindicatif</u> / <u id='pied_de_gork'>Pied de Gork</u>.
     -   Illusionisme\> 1 Rasoir Mental, 3 Colonne de cristal (p 331)
     -   Elementalisme\> 3 Invocation d’Esprit Elémental, 5 Bourasque (p 327)
-    -   M de Bataille\> 1 Boule de feu, 3 Pilier de Flammes (p321)
+    -   Magie de Bataille\> 1 Boule de feu, 3 Pilier de Flammes (p321)
 
 ### 2) Jets de Touche (page 138)
 
+-   Les [Orques]{style="color:#3a5f0b"} et les [Gobelins]{style="color:#6b8e23"} ont des `CT3`.
 -   Baliste : voir page HS 40, page 223 et voir page 197 pour machine de guerre.
 -   Tir rapide des Arcs Court ne subit pas -1 au jet de touche quand ce déplace et tire compte aussi après un ralliement (p 170).
 -   Pour obtenir le [**jet de touche d’un tir soustraire à 7 la capacité de tir (CT)**]{style="color:Green"} de l’unité puis appliquer le modificateur qui suivent :
@@ -330,7 +332,6 @@ Sauvegardes d'Armure : Pour chaque blessure, votre adversaire fait un jet de Sau
 
 ### 3) Jets de blessure & Sauvegardes d’Armure (page 140)
 
--   WIP
 -   Mouvement de réserve (payant) \[*Gobs sur loups*\] : Si l’ unité n’ a pas fait de marche forcée un mouvement supplémentaire non modifié peut être effectué après les tirs du joueur en contrôle.
 
 ### 4) Retrait des Pertes & Tests de Panique (page 142)
@@ -430,25 +431,25 @@ Chaque figurine du rang combattant peut attaquer, bien que les figurines qui ne 
 
 ### 3) Jet pour toucher
 
+| CC Attaquant / à CC Défenseur | [Moins de la moitié]{style="color:red"} | [Égale ou inférieure]{style="color:orange"} | [Supérieure]{style="color:green"} | [Plus du double]{style="color:#84b415"} |
+| :-------------------------------------- | :-------------------- | :------------------ | :--------- | :------------- |
+| Résultat requis                         | [5]{style="color:red"}| [4]{style="color:orange"} | [3]{style="color:green"}  | [2]{style="color:#84b415"}              |
+**Tableau décrivant les jets pour toucher**. Un `1 naturel` est toujours un échec tandis qu'un `6 naturel` est toujours un succès.
+
+Les [Orques noires]{style="color:#6605bb"} et les [Squig]{style="color:#8b0000"} ont des `CC4`. Les [Orques]{style="color:#3a5f0b"}, les [Sangliers]{style="color:#52280a"} et [Loups]{style="color:#d4af37"} les `CC3` et les [Gobelins]{style="color:#6b8e23"} ont des `CC2`.
+
 -   <u id='peur'>Peur</u> ➜ si l’unité engagé au combat a une PU moins élevé alors il faut faire un <u id='test_commandement'>test de commandement</u>. *i)* En cas de réussite il n'y a pas de malus, ii) en cas d'échec l'unité à peur et subit `-1 CC`.
 -   Si la <u id='waaagh'>Waaagh!</u> est active `relance des 1` à la touche.
--   Les touches d’impacts touchent automatiquement (p 172).
+-   Les <u id='touches_impact'>touches d’impacts</u> des chars à [Sangliers]{style="color:#52280a"} `D6+1` et à [Loups]{style="color:#d4af37"} `D3+1` + sangliers Waaagh nomade touchent automatiquement (p 172).
 -   Les attaques de piétinement touchent automatiquement (p 177).
-
-| CC Attaquant par rapport à CC Défenseur | Résultat requis |
-|-----------------------------------------|-----------------|
-| Moins de la moitié                      | 5+              |
-| Égale ou inférieure                     | 4+              |
-| Supérieure                              | 3+              |
-| Plus du double                          | 2+              |
-| Un 1 naturel est toujours un échec      |                 |
-| Un 6 naturel est toujours un succès     |                 |
 
 ### 4) Jets de Blessure (page 149)
 
--   Si charge effective avec <u id='kikoup'>Kikoup</u> ➜ `relance des 1` à la blessure. (HS p 45).
+les [Squig]{style="color:#8b0000"} et les Trolls ont des `F5`. Les [Orques noires]{style="color:#6605bb"} et les Orques <u id='kostos'>Kostos</u> ont des `F4`. Les [Orques]{style="color:#3a5f0b"}, les [Gobelins]{style="color:#6b8e23"} les [Sangliers]{style="color:#52280a"} et [Loups]{style="color:#d4af37"} les `F3`.
+
+-   Si charge effective avec <u id='kikoup'>Kikoup</u> ➜ `relance des 1` à la blessure & `PA-1` à la sauvegarde sur les **6 pour blesser** . (HS p 45).
 -   <u id='charge_de_sanglier'>Charges de sanglier</u> (HS p 46) Si charge ➜ `+1 F`.
--   <u id='kostos'>Kostos</u> (payant) ➜ `+1F` (HS p 45).
+-   <u id='kostos'>Kostos</u> (payant) ➜ `+1F`(HS p 45).
 -   Arme lourde octroi ➜ `+2F` (p 214).
 -   Lance de cavalerie octroi ➜ `+1F` si charge effective, par contre les attaques de soutient sur les côtés et sur 2 rangs ne sont pas comptabilisées (p215).
 
@@ -458,18 +459,20 @@ Chaque figurine du rang combattant peut attaquer, bien que les figurines qui ne 
 
 <p>
 
-| Force de l'Arme Endurance de la Cible | 1   | 2   | 3   | 4   | 5   | 6   | 7   | 8   | 9   | 10  |
-|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
-| **1**                                  | 4+  | 5+  | 5+  | 5+  | 6+  | 6+  | \-  | \-  | \-  | \-  |
-| **2**                                  | 3+  | 4+  | 5+  | 5+  | 6+  | 6+  | \-  | \-  | \-  | \-  |
-| **3**                                  | 3+  | 3+  | 4+  | 5+  | 5+  | 6+  | \-  | \-  | \-  | \-  |
-| **4**                                  | 2+  | 3+  | 4+  | 5+  | 5+  | 6+  | \-  | \-  | \-  | \-  |
-| **5**                                  | 2+  | 3+  | 4+  | 4+  | 5+  | 6+  | 6+  | \-  | \-  | \-  |
-| **6**                                  | 2+  | 2+  | 3+  | 4+  | 5+  | 5+  | 6+  | 6+  | \-  | \-  |
-| **7**                                  | 2+  | 2+  | 3+  | 4+  | 5+  | 5+  | 5+  | 6+  | 6+  | \-  |
-| **8**                                  | 2+  | 2+  | 3+  | 4+  | 4+  | 5+  | 5+  | 5+  | 6+  | 6+  |
-| **9**                                  | 2+  | 2+  | 3+  | 4+  | 4+  | 5+  | 5+  | 5+  | 5+  | 6+  |
-| **10**                                 | 2+  | 2+  | 3+  | 4+  | 4+  | 5+  | 5+  | 5+  | 5+  | 4+  |
+**Force de l'Arme (1er colonne) Endurance de la Cible (1er ligne)**
+
+|   F/E | 1   | 2   | 3   | 4   | 5   | 6   | 7   | 8   | 9   | 10  |
+|-------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+| **1** | 4+  | 5+  | 5+  | 5+  | 6+  | 6+  | \-  | \-  | \-  | \-  |
+| **2** | 3+  | 4+  | 5+  | 5+  | 6+  | 6+  | \-  | \-  | \-  | \-  |
+| **3** | 3+  | 3+  | 4+  | 5+  | 5+  | 6+  | \-  | \-  | \-  | \-  |
+| **4** | 2+  | 3+  | 4+  | 5+  | 5+  | 6+  | \-  | \-  | \-  | \-  |
+| **5** | 2+  | 3+  | 4+  | 4+  | 5+  | 6+  | 6+  | \-  | \-  | \-  |
+| **6** | 2+  | 2+  | 3+  | 4+  | 5+  | 5+  | 6+  | 6+  | \-  | \-  |
+| **7** | 2+  | 2+  | 3+  | 4+  | 5+  | 5+  | 5+  | 6+  | 6+  | \-  |
+| **8** | 2+  | 2+  | 3+  | 4+  | 4+  | 5+  | 5+  | 5+  | 6+  | 6+  |
+| **9** | 2+  | 2+  | 3+  | 4+  | 4+  | 5+  | 5+  | 5+  | 5+  | 6+  |
+| **10**| 2+  | 2+  | 3+  | 4+  | 4+  | 5+  | 5+  | 5+  | 5+  | 4+  |
 
 </p>
 
@@ -607,11 +610,20 @@ rule_contre_charge <- "Si l’unité ennemi cavalerie, char ou monstre charge su
 rule_mouvement_aleatoire <- "Mouvement Aléatoire: Les figurines ayant cette règle spéciale n'ont pas de caractéristique de Mouvement normale. À la place, leur profil affiche un jet de dé (ex 2D6). Chaque fois qu'une figurine ayant cette règle spéciale se déplace (pour quelque raison que ce soit), jetez les dés pour déterminer la distance maximal à laquelle elle se déplace. Les figurines ayant cette règle spéciale se déplacent à la sous-phase des Mouvements Obligatoires. Elles ne peuvent pas effectuer de marche forcée ou déclarer de charge. Elles peuvent effectuer des roues pour changer de direction, mais ne peuvent pas exécuter d'autres manœuvres. Si la figurine peut entrer en contact avec une unité ennemie, elle doit déclarer une poursuite, elle peut le faire et effectuer comme annoncé. Une unité chargeée de cette manière doit faire un test de Commandement pour tenter sa Position. Si toutes les figurines d'une unité ont cette règle spéciale, faites un jet de dé pour toute l'unité. Si au moins deux figurines d'une unité ont des caractéristiques de Mouvement Aléatoire différentes, effectuez un jet pour chacune et il sera appliqué séparément, puis pour la totalité de l'unité." # II.3
 
 
-# III) -------------------------------------------------------------------------
+# III) Tir ---------------------------------------------------------------------
 rule_repli_en_bon_ordre <- "Se Replier en Bon Ordre: Si une unité contient encore plus e la moitié (50%) ou plus des figurines quelle comptait au début de la bataille, elle se Repliera en Bon Ordre. L'unité se déplace directement à l'opposé de l'unité ennemie dont les dommage ont causé le test de Panique, comme décrit page 134. C'est à dire qu'elle jette deux D6 et défausse le résultat le plus bas. Si les deux dés donnent le même résultat, défaussez celui de votre choix. Une unité qui se Replie en Bon Ordre se rallie automatiquement à la fin de son mouvement de fuite " # III.4 -- A revoir JD
 
+rule_arc_court <- "Portée 18” / F3 / PA0 - Règle spéciales: Tir rapide, Tir de Volée"
+
+rule_tir_rapide <- "Une arme ayant cette règle spéciale ne subit pas le modificateur habituel de -1 aux jets de Touche quand son porteur se Déplace et Tire. De plus, une unité équipée d'armes ayant cette règle spéciale peut les utiliser pour effectuer une réaction de charge Tenir sa Position & Tirer quelle que soit la proximité de l'unité qui charge."
+
+rule_tir_de_Volee <- "Quand une unité ayant cette règle spéciale effectue une attaque de tir, la moitié des figurines de chaque rang hormis le rang frontal en arrondissant au supérieur, peuvent tirer (en plus des figurines qui tirent du rang frontal, ou des deux rangs frontaux si l'unité est sur une colline). Une unité ne peut pas effectuer de Tir de Volée si elle sest déplacée pour quelque raison que ce soit à ce tour (y compris pour une reformation), ou quand elle effectue une réaction de charge Tenir sa Position & Tirer. [§]"
+
+rule_arc_de_guerre <- "Portée 24” / F utilisateur / PA0 - Règle spéciales: Tir de Volée"
 
 # VI) --------------------------------------------------------------------------
+
+rule_touches_impact <- "Touches d'Impact (X) : Si charge ≥3”, X touches par une fig au contact. Résolu avant de lancer les Défis et le reste du combat. Touche auto. Force porteur."
 
 rule_kikoup <- "Après avoir chargé, peut relancer les 1 nat. aux jets de Blessure et +1 à la PA (sauf montures et armes magiques)"
 
@@ -621,7 +633,7 @@ rule_charge_de_sanglier <- "Après avoir chargé, les Défenses d’un Sanglier 
 
 rule_test_de_panique <- "Test de commandement sous la caractéristique de Cd de l'unité. En cas d'échec (test > CD), l'unité a cédé à la panique et doit se Replier en Bon Ordre ou fuir. En cas de réussite (test < CD), l'unité demeure résolue et ne panique pas."
 
-rule_se_retenir_et_se_reformer <- "Plutôt que d'effectuer un mouvement de suite ou de poursuite, en effectuant un test de “Retenue” Pour effectuer un test de Retenue, faites un test sous la caractéristique de Commandement de l'unité. En cas d'échec, l'unité doit suivre ou poursuivre. En cas de réussite, l'unité reste où elle est et effectue une reformation gratuite."
+rule_se_retenir_et_se_reformer <- "Plutôt que d'effectuer un mouvement de suite (i.e. suivre un unité qui cède du Terrain) ou de poursuite, en effectuant un test de “Retenue” Pour effectuer un test de Retenue, faites un test sous la caractéristique de Commandement de l'unité. En cas d'échec, l'unité doit suivre ou poursuivre. En cas de réussite, l'unité reste où elle est et effectue une reformation gratuite. [§]"
 
 rule_perce <- "Si une unité détruit totalement son ennemi avant la sous-phase des Tests de Moral, elle peut “percer” Une unité qui perce effectue un mouvement de poursuite normal, mais elle doit se déplacer droit devant sans pivoter."
 
@@ -652,8 +664,13 @@ tippy::tippy_this(elementId = "bande_de_guerre", tooltip = rule_bande_de_guerre)
 tippy::tippy_this(elementId = "charges_devastatrices", tooltip = rule_charges_devastatrices) # II.2
 tippy::tippy_this(elementId = "contre_charge", tooltip = rule_contre_charge) # II.2
 tippy::tippy_this(elementId = "mouvement_aleatoire", tooltip = rule_mouvement_aleatoire) # II.3
+tippy::tippy_this(elementId = "arc_court", tooltip = rule_arc_court) # III.1
+tippy::tippy_this(elementId = "arc_de_guerre", tooltip = rule_arc_de_guerre) # III.1
+tippy::tippy_this(elementId = "tir_rapide", tooltip = rule_tir_rapide) # III.1
+tippy::tippy_this(elementId = "tir_de_Volee", tooltip = rule_tir_de_Volee) # III.1
 tippy::tippy_this(elementId = "repli_en_bon_ordre", tooltip = rule_repli_en_bon_ordre) # III.4
 tippy::tippy_this(elementId = "kostos", tooltip = rule_kostos)
+tippy::tippy_this(elementId = "touches_impact", tooltip = rule_touches_impact)
 tippy::tippy_this(elementId = "kikoup", tooltip = rule_kikoup)
 tippy::tippy_this(elementId = "charge_de_sanglier", tooltip = rule_charge_de_sanglier)
 tippy::tippy_this(elementId = "test_de_panique", tooltip = rule_test_de_panique)
