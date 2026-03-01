@@ -56,9 +56,14 @@ Pour une vue exhaustive des scénarios il est possible de ce référer à [WTOW 
 
 </details>
 
+- [I. Phase de Stratégie](#i-phase-de-stratégie-p116-117)
+- [II. Phase de Mouvement](#ii-phase-de-mouvement)
+- [III. Phase de Tir](#iii-phase-de-tir)
+- [IV. Phase de Combat](#iv-phase-de-combat)
+
 ------------------------------------------------------------------------
 
-## I. Phase de Stratégie (p116-117)
+## I. Phase de Stratégie
 
 ### 1) Début du Tour
 
@@ -165,7 +170,7 @@ Réactions aux Charges : Quand elle est chargée, une unité peut déclarer une 
 
 [**Points à prendre en compte à cette phase**]{style="color:blue"}
 
--   Déclarer toutes les charges c'est à dire vérifier la portée en prenant comme valeur M(<u id='mouvement_og'>mouvment</u>) + 6 (cad min 1') avec tous les modificateurs précédemment évoqué. Ne pas oublier de **payer les roues obligatoires** de charge dans la portée pour que la charge soit réellement possible.
+-   Déclarer toutes les charges c'est à dire vérifier la portée en prenant comme valeur M(<u id='mouvement_og'>mouvement</u>) + 6 (cad min 1') avec tous les modificateurs précédemment évoqué. Ne pas oublier de **payer les roues obligatoires** de charge dans la portée pour que la charge soit réellement possible.
 -   Appliquer la Règle <u id='impetueux'>impétueux</u> (p 172) pour les peaux vertes commun l'unité doit faire un <u id='test_commandement'>test de commandement</u> (overview <u id='commandement_og'> O&G CD</u>). Si bulle de 6 à côté d’un orque noir, elle peut re-roll ce test [FAQ 1.5.2](https://www.warhammer-community.com/en-gb/downloads/warhammer-the-old-world/). En cas d'échec, l'unité doit déclarer une charge.
     -   [Attention]{style="color:Orange"} : le test de CD ne prends pas en compte le bonus <u id='bande_de_guerre'>bande de guerre</u> (faq 1.5.1 p4).
 -   <u id='peur'>Peur</u> des elfes \[*Gobelins*\]: Si déclaration de charge contre une unité qui fait peur ➜ Test de Cd : en cas d'échec l'unité reste sur place, sinon ➜ charge non modifier.
@@ -441,9 +446,9 @@ Chaque figurine du rang combattant peut attaquer, bien que les figurines qui ne 
 
 ### 4) Jets de Blessure (page 149)
 
--   Si charge effective avec **Kikoup** ➜ `relance des 1` à la blessure. (HS p 45).
--   Charges de sanglier (HS p 46) Si charge ➜ `+1 F`.
--   Kostos (payant) ➜ `+1F` (HS p 45).
+-   Si charge effective avec <u id='kikoup'>Kikoup</u> ➜ `relance des 1` à la blessure. (HS p 45).
+-   <u id='charge_de_sanglier'>Charges de sanglier</u> (HS p 46) Si charge ➜ `+1 F`.
+-   <u id='kostos'>Kostos</u> (payant) ➜ `+1F` (HS p 45).
 -   Arme lourde octroi ➜ `+2F` (p 214).
 -   Lance de cavalerie octroi ➜ `+1F` si charge effective, par contre les attaques de soutient sur les côtés et sur 2 rangs ne sont pas comptabilisées (p215).
 
@@ -453,7 +458,7 @@ Chaque figurine du rang combattant peut attaquer, bien que les figurines qui ne 
 
 <p>
 
-| Force de l'Arme  Endurance de la Cible | 1   | 2   | 3   | 4   | 5   | 6   | 7   | 8   | 9   | 10  |
+| Force de l'Arme Endurance de la Cible | 1   | 2   | 3   | 4   | 5   | 6   | 7   | 8   | 9   | 10  |
 |-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
 | **1**                                  | 4+  | 5+  | 5+  | 5+  | 6+  | 6+  | \-  | \-  | \-  | \-  |
 | **2**                                  | 3+  | 4+  | 5+  | 5+  | 6+  | 6+  | \-  | \-  | \-  | \-  |
@@ -472,12 +477,12 @@ Chaque figurine du rang combattant peut attaquer, bien que les figurines qui ne 
 
 ### 5) Jets de Sauvegardes d’Armure page & Régénération (page 149)
 
--   Kikoup effectif en charge octroi `PA-1` (HS p 46).
--   Kostos octroi `PA-1` sur les **6 pour blesser** (armes perforantes) (HS p 45).
--   Lance de cavalerie octroi `PA-1` si charge effective (p215).
--   Charges de sanglier, Si charge `PA-1` sur les attaques des sangliers (HS p 46).
--   Les touches d’impact des chars lourd avec roues garnie de lames octroi `PA-2` (p 195).
--   Arme lourde octroi `PA-2` et `PA-3` sur les **6 pour blesser** (p 214)
+-   <u id='kikoup'>Kikoup</u> effectif en charge ➜ octroi `PA-1` (HS p 46).
+-   <u id='kostos'>Kostos</u> ➜ octroi `PA-1` à la sauvegarde sur les **6 pour blesser** (armes perforantes) (HS p 45).
+-   Lance de cavalerie ➜ octroi `PA-1` si charge effective (p215).
+-   <u id='charge_de_sanglier'>Charges de sanglier</u> ➜ Si charge `PA-1` sur les attaques des sangliers (HS p 46).
+-   Les touches d’impact des chars lourd avec roues garnie de lames ➜ octroi `PA-2` (p 195).
+-   Arme lourde ➜ octroi `PA-2` et `PA-3` sur les **6 pour blesser** (p 214)
 -   Deux attaques de griffes cruelles à `PA-2` (Hs p 35)
 -   Deux attaques Immense gueule(2A) (HS p 27) et Gueule immense (3 A(HS p 20)) ont `PA-1` sur et `PA-2` sur les **6 pour blesser**.
 
@@ -507,6 +512,11 @@ L'application [thefateroll](https://thefateroll.com/) fait par Troma permet de c
 
 </details>
 
+#### Suite & Poursuite
+
+- Si l'unité ennemie est totalement détruite, l’unité peut tenter de <u id='se_retenir_et_se_reformer'>se retenir et se reformer</u> (overview <u id='commandement_og'> O&G CD</u>) ou faire une <u id='percee'>percée</u> (overview <u id='mouvement_og'>O&G Mouvement</u>).
+  - Notons que si l'unité détruite à une `PU de 5 ou plus` dans ce cas il toutes les unités amies à 6” doivent immédiatement effectuer un <u id='test_de_panique'>Test de Panique</u>.
+
 ### 6) Test de Moral (page 154)
 
 <details>
@@ -533,7 +543,6 @@ L'application [thefateroll](https://thefateroll.com/) fait par Troma permet de c
 </p>
 
 </details>
-
 
 
 ```{r, echo=FALSE}
@@ -602,6 +611,20 @@ rule_mouvement_aleatoire <- "Mouvement Aléatoire: Les figurines ayant cette rè
 rule_repli_en_bon_ordre <- "Se Replier en Bon Ordre: Si une unité contient encore plus e la moitié (50%) ou plus des figurines quelle comptait au début de la bataille, elle se Repliera en Bon Ordre. L'unité se déplace directement à l'opposé de l'unité ennemie dont les dommage ont causé le test de Panique, comme décrit page 134. C'est à dire qu'elle jette deux D6 et défausse le résultat le plus bas. Si les deux dés donnent le même résultat, défaussez celui de votre choix. Une unité qui se Replie en Bon Ordre se rallie automatiquement à la fin de son mouvement de fuite " # III.4 -- A revoir JD
 
 
+# VI) --------------------------------------------------------------------------
+
+rule_kikoup <- "Après avoir chargé, peut relancer les 1 nat. aux jets de Blessure et +1 à la PA (sauf montures et armes magiques)"
+
+rule_kostos <- "Au combat, +1 en F et Arme Perforante (1) (PA-1 sur un jet de 6 pour blesser)" 
+
+rule_charge_de_sanglier <- "Après avoir chargé, les Défenses d’un Sanglier ont F+1 et PA-1"
+
+rule_test_de_panique <- "Test de commandement sous la caractéristique de Cd de l'unité. En cas d'échec (test > CD), l'unité a cédé à la panique et doit se Replier en Bon Ordre ou fuir. En cas de réussite (test < CD), l'unité demeure résolue et ne panique pas."
+
+rule_se_retenir_et_se_reformer <- "Plutôt que d'effectuer un mouvement de suite ou de poursuite, en effectuant un test de “Retenue” Pour effectuer un test de Retenue, faites un test sous la caractéristique de Commandement de l'unité. En cas d'échec, l'unité doit suivre ou poursuivre. En cas de réussite, l'unité reste où elle est et effectue une reformation gratuite."
+
+rule_perce <- "Si une unité détruit totalement son ennemi avant la sous-phase des Tests de Moral, elle peut “percer” Une unité qui perce effectue un mouvement de poursuite normal, mais elle doit se déplacer droit devant sans pivoter."
+
 # Apply ------------------------------------------------------------------------
 tippy::tippy_this(elementId = "stupide", tooltip = rule_stupide)
 tippy::tippy_this(elementId = "lacher_fanatique", tooltip = rule_lacher_fanatique)
@@ -630,6 +653,12 @@ tippy::tippy_this(elementId = "charges_devastatrices", tooltip = rule_charges_de
 tippy::tippy_this(elementId = "contre_charge", tooltip = rule_contre_charge) # II.2
 tippy::tippy_this(elementId = "mouvement_aleatoire", tooltip = rule_mouvement_aleatoire) # II.3
 tippy::tippy_this(elementId = "repli_en_bon_ordre", tooltip = rule_repli_en_bon_ordre) # III.4
+tippy::tippy_this(elementId = "kostos", tooltip = rule_kostos)
+tippy::tippy_this(elementId = "kikoup", tooltip = rule_kikoup)
+tippy::tippy_this(elementId = "charge_de_sanglier", tooltip = rule_charge_de_sanglier)
+tippy::tippy_this(elementId = "test_de_panique", tooltip = rule_test_de_panique)
+tippy::tippy_this(elementId = "se_retenir_et_se_reformer", tooltip = rule_se_retenir_et_se_reformer)
+tippy::tippy_this(elementId = "percee", tooltip = rule_perce)
 ```
 
 Retour [Phase de Stratégie](i.-phase-de-stratégie-p116-117)
