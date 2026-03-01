@@ -20,16 +20,6 @@ Ce que vous y trouverez :
 
 - [Aides de jeu des Orques & Gobelins pour TOW](./posts/tow-orcs-gobelin-reference/)
 
+## Partie par type de jeu
 
-Aides de jeu maison : Des tableaux de référence rapides, des résumés de phases de jeu, et des outils imprimables pour vos parties.
-Interprétations et FAQ : Nos analyses et réponses aux questions fréquentes, basées sur les retours de la communauté et les sources officielles.
-Outils interactifs : Des calculateurs de points, des générateurs de listes d’armée, et des modèles de feuilles de personnage à télécharger.
-Pourquoi cette section ?
-Les règles de Warhammer et des jeux de figurines peuvent parfois sembler complexes. Ici, l’objectif est de vous offrir des supports clairs, organisés et prêts à l’emploi, pour que vous passiez moins de temps à chercher et plus de temps à jouer !
-Besoin d’une règle précise ?
-Utilisez la barre de recherche ou parcourez les catégories par faction ou par type de jeu. Vous ne trouvez pas ce que vous cherchez ? Contactez-nous ou laissez un commentaire, nous complétons régulièrement cette base de données.
-
-À vous de jouer !
-« La connaissance est une arme, utilisez-la à bon escient. »
-
-Tu veux ajouter un ton plus humoristique, plus technique, ou des liens vers des exemples concrets ?
+WIP
