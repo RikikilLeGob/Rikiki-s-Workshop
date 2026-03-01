@@ -1,19 +1,41 @@
 project:
   type: website
+  output-dir: docs
 
 website:
-  title: "Rikiki-s-Workshop"
+  title: "Rikiki's Workshop"
+  site-url : ""
+  site-path: '/'
+  favicon: logo.png
+  page-navigation: true
   navbar:
+    search: true
     right:
       - about.qmd
       - icon: github
         href: https://github.com/
       - icon: twitter
         href: https://twitter.com
+    left:
+      - text: "Home 🏠"
+        href: index.qmd
+      - text: "About ⚔️"
+        href: about.qmd
+      - text: "Post 📜"
+        href: homepage.qmd
+      - text: "References 🗺️"
+        href: references.qmd
+      - text: "Contact 🏰"
+        href: contact.qmd
+  page-footer: 
+    left: "Copyright 2026, Rikiki's Workshop"
+    right: 
+      - icon: github
+        href: https://github.com/RikikilLeGob
 format:
   html:
-    theme: cosmo
+    theme: 
+      light: [flatly, custom.scss]
+      dark: darkly
     css: styles.css
-
-editor: visual
 

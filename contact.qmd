@@ -1,0 +1,15 @@
+---
+title: "Contact"
+image: thumbnail.jpg
+about:
+  template: broadside
+  links:
+    - icon: github
+      text: Github
+      href: https://github.com/RikikilLeGob
+    - icon: mastodon
+      text: Mastodon
+      href: https://genomic.social/
+---
+
+If you have any problem that I can help you with, I would be glad to help!
