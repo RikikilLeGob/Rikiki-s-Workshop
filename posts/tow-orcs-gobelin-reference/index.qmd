@@ -1,5 +1,7 @@
-s---
+---
 title: "Récapitulatif exhaustif armée orques et gobelins"
+author: "Propan2one"
+date: "2026-03-01"
 format:
   html:
     toc: true
@@ -27,9 +29,10 @@ categories: [TOW, Aides de jeu, Orcs&Gobs]
 :::
 
 ::: {.column width="60%"}
-**Introduction**: Inspiré par Embackup et son document récapitulatif : [SeqWarfoEmbackO&Gdn](https://touteslesplublicationsgw.com/s/2TbRArpi78Qo9Td?path=%2FLogigrammes%2Fpar%20Embackup). Voici un reformatage du document permettant une meilleur lecture. Les mots souligner renvoi à la règle tandis que de menu déroulant sont signalé sur le côté par un triangle à gauche.
+**Introduction**: Inspiré par Embackup et son document récapitulatif : [SeqWarfoEmbackO&Gdn](https://touteslesplublicationsgw.com/s/2TbRArpi78Qo9Td?path=%2FLogigrammes%2Fpar%20Embackup). Voici un reformatage du document permettant une meilleur lecture. Les mots souligner renvoi à la règle tandis que des menus déroulants sont signalés sur le côté par un triangle à gauche.
 
-D'autres documents peuvent s'avéré utile comme le [Aide de jeu v2.2](https://touteslesplublicationsgw.com/s/2TbRArpi78Qo9Td?dir=undefined&path=%2FFeuille%20de%20r%C3%A9f%C3%A9rence%20g%C3%A9n%C3%A9rale&openfile=827462) par TheGuest.pdf
+D'autres documents peuvent s'avéré utile comme le [Aide de jeu v2.2](https://touteslesplublicationsgw.com/s/2TbRArpi78Qo9Td?dir=undefined&path=%2FFeuille%20de%20r%C3%A9f%C3%A9rence%20g%C3%A9n%C3%A9rale&openfile=827462) par TheGuest.
+
 :::
 
 :::
