@@ -319,7 +319,7 @@ Sauvegardes d'Armure : Pour chaque blessure, votre adversaire fait un jet de Sau
 -   Baliste : voir page HS 40, page 223 et voir page 197 pour machine de guerre.
 -   Tir rapide des Arcs Court ne subit pas -1 au jet de touche quand ce déplace et tire compte aussi après un ralliement (p 170).
 -   Pour obtenir le [**jet de touche d’un tir soustraire à 7 la capacité de tir (CT)**]{style="color:Green"} de l’unité puis appliquer le modificateur qui suivent :
-    -   Se déplacer et Tirer -1
+    -   Se déplacer et Tirer -1 (*sauf arcs court des Gobs car <u id='tir_rapide'>Tir rapide</u>*)
     -   Tirer à longue portée -1
     -   Tenir sa position et Tirer -1
     -   Cible derrière un couvert Léger -1
@@ -414,6 +414,7 @@ Chaque figurine du rang combattant peut attaquer, bien que les figurines qui ne 
 ### 2) Nombre d'attaque et ordre d'attaque
 
 **Initiative**
+
 -   Toute figurine du rang combattant tuée avant son initiative n’attaque pas.
 -   Les touches d’impact ont `I10` (p 172).
 -   Ajouter `+1I` par pouce complet parcouru, jusqu'à un maximum de `+3` de front et `+4` pour flanc/arrière.
@@ -424,6 +425,7 @@ Chaque figurine du rang combattant peut attaquer, bien que les figurines qui ne 
 
 
 **Attaque**
+
 -   Compter le `+1A` en attaque des unitées \[*Orques Noir*, *sanglier*\] avec le token de <u id='charges_devastatrices'>charges dévastatrices</u>.
 -   Sort d’assaillement éventuelle en fonction de l’ initiative du lanceur:
     -   Magie Waagh \> (p 334) E Poing de Mork, Gork : Kraz Tête (HS p 47)
@@ -643,7 +645,7 @@ rule_arc_de_guerre <- "Portée 24” / F utilisateur / PA0 - Règle spéciales: 
 
 rule_armures <- "Pas d'armure: 7+ / Armure légère: 6+ / Armure lourde: 5+ / Armure de plate: 4+ / Bouclier: +1 / Caparaçon: +1 / Peau blindée (X): +X"
 
-overview_svg <- "Orques noires: 4|3+* / Orques: 6|5+* / Sanglier 5|4+* / Char Sanglier 4+ / Gobelin: 6|5+* / Loups: 7|6*|5°+ / Squig: 7+|6° {* ➜ Bouclié} ; °➜ Armure légère payante]"
+overview_svg <- "Orques noires: 4|3+* / Orques: 6|5+* / Sanglier 5|4+* / Char Sanglier 4+ / Gobelin: 6|5+* / Loups: 7|6*|5°+ / Squig: 7+|6° [* ➜ Bouclier] & [°➜ Armure légère payante]"
 
 # VI) --------------------------------------------------------------------------
 
