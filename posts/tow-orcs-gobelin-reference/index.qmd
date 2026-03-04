@@ -64,7 +64,7 @@ Pour une vue exhaustive des scénarios il est possible de ce référer à [WTOW 
 
 -   <u id='stupide'>Stupidité</u> ➜ si non engagé, faire un <u id='test_commandement'>test de commandement</u> **égale au propre** (Cd 5) ou présence charismatique (Voir I, 4.2) marquer d’un token la stupidité pour la phase de mouvement aléatoire en cas d’échec.
 
--   Éventuel <u id='lacher_fanatique'>Lâcher des fanatiques</u> à 3'' de son régiment (HS p 26)
+-   Éventuel <u id='lacher_fanatique'>Lâcher des fanatiques</u> à 3” de son régiment (HS p 26)
 
 -   Mouvements aléatoires des Vortex, comme <u id='pied_de_gork'>Pied de Gork</u>, et résolution des blessures (p 95,107) (si pertes éventuelle =Test de panique voir phase de tir 5).
 
@@ -79,7 +79,7 @@ Pour une vue exhaustive des scénarios il est possible de ce référer à [WTOW 
 
 ### 3) Conjuration
 
--   Dissiper les sorts restés en jeu si portée (penser aux objets cabalistique bonus comme Effigie de Mork, (HS p 44) et dissipation fatidique (p 110).
+-   <u id='dissipation'>Dissiper</u> les sorts restés en jeu si portée (penser aux objets cabalistique bonus comme <u id='effigie_de_mork'>Effigie de Mork</u> et dissipation fatidique (p 110).
 
 -   Lancer les **Enchantements et Maléfices**. Notamment l'<u id='urticaire_ultime'>urticaire ultime</u> / <u id='lever_dla_mauvaise_lune'>Lever D’La Mauvaise Lune</u> / <u id='leklat_du_soleil_malefikk'>L'Éklat Du Soleil Maléfikk</u> / <u id='on_y_va'>On Y Va !</u> / <u id='malediction_de_mork'>Malédiction de Mork</u>. Ne pas oublié la Loi du nombre : Si chaman orque dans pack a PU 10 ➜ +1 au lancement de sort (HS 14).
 
@@ -574,9 +574,9 @@ L'application [thefateroll](https://thefateroll.com/) fait par Troma permet de c
 # I) ---------------------------------------------------------------------------
 rule_stupide <- "À moins d'être en train de fuir ou engagée en combat,une unité ayant cette règle spéciale doit effectuer un test de Stupidité en faisant un test sous sa caractéristique de Commandement à la sous-phase de Début du Tour de chacun de ses tours. En cas d'échec, l'unité cède à la Stupidité. Une unité qui a cédé à la Stupidité : • Ne peut pas se déplacer / Ne peut pas tirer ou lancer de sorts / Ne peut pas tenter de dissipation Magique. / Doit “Tenir sa Position” si elle est chargée par un ennemi."
 
-rule_lacher_fanatique <- "Lâchez les Fanatiques ! Une unité cachette peut lâcher un ou plusieurs des Fanatiques à n'importe quelle sous-phase de Début de Tour. Quand un Fanatique est lâché, il bondit dans les airs pour atterrir en tourbillonnant à plusieurs mètres de son unité cachette, avant de commencer son parcours erratique à travers le champ de bataille. Pour représenter cela, placez la figurine de sorte que son socle soit à 3'' de son unité cachette, et qu'elle n'atteigne pas le socle d'aucune autre figurine. Il ce déplacera de 2D6 dans la direction choisi lors de sa sortie. [§]"
+rule_lacher_fanatique <- "Lâchez les Fanatiques ! Une unité cachette peut lâcher un ou plusieurs des Fanatiques à n'importe quelle sous-phase de Début de Tour. Quand un Fanatique est lâché, il bondit dans les airs pour atterrir en tourbillonnant à plusieurs mètres de son unité cachette, avant de commencer son parcours erratique à travers le champ de bataille. Pour représenter cela, placez la figurine de sorte que son socle soit à 3” de son unité cachette, et qu'elle n'atteigne pas le socle d'aucune autre figurine. Il ce déplacera de 2D6 dans la direction choisi lors de sa sortie. [§]"
 
-rule_mouvement_fanatique <- "Pendant la sous-phase de Mouvements Obligatoires du tour où il a été lâché, un Fanatique se déplace de 2D6'' dans une direction choisie par son joueur en contrôle. À chacune des autres sous-phases de Mouvements Obligatoires, un Fanatique se déplace de 2D6'' dans une direction aléatoire. Si le mouvement d’un Fanatique l’amène en contact avec une unité (amie ou ennemie), il traverse cette unité. Continuez à le déplacer dans la même direction jusqu’à ce qu’il puisse être placé sur le champ de bataille de sorte que son socle ne touche le socle d’aucune autre figurine."
+rule_mouvement_fanatique <- "Pendant la sous-phase de Mouvements Obligatoires du tour où il a été lâché, un Fanatique se déplace de 2D6” dans une direction choisie par son joueur en contrôle. À chacune des autres sous-phases de Mouvements Obligatoires, un Fanatique se déplace de 2D6” dans une direction aléatoire. Si le mouvement d’un Fanatique l’amène en contact avec une unité (amie ou ennemie), il traverse cette unité. Continuez à le déplacer dans la même direction jusqu’à ce qu’il puisse être placé sur le champ de bataille de sorte que son socle ne touche le socle d’aucune autre figurine."
 
 rule_waaagh <- "Une fois par partie, pendant la sous-phase de Commandement de son tour, ce personnage peut tenter d'invoquer le pouvoir de la Waaagh ! en effectuant un test de Commandement (en utilisant son propre Commandement). En cas de réussite, jusqu'à votre prochaine sous-phase de Début de Tour, ce personnage, sa monture et toute unité Orques qui le rejoint peuvent relancer n’importe quel nombre de 1 naturels aux résultats des jets de Touche et, quand on calcule son résultat de combat, peut recevoir un bonus de +1 point de résultat de combat supplémentaire. [§]"
 
@@ -584,27 +584,35 @@ rule_cri_de_ralliement <- "Pendant sa phase de Cd, peut forcer une unité à por
 
 
 ## Magie
+rule_dissipation <- "La portée de Dissipation varie selon le Niveau du Sorcier désigné : Niveau 1 et 2 ➜ portée de 18” / Niveau 3 et 4 ➜ portée de 24”. Les Sorciers engagés en combat, qui sont en fuite ou qui ne sont pas sur le champ de bataille ne peuvent pas être désignés. Jetez 2D6 et , ajoutez le Niveau du Sorcier au résultat de ce jet pour obtenir le 'résultat de dissipation'. Dénouement = double 6 ➜ dissipation | Surclassé double 1 ➜ jet sur le tableau des Fiascos [§]"
+
+rule_ <- ""
+rule_ <- ""
+rule_ <- ""
+
+rule_effigie_de_mork <- "Le porteur de l’Idole de Mork augmente sa portée de Dissipation de 3”. En outre, une fois par tour, quand il tente une dissipation Magique, le porteur de l’Idole de Mork peut relancer le jet de Dissipation."
+
 rule_kraz_tête <- "[Gork default 1 OG] Type : Assaillement / Valeur de Lancement : 10+ / Portée : Combat / Effet : Une seule figurine ennemie avec qui le lanceur est engagé en combat subit une seule touche de Force 6 avec la règle spéciale Blessures Multiples (D3) et sans sauvegarde d’Armure ni de Régénération autorisées (les sauvegardes Invulnérables peuvent être tentées normalement)."
 
-rule_regard_de_gork <- "[Gork default 2 OG] Type : Projectile Magique / Valeur de Lancement : 9+ / Portée : 5D6'' / Effet : Tracez une ligne droite de 5D6'' de long, à partir du bord du socle du lanceur. Toute figurine (amie ou ennemie) dont le socle se trouve sous cette ligne subit une touche de Force 5, PA -3."
+rule_regard_de_gork <- "[Gork default 2 OG] Type : Projectile Magique / Valeur de Lancement : 9+ / Portée : 5D6” / Effet : Tracez une ligne droite de 5D6” de long, à partir du bord du socle du lanceur. Toute figurine (amie ou ennemie) dont le socle se trouve sous cette ligne subit une touche de Force 5, PA -3."
 
-rule_malediction_de_mork <- "[Mork default 1 OG] Type : Maléfice / Valeur de Lancement : 8+ / Portée : 18'' / Effet : Reste en Jeu. Tant que ce sort est en jeu, l’unité ennemie visée doit relancer tout jet de Sauvegarde d’Armure ayant donné un 6 naturel."
+rule_malediction_de_mork <- "[Mork default 1 OG] Type : Maléfice / Valeur de Lancement : 8+ / Portée : 18” / Effet : Reste en Jeu. Tant que ce sort est en jeu, l’unité ennemie visée doit relancer tout jet de Sauvegarde d’Armure ayant donné un 6 naturel."
 
 rule_urticaire_ultime <- "[Mork default 2 OG] Type : Maléfice / Valeur de Lancement : 9+ / Portée : 15” / Effet : Jusqu’à votre prochaine sous-phase de Début de Tour, l’unité ennemie visée subit un modificateur de -D3 à ses caractéristiques d’Endurance et d’Initiative (jusqu’à un minimum de 1)."
 
-rule_poing_de_gork <- "[default Waaagh] Type: Assaillement / Valeur de Lancement : 8+* / Portée : Combat / Effet: Placez un grand (5'') gabarit dexplosion de sorte que son trou central soit directement au-dessus du centre d'une unité avec laquelle le lanceur est engagé en combat. Une fois en place, le gabarit dévie de D3''+1. Toute figurine (amie ou ennemie) dont le socle se trouve sous la  position finale du gabarit risque dêtre touchée (voir p.95) et Les Domaines De Magie subit une seule touche de Force 4 avec une PA de -1."
+rule_poing_de_gork <- "[default Waaagh] Type: Assaillement / Valeur de Lancement : 8+* / Portée : Combat / Effet: Placez un grand (5”) gabarit dexplosion de sorte que son trou central soit directement au-dessus du centre d'une unité avec laquelle le lanceur est engagé en combat. Une fois en place, le gabarit dévie de D3”+1. Toute figurine (amie ou ennemie) dont le socle se trouve sous la  position finale du gabarit risque dêtre touchée (voir p.95) et Les Domaines De Magie subit une seule touche de Force 4 avec une PA de -1."
 
-rule_regard_vindicatif <- "[1 Waaagh] Type : Projectile Magique / Valeur de Lancement : 8+ / Portée : 21'' / Effet : L’unité cible ennemie subit une seule touche de Force 7 avec la règle spéciale Blessures Multiples (D3) et sans sauvegarde d’armure autorisée (les sauvegardes invulnérables et de Régénération peuvent être tentées normalement). Ce sort peut cibler une unité ennemie engagée en combat."
+rule_regard_vindicatif <- "[1 Waaagh] Type : Projectile Magique / Valeur de Lancement : 8+ / Portée : 21” / Effet : L’unité cible ennemie subit une seule touche de Force 7 avec la règle spéciale Blessures Multiples (D3) et sans sauvegarde d’armure autorisée (les sauvegardes invulnérables et de Régénération peuvent être tentées normalement). Ce sort peut cibler une unité ennemie engagée en combat."
 
-rule_main_de_mork <-  "[2 Waaagh] Type : Transfert / Valeur de Lancement : 7+ / Portée : 1'' / Effet : Ce sort peut cibler uniquement les personnages amis, mais il peut cibler des personnages engagés en combat. Vous pouvez immédiatement retirer le personnage ciblé du champ de bataille et le replacer n’importe où à 2D'' de sa position d’origine, mais pas à plus de 3'' de toute figurine ennemie. Toutefois, en cas de double 1, le personnage atterrit mal et perd un seul Point de Vie.Notez que ce sort autorise un personnage à quitter le combat."
+rule_main_de_mork <-  "[2 Waaagh] Type : Transfert / Valeur de Lancement : 7+ / Portée : 1” / Effet : Ce sort peut cibler uniquement les personnages amis, mais il peut cibler des personnages engagés en combat. Vous pouvez immédiatement retirer le personnage ciblé du champ de bataille et le replacer n’importe où à 2D” de sa position d’origine, mais pas à plus de 3” de toute figurine ennemie. Toutefois, en cas de double 1, le personnage atterrit mal et perd un seul Point de Vie.Notez que ce sort autorise un personnage à quitter le combat."
 
-rule_lever_dla_mauvaise_lune <- "[3 Waaagh] Type : Maléfice / Valeur de Lancement : 10+ / Portée : 15'' / Effet : Jusqu’à la fin de ce tour, l’unité cible ennemie subit un modificateur de -D3 à ses caractéristiques de Capacité de Combat et d’Initiative (jusqu’à un minimum de 1)."
+rule_lever_dla_mauvaise_lune <- "[3 Waaagh] Type : Maléfice / Valeur de Lancement : 10+ / Portée : 15” / Effet : Jusqu’à la fin de ce tour, l’unité cible ennemie subit un modificateur de -D3 à ses caractéristiques de Capacité de Combat et d’Initiative (jusqu’à un minimum de 1)."
 
 rule_leklat_du_soleil_malefikk <- "[4 Waaagh] Type : Enchantement / Valeur de Lancement : 9+ / Portée : Lanceur / Effet : Jusqu’à votre prochaine sous-phase de Début du Tour, les unités amies qui sont dans la portée de Commandement du lanceur peuvent relancer tout résultat de 1 au jet de Touche, et améliorent la caractéristique de PA de leurs armes de 1."
 
-rule_on_y_va <- "[5 Waaagh] Type : Enchantement / Valeur de Lancement : 8+* / Portée : Lanceur / Effet : Toute unité amie qui est dans la portée de Commandement du lanceur à la sous-phase Déclarer les Charges & les Réactions aux Charges de ce tour augmente sa portée maximale de charge de 3'' et quand elle effectue un jet de Charge, peut appliquer un modificateur de +D3 au jet."
+rule_on_y_va <- "[5 Waaagh] Type : Enchantement / Valeur de Lancement : 8+* / Portée : Lanceur / Effet : Toute unité amie qui est dans la portée de Commandement du lanceur à la sous-phase Déclarer les Charges & les Réactions aux Charges de ce tour augmente sa portée maximale de charge de 3” et quand elle effectue un jet de Charge, peut appliquer un modificateur de +D3 au jet."
 
-rule_pied_de_gork <- "[6 Waaagh] Type : Vortex Magique / Valeur de Lancement : 8+ / Portée : 15'' / Effet : Reste en jeu. Placez un grand (5'') gabarit d’explosion de sorte que son trou central soit à 1'' du lanceur. Tant qu’il est en jeu, le gabarit ne se déplace pas et est traité comme du terrain dangereux. Le gabarit se déplace de 2D6'' dans une direction aléatoire à chaque sous-phase de Début du Tour. Toute unité (amie ou ennemie) que le gabarit mouvant touche subit D3+3 touches de Force 5, chacune avec une PA de -1."
+rule_pied_de_gork <- "[6 Waaagh] Type : Vortex Magique / Valeur de Lancement : 8+ / Portée : 15” / Effet : Reste en jeu. Placez un grand (5”) gabarit d’explosion de sorte que son trou central soit à 1” du lanceur. Tant qu’il est en jeu, le gabarit ne se déplace pas et est traité comme du terrain dangereux. Le gabarit se déplace de 2D6” dans une direction aléatoire à chaque sous-phase de Début du Tour. Toute unité (amie ou ennemie) que le gabarit mouvant touche subit D3+3 touches de Force 5, chacune avec une PA de -1."
 
 
 # rule_tenez_vos_rangs #I.4.iv)
@@ -627,7 +635,7 @@ rule_bande_de_guerre <- "À moins quelle soit en fuite, une Bande de guerre gagn
 
 rule_charges_devastatrices <- "Charge Dévastatrice: Lors d'un tour où elle a effectué un mouvement de charge de 3” ou plus, une figurine ayant cette règle spéciale gagne un modificateur de +1 à sa caractéristique d'Attaques."
 
-rule_contre_charge <- "Si l’unité ennemi cavalerie, char ou monstre charge sur l’arc frontal de l’unité sur une distance plus longue que son mouvement, pivote vers l’ennemi et effectue un mouvement de D3+1''avant la charge. Compte comme ayant chargé."
+rule_contre_charge <- "Si l’unité ennemi cavalerie, char ou monstre charge sur l’arc frontal de l’unité sur une distance plus longue que son mouvement, pivote vers l’ennemi et effectue un mouvement de D3+1”avant la charge. Compte comme ayant chargé."
 
 rule_mouvement_aleatoire <- "Mouvement Aléatoire: Les figurines ayant cette règle spéciale n'ont pas de caractéristique de Mouvement normale. À la place, leur profil affiche un jet de dé (ex 2D6). Chaque fois qu'une figurine ayant cette règle spéciale se déplace (pour quelque raison que ce soit), jetez les dés pour déterminer la distance maximal à laquelle elle se déplace. Les figurines ayant cette règle spéciale se déplacent à la sous-phase des Mouvements Obligatoires. Elles ne peuvent pas effectuer de marche forcée ou déclarer de charge. Elles peuvent effectuer des roues pour changer de direction, mais ne peuvent pas exécuter d'autres manœuvres. Si la figurine peut entrer en contact avec une unité ennemie, elle doit déclarer une poursuite, elle peut le faire et effectuer comme annoncé. Une unité chargeée de cette manière doit faire un test de Commandement pour tenter sa Position. Si toutes les figurines d'une unité ont cette règle spéciale, faites un jet de dé pour toute l'unité. Si au moins deux figurines d'une unité ont des caractéristiques de Mouvement Aléatoire différentes, effectuez un jet pour chacune et il sera appliqué séparément, puis pour la totalité de l'unité." # II.3
 
@@ -669,6 +677,8 @@ tippy::tippy_this(elementId = "lacher_fanatique", tooltip = rule_lacher_fanatiqu
 tippy::tippy_this(elementId = "mouvement_fanatique", tooltip = rule_mouvement_fanatique)
 tippy::tippy_this(elementId = "waaagh", tooltip = rule_waaagh) # p46 O&G
 tippy::tippy_this(elementId = "cri_de_ralliement", tooltip = rule_cri_de_ralliement)
+tippy::tippy_this(elementId = "effigie_de_mork", tooltip = rule_effigie_de_mork)
+tippy::tippy_this(elementId = "dissipation", tooltip = rule_dissipation)
 tippy::tippy_this(elementId = "kraz_tête", tooltip = rule_kraz_tête)
 tippy::tippy_this(elementId = "regard_de_gork", tooltip = rule_regard_de_gork)
 tippy::tippy_this(elementId = "malediction_de_mork", tooltip = rule_malediction_de_mork)
