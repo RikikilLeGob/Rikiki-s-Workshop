@@ -66,7 +66,7 @@ Pour une vue exhaustive des scénarios il est possible de ce référer à [WTOW 
 
 -   Éventuel <u id='lacher_fanatique'>Lâcher des fanatiques</u> à 3” de son régiment (HS p 26)
 
--   Mouvements aléatoires des Vortex, comme <u id='pied_de_gork'>Pied de Gork</u>, et résolution des blessures (p 95,107) (si pertes éventuelle =Test de panique voir phase de tir 5).
+-   Mouvements aléatoires des Vortex, comme <u id='pied_de_gork'>Pied de Gork</u>, et résolution des blessures (p 95,107) (si pertes éventuelle = <u id='test_de_panique'>Test de Panique</u> voir phase de tir 5).
 
 ### 2) Commandement
 
@@ -169,6 +169,7 @@ Réactions aux Charges : Quand elle est chargée, une unité peut déclarer une 
     -   [Attention]{style="color:Orange"} : le <u id='test_commandement'>test de CD</u> ne prends pas en compte le bonus <u id='bande_de_guerre'>bande de guerre</u> (faq 1.5.1 p4).
 -   <u id='peur'>Peur</u> des elfes \[*Gobelins*\]: Si déclaration de charge contre une unité qui fait peur ➜ Test de Cd : en cas d'échec l'unité reste sur place, sinon ➜ charge non modifier.
 -   Pour les unités <u id='rapide'>rapide</u> \[*Vouivre*, *loups*, *sanglier*\] ➜ appliquer +3 en porté (page 178)
+-   Ne pas oublier que les [Loups]{style="color:#d4af37"} sont  des <u id='escorteurs_de_chars'>Escorteurs De Chars</u>.
 -   En terrain difficile ➜ appliquer -1 en portée de charge (p 269 ,119 et 13)
 -   Si unités <u id='stupide'>stupide</u> \[*trolls*\] ➜ impossible de charger (p 178)
 -   Grande cible, Une fig grande cible peut tracer une ligne de vue sur une autre grande cible à travers d’autres unités (p 172)
@@ -199,6 +200,20 @@ Pour exécuter une charge :
 
 -   Si l’unité en charge n’est pas en contact avec l’unité en fuite, elle avance d’une distance égale à la portée de charge et atteint l’intégralité de sa cible.
 
+
+**Le Mouvement De Charge** :
+
+-   Une unité qui charge doit s’efforcer de placer autant de figurines que possible de son rang frontal en contact socle à socle avec les figurines de l’unité chargée.
+
+-   Une unité qui charge doit se déplacer par l’itinéraire le plus court possible pour atteindre la cible de sa charge.
+
+-   Une unité qui charge doit autant que possible avancer en ligne droite.
+
+-   Après s’être déplacée, une unité qui a chargé doit s’assurer qu’elle est alignée contre la cible de la charge.
+
+-   S’Aligner Sur L’Ennemi: Une fois que l’unité en charge est en contact avec la cible de charge, elle doit si nécessaire effectuer **une deuxième roue, gratuite**, pour amener son front en contact avec le côté de l’unité ennemie qu’elle a chargée, comme indiqué.
+
+
 </p>
 
 </details>
@@ -217,7 +232,7 @@ Pour exécuter une charge :
 
 <p>
 
-D'une manière générale, un joueur peut déplacer ses unités à sa guise dans les limites des règles. Cependant, il peut arriver que ses unités échappent à tout contrôle. Tous les mouvements obliga- toires sont effectués à cette sous-phase, après que les charges ont été résolues, maïs avant que tout autre mouvement ait lieu.
+D'une manière générale, un joueur peut déplacer ses unités à sa guise dans les limites des règles. Cependant, il peut arriver que ses unités échappent à tout contrôle. Tous les mouvements obligatoires sont effectués à cette sous-phase, après que les charges ont été résolues, maïs avant que tout autre mouvement ait lieu.
 
 **Unités En Fuite**: Les unités qui n'ont pas réussi à se Rallier à la phase de Stratégie continueront de fuir pendant la sous-phase de Mouvements Obligatoires. Les unités en fuite doivent être déplacées au début de cette sous-phase, avant de déplacer toute autre unité soumise à un mouvement obligatoire. Déplacer une unité en fuite est une procédure souvent compliquée. Par conséquent la fuite proprement dite est expliquée plus en détail page 126, après que les bases du mouvement et des manœuvres auront été expliquées.
 
@@ -230,7 +245,8 @@ D'une manière générale, un joueur peut déplacer ses unités à sa guise dans
 [**Points à prendre en compte à cette phase**]{style="color:blue"}
 
 -   Faire les mouvements de fuites (p132)
--   <u id='mouvement_fanatique'>Mouvements des fanatiques</u>: un hit étant compté sur place et les doubles détruise le fanatique. (HS p 26) (si pertes éventuelle =Test de panique voir phase de tir 4).
+-   Il est possible de faire des <u id='marche_force'>Marche forcée</u> mais il y a des restriction si un enemie est proche.
+-   <u id='mouvement_fanatique'>Mouvements des fanatiques</u>: un hit étant compté sur place et les doubles détruise le fanatique. (HS p 26) (si pertes éventuelle = <u id='test_de_panique'>Test de Panique</u> voir phase de tir 4). Les Fanatique infligent `1D6 F5 PA-2` dégats.
 -   Déplacer les unités \[*squig*\] à <u id='mouvement_aleatoire'>mouvement aléatoire</u> et charger si besoin (p176 et errata 1.2 1).
 
 ### 4) Mouvements Restants
@@ -268,7 +284,7 @@ Notez que les unités qui fuient, qui ont chargé à ce tour ou qui se sont dép
 -   Voir terrain dangereux
 -   Le vol permet de passer à travers les éléments terrains et unités ignore leurs pénalités(p170)
 -   Jouer les [sorts de Transfert]{style="color:Orange"} éventuel.
--   Ennemi repéré (p 123) ➜ si Marche Forcée à 8 d' un adversaire, faire un <u id='test_commandement'>test de commandement</u> (+1 =cadence rapide p 201) ➜ réussite= ok, échec ➜ pas de marche forcée. Le vol ignore ce Test de Cd (p 180).
+-   Ennemi repéré (p 123) ➜ si Marche Forcée à 8 d' un adversaire, faire un <u id='test_commandement'>test de commandement</u> (+1 =cadence rapide p 201) ➜ réussite= ok, échec ➜ pas de marche forcée. Le vol ignore ce <u id='test_commandement'>test de commandement</u> (p 180).
 
 ## III. Phase de Tir
 
@@ -334,7 +350,7 @@ Sauvegardes d'Armure : Pour chaque blessure, votre adversaire fait un jet de Sau
 
 La fuite s’effectue dans un 1er temps en pivotant sur son centre à l'opposé du centre de l’unité adverse influente. Parcourir 2d6 en et pouce est considéré « démoralisée » (p 132). [Remarque]{style="color:Orange"} : une unité rapide peut ajouter 1d6 (p 178). Le repli en bon ordre s’effectue en jetant 2d6 puis en faisant un mouvement de fuite avec la valeur du dès le plus haut en pouce puis immédiatement en effectuant un ralliement et une reformation par la suite (p 134). ). Une unité rapide peut ajouter 1d6 (p 178).
 
--   Un test de panique est un Test de Cd de l’unité ou présence charismatique (Voir I, 4.2)
+-   Un <u id='test_de_panique'>Test de Panique</u> est un <u id='test_commandement'>test de commandement</u> de l’unité ou présence charismatique (Voir I, 4.2)
     -   Si [**réussite**]{style="color:green"}, rien ne ce passe (p 142).
     -   Si [**échec**]{style="color:red"} deux cas de figure. *i)* Si l'unité à un effectif `≥50%` de ses effectifs initiaux c’est un <u id='repli_en_bon_ordre'>repli en bon ordre</u>. *ii)* Si l'unité à un effectif `<50%` de ses effectifs initiaux, celle-ci fuit.
 -   Si perte de 25% ou plus de son effectif initial hors phase de corps à corps.
@@ -621,6 +637,10 @@ rule_pied_de_gork <- "[6 Waaagh] Type : Vortex Magique / Valeur de Lancement : 8
 # II) --------------------------------------------------------------------------
 overview_mouv <- "Mouvement: Gobs Orques & Orques noir: M4 | Sanglier & araigné [rapides]: M7 | Loup [rapide]: M9 | Vouivre [rapides]: Vol9 | Squig: M3D6"
 
+rule_marche_force <- "Une unité en marche forcée peut doubler sa caractéristique de Mouvement, elle peut faire une roue pour changer de direction, mais elle ne peut pas exécuter d'autres manœuvres. Si l'unité est à 8'' d’une unité ennemie (en ignorant les unités ennemies en fuite), elle doit d’abord effectuer un test de Commandement. En cas d’échec, l’unité refuse de faire une marche forcée mais peut se déplacer normalement.[§]"
+
+rule_escorteurs_de_chars <- "Les figurines amies dont le type de troupe est “char” peuvent se déplacer à travers les figurines ayant cette règle spéciale et peuvent se déplacer à travers des unités d’Escorteurs de Chars amies qui sont en formation de Tirailleurs."
+
 overview_cd <- "Commandement: Gobs: CD5|6 / Night Gobs: CD 4|5 / Orques: CD6|7 / Troll CD4 (CD5 ceux d'eau) / Orques noir: CD8 -- Héro Gobs: CD6|7 / Héro Night Gobs: CD 5|6 / Héro Orques: CD7|8 / Héro Orques noir: CD8|9"
 
 rule_test_commandement <- "Pour effectuer un test de Commandement, jetez 2D6. Si le résultat est inférieur ou égal à la valeur de Commandement de la figurine, le test est réussi. Si le résultat est supérieur, c’est un échec."
@@ -693,6 +713,8 @@ tippy::tippy_this(elementId = "pied_de_gork", tooltip = rule_pied_de_gork) # Mag
 tippy::tippy_this(elementId = "test_commandement", tooltip = rule_test_commandement)
 tippy::tippy_this(elementId = "peur", tooltip = rule_peur) # p168
 tippy::tippy_this(elementId = "mouvement_og", tooltip = overview_mouv)
+tippy::tippy_this(elementId = "marche_force", tooltip = rule_marche_force)
+tippy::tippy_this(elementId = "escorteurs_de_chars", tooltip = rule_escorteurs_de_chars)
 tippy::tippy_this(elementId = "commandement_og", tooltip = overview_cd)
 tippy::tippy_this(elementId = "impetueux", tooltip = rule_unites_impetueux) # II.2
 tippy::tippy_this(elementId = "rapide", tooltip = rule_unites_rapides) # II.2
