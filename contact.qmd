@@ -1,6 +1,6 @@
 ---
 title: "Contact"
-image: thumbnail.jpg
+image: gobelin_shaman.jpg
 about:
   template: broadside
   links:
@@ -12,4 +12,18 @@ about:
       href: https://genomic.social/
 ---
 
-If you have any problem that I can help you with, I would be glad to help!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Ouaip, moi, Rikik, peux t’aider… MAIS ça va coûter ! Trois dents, un champi’ pas moisi, ET tu me promets de pas me taper si j’te vole ton couteau pendant ke tu dors ! Alor’ ? On fait affaire ou on fait la guerre ?
