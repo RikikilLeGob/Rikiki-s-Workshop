@@ -754,7 +754,7 @@ rule_parade <- "Tant qu'elle est engagée au corps à corps, une figurine ayant 
 
 rule_masse_infanterie <- "Quand on détermine les résultats de combat, si un camp a une Puissance d'Unité supérieure à l'autre et inclut au moins une unité ayant cette règle, le camp concerné peut avoir un bonus de +1 point de résultat de combat (Infanterie)."
 
-overview_svg <- "Orques noires: 4|3+* / Orques: 6|5+* / Sanglier 5|4+* / Char Sanglier 4+ / Gobelin: 6|5+* / Loups: 7|6*|5°+ / Squig: 7+|6° [* ➜ Bouclier] & [°➜ Armure légère payante]"
+overview_svg <- "Orques noires: 4|3+* / Orques: 6|5+* <br> Sanglier 5|4+* / Char Sanglier 4+ <br> Gobelin: 6|5+* / Loups: 7|6*|5°+ <br> Squig: 7+|6° <br> [* ➜ Bouclier] & [°➜ Armure légère payante]"
 
 
 # VI) --------------------------------------------------------------------------
