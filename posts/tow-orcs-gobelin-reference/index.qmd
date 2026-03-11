@@ -362,8 +362,8 @@ Sauvegardes d'Armure : Pour chaque blessure, votre adversaire fait un jet de Sau
 
 Effectuer ce test :
 
--   Si perte de 25% ou plus de son effectif initial hors phase de corps à corps.
--   Si à `6"` d’une unité de `PU5` ou plus qui  <u id='fuite'>fuit</u>, ou se repli en bonne ordre ou est totalement détruite.
+-   Si perte de **25%** ou plus de son effectif initial hors phase de corps à corps.
+-   Si à `6"` d’une unité de `PU5` ou plus qui  <u id='fuite'>fuit</u>, ou se <u id='repli_en_bon_ordre'>repli en bon ordre</u> ou est totalement détruite.
 -   Si l’unité est traversée par une unité amie.
 
 <details>
