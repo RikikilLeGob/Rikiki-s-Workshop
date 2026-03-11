@@ -125,7 +125,7 @@ Le résultats va déterminer le comportement de l'unité :
 
 ### 1) Déclarer les Charges & Réactions aux Charges (p119)
 
-Déclarer toutes les charges c'est à dire vérifier la portée en prenant comme valeur M(<u id='mouvement_og'>mouvement</u>) + 6 (cad min 1') avec tous les modificateurs précédemment évoqué. Ne pas oublier de **payer les roues obligatoires** de charge dans la portée pour que la charge soit réellement possible.
+Déclarer toutes les charges c'est à dire vérifier la portée en prenant comme valeur de(<u id='mouvement_og'>mouvement</u>) + `6` (cad min 1') avec tous les modificateurs précédemment évoqué. Ne pas oublier de **payer les roues obligatoires** de charge dans la portée pour que la charge soit réellement possible.
 
 | Orque     | Gobs      | Orque noir | Sanglier*   | Araignée*   | Loup*       | Vouivre*    | Squig |
 | :-------  | :-------- | :--------- | :---------- | :---------- | :---------- | :---------- | :---- |
@@ -171,6 +171,7 @@ Réactions aux Charges : Quand elle est chargée, une unité peut déclarer une 
 -   Escorteur de chars \[*loups*, *sanglier*\] : Les chars peuvent déclarer et charger à travers les unités ayant cette règle en formation de tirailleur (p 167).
 -   Réactions aux déclarations de charge du joueur adverse.
     -   Certaine unités comme les [Chevaucheurs de Sangliers]{style="color:#52280a"} dispose de la règle <u id='contre_charge'>Contre Charge</u>
+    -   Les [Chevaucheurs Loups]{style="color:#d4af37"} peuvent avoir une unité avec la règle <u id='fuite_feinte'>fuite feinte</u>.
 
 ### 2) Mouvements des charges (page 121)
 
@@ -238,7 +239,7 @@ D'une manière générale, un joueur peut déplacer ses unités à sa guise dans
 
 [**Points à prendre en compte à cette phase**]{style="color:blue"}
 
--   Faire les mouvements de fuites (p132)
+-   Faire les mouvements de <u id='fuite'>fuite</u> (p132)
 -   Il est possible de faire des <u id='marche_force'>Marche forcée</u> mais il y a des restriction si un enemie est proche.
 -   <u id='mouvement_fanatique'>Mouvements des fanatiques</u>: un hit étant compté sur place et les doubles détruise le fanatique. (HS p 26) (si pertes éventuelle = <u id='test_de_panique'>Test de Panique</u> voir phase de tir 4). Les Fanatique infligent `1D6 F5 PA-2` dégats.
 -   Déplacer les unités \[*squig*\] à <u id='mouvement_aleatoire'>mouvement aléatoire</u> et charger si besoin (p176 et errata 1.2 1).
@@ -268,8 +269,9 @@ Notez que les unités qui fuient, qui ont chargé à ce tour ou qui se sont dép
 
 [**Points à prendre en compte à cette phase**]{style="color:blue"}
 
+
 -   Escorteur de chars : Les chars peuvent se déplacer à travers les unités ayant cette règle en formation de tirailleur (p 167).
--   Penser à la règle pesant pour \[*Vouivre*, *char à sanglier*\] après un mouvement non modifié (sans marche forcée), peut changer son orientation jusqu’à 90° (p195).
+-   Les \[*Vouivre*, et *char à sanglier*\] on la règle <u id='pesant'>pesant</u>.
 -   Avec ordre dispersé après un mouvement non modifié (sans marche forcée), peut changer son orientation jusqu’ à 90° (p 183)
 -   Avec cavalerie <u id='rapide'>rapide</u> en ordre dispersée \[*loups*\], même avec une marche forcée peut changer son orientation jusqu'à 90° (p 168).
 -   Si une unité traverse un terrain difficile ➜ `-1` au mouvement.
@@ -342,13 +344,14 @@ Sauvegardes d'Armure : Pour chaque blessure, votre adversaire fait un jet de Sau
 
 ### 4) Retrait des Pertes & Tests de Panique (page 142)
 
-La fuite s’effectue dans un 1er temps en pivotant sur son centre à l'opposé du centre de l’unité adverse influente. Parcourir 2d6 en et pouce est considéré « démoralisée » (p 132). [Remarque]{style="color:Orange"} : une unité rapide peut ajouter 1d6 (p 178). Le repli en bon ordre s’effectue en jetant 2d6 puis en faisant un mouvement de fuite avec la valeur du dès le plus haut en pouce puis immédiatement en effectuant un ralliement et une reformation par la suite (p 134). ). Une unité rapide peut ajouter 1d6 (p 178).
-
 -   Un <u id='test_de_panique'>Test de Panique</u> est un <u id='test_commandement'>test de commandement</u> de l’unité ou présence charismatique (Voir I, 4.2)
     -   Si [**réussite**]{style="color:green"}, rien ne ce passe (p 142).
-    -   Si [**échec**]{style="color:red"} deux cas de figure. *i)* Si l'unité à un effectif `≥50%` de ses effectifs initiaux c’est un <u id='repli_en_bon_ordre'>repli en bon ordre</u>. *ii)* Si l'unité à un effectif `<50%` de ses effectifs initiaux, celle-ci fuit.
+    -   Si [**échec**]{style="color:red"} deux cas de figure. *i)* Si l'unité à un effectif `≥50%` de ses effectifs initiaux c’est un <u id='repli_en_bon_ordre'>repli en bon ordre</u>. *ii)* Si l'unité à un effectif `<50%` de ses effectifs initiaux, celle-ci <u id='fuite'>fuit</u>.
+
+Effectuer ce test :
+
 -   Si perte de 25% ou plus de son effectif initial hors phase de corps à corps.
--   A 6" d’une unité de PU5 ou plus qui fuit, ou se repli en bonne ordre ou est totalement détruite.
+-   Si à `6"` d’une unité de `PU5` ou plus qui  <u id='fuite'>fuit</u>, ou se repli en bonne ordre ou est totalement détruite.
 -   Si l’unité est traversée par une unité amie.
 
 <details>
@@ -411,15 +414,26 @@ Chaque figurine du rang combattant peut attaquer, bien que les figurines qui ne 
 
 -   Lancer ou non des Défis comme décrit page 210 et 211 Héros comme champions. Les défis ne peuvent être lancés/relevés que par une figurine du rang combattant ou adjacent à celui ci.
 -   Un perso ne peut pas de traverser les rangs si déjà dans le rang combattant (FAQ).
+-   Une figurine, d’une unité engagée sur plusieurs fronts, qui est à plus de 1 rang combattant doit, si possible, combattre un ennemi en contact socle à socle, sinon elle effectue ses attaques sur l’unité ennemie la plus proche.
+-   Une unité en combat peut changer d’arme à toute sous-phase 4.1
+
+<details>
+
+<summary>Description de qui peu taper</summary>
+
+<p>
+
 -   Toute figurine en contact socle à socle fait toutes ses attaques (même si le contact est de flanc ou de dos, y compris juste un coin de socle)
 -   Toute figurine du **rang / colonne combattant** (au moins une fig. en contact socle à socle avec l’ennemi) peut combattre l’ennemi si sa distance avec lui est ≤ à son Mouvement (non Vol) et doit alors faire toutes ses attaques.
 -   Toute figurine du rang / colonne combattant, **non en contact socle à socle** avec l’ennemi, peut faire 1 seule attaque par figurine de son profil mixte (≈1 attaque par ligne de profil mixte).
 -   Sauf en charge, Infanterie Régulière / Lourde : rang combattant = 2 rangs
--   Une **attaque de soutien** via une arme se fait si le porteur est juste derrière le rang combattant et à distance de l’ennemi ≤ à son mouvement. (non Vol), de face
+-   Une **<u id='attaque_soutien'>attaque de soutien</u>** via une arme se fait si le porteur est juste derrière le rang combattant et à distance de l’ennemi ≤ à son mouvement (non Vol), de face.
 -   Une figurine en contact socle à socle avec plusieurs ennemis peut choisir lequel cibler, y compris répartir ses attaques (avant les jets de touche)
 -   Une figurine du rang combattant engagé avec plusieurs ennemis, non en contact socle à socle, doit faire son attaque contre l’ennemi le + proche.
--   Une figurine, d’une unité engagée sur plusieurs fronts, qui est à plus de 1 rang combattant doit, si possible, combattre un ennemi en contact socle à socle, sinon elle effectue ses attaques sur l’unité ennemie la plus proche.
--   Une unité en combat peut changer d’arme à toute sous-phase 4.1
+
+</p>
+
+</details>
 
 ### 2) Nombre d'attaque et ordre d'attaque
 
@@ -440,10 +454,8 @@ Overview CAC O&G : <u id='cac_hero_og'>Héro O&G</u> et <u id='cac_troupes_og'>T
 
 -   Compter le `+1A` en attaque des unitées \[*Orques Noir*, *sanglier*\] avec le token de <u id='charges_devastatrices'>charges dévastatrices</u>.
 -   Sort d’assaillement éventuelle en fonction de l’ initiative du lanceur:
-    -   Magie Waagh \> (p 334) E Poing de Mork, Gork : Kraz Tête (HS p 47)
-    -   Illusionnisme \> (p 331) 5 Double Spectral
-    -   Elementalisme \> (p 326) 1 Epée Enflammée
-    -   Bataille \> (p 320), E Main de Marteau
+    -   Magie Waagh \> (p 334) <u id='poing_de_gork'>Poing de Mork</u> & <u id='kraz_tête'>Kraz Tête</u>
+    -   Illusionnisme \> (p 331) 5 Double Spectral, Elementalisme \> (p 326) 1 Epée Enflammée, Bataille \> (p 320), Main de Marteau.
 
 ### 3) Jet pour toucher
 
@@ -467,8 +479,8 @@ les [Squig]{style="color:#8b0000"} et les Trolls ont des `F5`. Les [Orques noire
 -   Si charge effective avec <u id='kikoup'>Kikoup</u> ➜ `relance des 1` à la blessure & `PA-1` à la sauvegarde sur les **6 pour blesser** . (HS p 45).
 -   <u id='charge_de_sanglier'>Charges de sanglier</u> (HS p 46) Si charge ➜ `+1 F`.
 -   <u id='kostos'>Kostos</u> (payant) ➜ `+1F`(HS p 45).
--   Arme lourde octroi ➜ `+2F` (p 214).
--   Lance de cavalerie octroi ➜ `+1F` si charge effective, par contre les attaques de soutient sur les côtés et sur 2 rangs ne sont pas comptabilisées (p215).
+-   <u id='arme_lourde'>Arme lourde</u> octroi ➜ `+2F` (p 214).
+-   <u id='lance_cavalerie'>Lance de cavalerie</u> pour les [chevaucheurs de Sangliers]{style="color:#52280a"}. Par contre les <u id='attaque_soutien'>attaque de soutien</u> sur les côtés et sur 2 rangs ne sont pas comptabilisées.
 -   Rétiaires (payant) : A n’importe quelle sous phase de combat: lancé 1d6 et sur 2+ appliquer `-1 force` à l'ennemie ou sinon à soi même (Hs 25).
 -   Le Squig Broyeurs à <u id='coup_fatal'>Coup Fatal</u>.
 
@@ -518,6 +530,7 @@ L'application [thefateroll](https://thefateroll.com/) fait par Troma permet de c
 
 -   Ne pas oublier l'<u id='ordre_serre'>Ordre serré</u> si `PU>10`.
 -   Ne pas oublier la règle <u id='masse_infanterie'>Masse d'infanterie</u>.
+-   La régen compte dans le résultat de combat.
 
 <details>
 
@@ -587,11 +600,11 @@ L'application [thefateroll](https://thefateroll.com/) fait par Troma permet de c
 
 </details>
 
-1. **Céder du terrain** (recul de 2")
+1. **<u id='ceder_du_terrain'>Céder du terrain</u>** (recul de 2")
 → Si le total modifié ≤ Commandement
 → OU si vous faites un double 1 (toujours sauvé !)
 
-2. **Retraite en bon ordre** (recul du meilleur de 2D6)
+2. **<u id='repli_en_bon_ordre'>Retraite en bon ordre</u>** (recul du meilleur de 2D6)
 → Si le jet de dés (avant modification) ≤ Commandement
 → MAIS le total modifié > Commandement
 → ET votre Puissance d'Unité × 2 n'est pas inférieure au PU de l'adversaire
@@ -606,7 +619,6 @@ L'application [thefateroll](https://thefateroll.com/) fait par Troma permet de c
 - Si l'unité ennemie est totalement détruite, l’unité peut tenter de <u id='se_retenir_et_se_reformer'>se retenir et se reformer</u> (overview <u id='commandement_og'> O&G CD</u>) ou faire une <u id='percee'>percée</u> (overview <u id='mouvement_og'>O&G Mouvement</u>).
   - Notons que si l'unité détruite à une `PU de 5 ou plus` dans ce cas il toutes les unités amies à 6” doivent immédiatement effectuer un <u id='test_de_panique'>Test de Panique</u>.
 - Reformation possible après s’être restreint.
-- La régen compte dans le résultat de combat.
 
 <a href="#top">Retour Phase de Stratégie</a>
 
@@ -644,6 +656,12 @@ rule_waaagh <- "Une fois par partie, pendant la sous-phase de Commandement de so
 
 rule_cri_de_ralliement <- "Pendant sa phase de Cd, peut forcer une unité à portée de Cd à faire un test de ralliement."
 
+
+rule_fuite_feinte <- "Fuite feinte [Feigned Flight] : l'unité se rallie automatiquement après avoir fui en réaction à une charge [§]"
+
+rule_tir_fuite <- "L’unité Tient sa Position & Tire (comme décrit p120) avant de fuir la charge. Quand elle effectue son jet de Fuite, l’unité jette deux D6 et défausse le résultat le plus bas. Notez que si la distance entre cette unité et l’unité qui charge est inférieure à la caractéristique de Mouvement de l’unité qui charge, cette unité doit soit Tenir sa Position, soit Fuir. [§]"
+
+rule_pesant <- "Pesant : compte comme en ordre serré (+1 au résultat du combat si en ordre de combat si PU≥10) même en fig individuelle. Peut pivoter après mouvement jusqu’à 90° (sauf si marche forcée ou fuite). Ne peut pas être rejointe par un personnage."
 
 ## Magie
 rule_dissipation <- "La portée de Dissipation varie selon le Niveau du Sorcier désigné : Niveau 1 et 2 ➜ portée de 18” / Niveau 3 et 4 ➜ portée de 24”. Les Sorciers engagés en combat, qui sont en fuite ou qui ne sont pas sur le champ de bataille ne peuvent pas être désignés. Jetez 2D6 et , ajoutez le Niveau du Sorcier au résultat de ce jet pour obtenir le 'résultat de dissipation'. Dénouement = double 6 ➜ dissipation | Surclassé double 1 ➜ jet sur le tableau des Fiascos [§]"
@@ -685,8 +703,6 @@ rule_escorteurs_de_chars <- "Les figurines amies dont le type de troupe est “c
 
 overview_cd <- "Commandement: Gobs: CD5|6 / Night Gobs: CD 4|5 / Orques: CD6|7 / Troll CD4 (CD5 ceux d'eau) / Orques noir: CD8 -- Héro Gobs: CD6|7 / Héro Night Gobs: CD 5|6 / Héro Orques: CD7|8 / Héro Orques noir: CD8|9"
 
-
-# CC2|F3|E3|I3|A1*
 overview_cac_troupes <- "CAC:<br>Gobs & Night Gobs: CC2|F3|E3|I3|A1* <br> Squigs CC4|F5|E3|I4|A2|PA-1 perf* <br> Loups CC3|F3|E3|I3|A1 <br> Orques: CC3|F3|E4|I3|A1* <br> Sanglier: CC3|F3°|E4|I3|A1 <br> Troll CC3|F5|E4|I1|A3|perf* <br> Orques noir: CC4|F4|E4|I3|A1*"
 
 overview_cac_hero <- "CAC Héro: <br> Chef,grand Zarb Night Gobs: CC4,3|F3|E4,3|PV3,2|I4,3|A2,1 <br> Chef,grand Night Gobs: CC5,4|F4|E4|PV3,2|I5,4|A4,3 <br> Chef,grand Orques: CC6,5|F5,4|E5|PV3,2|I5,4|A4,3 <br> Chef,grand Orques noir: CC7,6|F5,4|E5|PV3,2|I6,5|A4,3°"
@@ -739,10 +755,15 @@ rule_pietinement <- "Attaque de piétinement (X) [Stompattacks (X)] : X attaques
 
 rule_kikoup <- "Après avoir chargé, peut relancer les 1 nat. aux jets de Blessure et +1 à la PA (sauf montures et armes magiques)"
 
+rule_lance_cavalerie <- "Combat F+1 | PA-1 | Combat sur plusieurs rangs Modificateurs de F et PA uniquement un tour où le porteur a chargé. Pas d'attaque de soutien le tour où le porteur a chargé"
 
 rule_kostos <- "Au combat, +1 en F et Arme Perforante (1) (PA-1 sur un jet de 6 pour blesser)" 
 
 rule_charge_de_sanglier <- "Après avoir chargé, les Défenses d’un Sanglier ont F+1 et PA-1"
+
+rule_arme_lourde <- "Arme lourde Combat F+2 -2 Arme perforante (1), Arme à deux mains, frappe en dernier (réduit Init. à 1.)"
+
+rule_attaque_soutien <- "Attaque_soutien : derrière rang combattant et ≤ Mvt. 1 attaque."
 
 rule_test_de_panique <- "Test de commandement sous la caractéristique de Cd de l'unité. En cas d'échec (test > CD), l'unité a cédé à la panique et doit se Replier en Bon Ordre ou fuir. En cas de réussite (test < CD), l'unité demeure résolue et ne panique pas."
 
@@ -752,12 +773,13 @@ rule_perce <- "Si une unité détruit totalement son ennemi avant la sous-phase 
 
 rule_coup_fatal <- "Coup fatal [Killing blow] : contre les infanterie ou cavalerie, sur un 6 naturel pour blesser, tue automatiquement. Svg Invulnérable autorisée uniquement"
 
-
 rule_ordre_serre <- "ordre serré : +1 au résultat du combat si en ordre de combat si PU≥10. Peut être en ordre de combat ou en colonne de marche"
 
 rule_fuite <- "Lorsqu’une unité fuit, elle ce déplace à l’opposé de l’unité ennemie qui a causé la fuite (en la faisant pivoter sur son axe). Elle effectue alors un mouvement de 2D6 (peut ajouter +1D6 si rapide). Le résultat du jet est la distance totale en pouces dont l’unité en fuite se déplace.Si une unité en fuite entre en contact avec le bord du champ de bataille ou le franchit, elle est retirée du jeu et considérée comme détruite. [§]"
 
 rule_immunise_psychologie <- "Immunisé à la psychologie : réussit automatiquement les tests de Peur, Panique ou Terreur. Ne peut pas choisir la fuite comme réaction de charge."
+
+rule_ceder_du_terrain <- "Céder du terrain : recul de 2” sans reformation. Compte comme le même Corps à Corps. Le poursuivant peut se réorienter de 90° ou 180°"
 
 # Apply ------------------------------------------------------------------------
 tippy::tippy_this(elementId = "stupide", tooltip = rule_stupide)
@@ -782,6 +804,7 @@ tippy::tippy_this(elementId = "test_commandement", tooltip = rule_test_commandem
 tippy::tippy_this(elementId = "peur", tooltip = rule_peur) # p168
 tippy::tippy_this(elementId = "mouvement_og", tooltip = overview_mouv)
 tippy::tippy_this(elementId = "marche_force", tooltip = rule_marche_force)
+tippy::tippy_this(elementId = "pesant", tooltip = rule_pesant)
 tippy::tippy_this(elementId = "escorteurs_de_chars", tooltip = rule_escorteurs_de_chars)
 tippy::tippy_this(elementId = "commandement_og", tooltip = overview_cd)
 tippy::tippy_this(elementId = "impetueux", tooltip = rule_unites_impetueux) # II.2
@@ -794,10 +817,13 @@ tippy::tippy_this(elementId = "arc_court", tooltip = rule_arc_court) # III.1
 tippy::tippy_this(elementId = "arc_de_guerre", tooltip = rule_arc_de_guerre) # III.1
 tippy::tippy_this(elementId = "tir_rapide", tooltip = rule_tir_rapide) # III.1
 tippy::tippy_this(elementId = "tir_de_Volee", tooltip = rule_tir_de_Volee) # III.1
+tippy::tippy_this(elementId = "fuite_feinte", tooltip = rule_fuite_feinte)
+tippy::tippy_this(elementId = "tir_fuite", tooltip = rule_tir_fuite)
 tippy::tippy_this(elementId = "repli_en_bon_ordre", tooltip = rule_repli_en_bon_ordre) # III.4
 tippy::tippy_this(elementId = "armures", tooltip = rule_armures) # III.4
 tippy::tippy_this(elementId = "svg_og", tooltip = overview_svg) # III.4
 tippy::tippy_this(elementId = "kostos", tooltip = rule_kostos)
+tippy::tippy_this(elementId = "lance_cavalerie", tooltip = rule_lance_cavalerie)
 tippy::tippy_this(elementId = "cac_hero_og", tooltip = overview_cac_hero)
 tippy::tippy_this(elementId = "cac_troupes_og", tooltip = overview_cac_troupes)
 tippy::tippy_this(elementId = "touches_impact", tooltip = rule_touches_impact)
@@ -806,6 +832,8 @@ tippy::tippy_this(elementId = "masse_infanterie", tooltip = rule_masse_infanteri
 tippy::tippy_this(elementId = "haine", tooltip = rule_haine)
 tippy::tippy_this(elementId = "pietinement", tooltip = rule_pietinement)
 tippy::tippy_this(elementId = "kikoup", tooltip = rule_kikoup)
+tippy::tippy_this(elementId = "arme_lourde", tooltip = rule_arme_lourde)
+tippy::tippy_this(elementId = "attaque_soutien", tooltip = rule_attaque_soutien)
 tippy::tippy_this(elementId = "charge_de_sanglier", tooltip = rule_charge_de_sanglier)
 tippy::tippy_this(elementId = "test_de_panique", tooltip = rule_test_de_panique)
 tippy::tippy_this(elementId = "se_retenir_et_se_reformer", tooltip = rule_se_retenir_et_se_reformer)
@@ -814,6 +842,7 @@ tippy::tippy_this(elementId = "coup_fatal", tooltip = rule_coup_fatal)
 tippy::tippy_this(elementId = "ordre_serre", tooltip = rule_ordre_serre)
 tippy::tippy_this(elementId = "immunise_psychologie", tooltip = rule_immunise_psychologie) 
 tippy::tippy_this(elementId = "fuite", tooltip = rule_fuite) 
+tippy::tippy_this(elementId = "ceder_du_terrain", tooltip = rule_ceder_du_terrain)
 ```
 
 <a href="#top">Retour Phase de Stratégie</a>
