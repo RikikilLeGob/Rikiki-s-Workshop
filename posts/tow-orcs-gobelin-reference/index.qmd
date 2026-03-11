@@ -284,8 +284,8 @@ Notez que les unités qui fuient, qui ont chargé à ce tour ou qui se sont dép
 
 ## III. Phase de Tir
 
--   Les [Orques]{style="color:#3a5f0b"} ont des <u id='arc_de_guerre'>Arcs de Guerre</u> lesquelles ont la règle <u id='tir_de_Volee'>Tir de Volée</u> 
--   Les [Gobelins]{style="color:#6b8e23"} ont des <u id='arc_court'>Arcs Court</u> lesquelles ont les règles <u id='tir_rapide'>Tir rapide</u> et <u id='tir_de_Volee'>Tir de Volée</u> 
+-   Les [Orques]{style="color:#3a5f0b"} ont `CT3` et des <u id='arc_de_guerre'>Arcs de Guerre</u> lesquelles ont la règle <u id='tir_de_Volee'>Tir de Volée</u> 
+-   Les [Gobelins]{style="color:#6b8e23"} ont `CT3` et des <u id='arc_court'>Arcs Court</u> lesquelles ont les règles <u id='tir_rapide'>Tir rapide</u> et <u id='tir_de_Volee'>Tir de Volée</u>.
 
 <details>
 
@@ -341,7 +341,7 @@ Sauvegardes d'Armure : Pour chaque blessure, votre adversaire fait un jet de Sau
 
 -   Les [Orques]{style="color:#3a5f0b"} et les [Gobelins]{style="color:#6b8e23"} ont des `CT3`.
 -   Baliste : voir page HS 40, page 223 et voir page 197 pour machine de guerre.
--   Tir rapide des Arcs Court ne subit pas -1 au jet de touche quand ce déplace et tire compte aussi après un ralliement (p 170).
+-   <u id='tir_rapide'>Tir rapide</u> des <u id='arc_court'>Arcs Court</u> ne subit pas -1 au jet de touche quand ce déplace et tire compte aussi après un ralliement (p 170).
 -   Pour obtenir le [**jet de touche d’un tir soustraire à 7 la capacité de tir (CT)**]{style="color:Green"} de l’unité puis appliquer le modificateur qui suivent :
     -   Se déplacer et Tirer -1 (*sauf arcs court des Gobs car <u id='tir_rapide'>Tir rapide</u>*)
     -   Tirer à longue portée -1
@@ -713,7 +713,7 @@ rule_marche_force <- "Une unité en marche forcée peut doubler sa caractéristi
 
 rule_escorteurs_de_chars <- "Les figurines amies dont le type de troupe est “char” peuvent se déplacer à travers les figurines ayant cette règle spéciale et peuvent se déplacer à travers des unités d’Escorteurs de Chars amies qui sont en formation de Tirailleurs."
 
-overview_cd <- "Commandement: Gobs: CD5|6 / Night Gobs: CD 4|5 / Orques: CD6|7 / Troll CD4 (CD5 ceux d'eau) / Orques noir: CD8 -- Héro Gobs: CD6|7 / Héro Night Gobs: CD 5|6 / Héro Orques: CD7|8 / Héro Orques noir: CD8|9"
+overview_cd <- "Commandement: <br> Gobs: CD5|6 / Night Gobs: CD 4|5  <br> Orques: CD6|7 / Troll CD4 (CD5 ceux d'eau)  <br> Orques noir: CD8 <br> ~~ Héro ~~ <br> Gobs: CD6|7 / Héro Night Gobs: CD 5|6  <br> Héro Orques: CD7|8 / Héro Orques noir: CD8|9"
 
 overview_cac_troupes <- "CAC:<br>Gobs & Night Gobs: CC2|F3|E3|I3|A1* <br> Squigs CC4|F5|E3|I4|A2|PA-1 perf* <br> Loups CC3|F3|E3|I3|A1 <br> Orques: CC3|F3|E4|I3|A1* <br> Sanglier: CC3|F3°|E4|I3|A1 <br> Troll CC3|F5|E4|I1|A3|perf* <br> Orques noir: CC4|F4|E4|I3|A1*"
 
