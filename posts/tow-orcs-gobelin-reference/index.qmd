@@ -321,9 +321,21 @@ Sauvegardes d'Armure : Pour chaque blessure, votre adversaire fait un jet de Sau
 -   Vérifier les lignes de vue comme décrit page 103 et vérifier la portée.
 -   **Vortex et projectiles magiques éventuels** en sachant Loi du nombre ➜ Si chaman orque dans pack à PU 10 \>+1 au lancement de sort (HS p14) :
     -   Magie Waagh ➜ <u id='kraz_tête'>Kraz'Tête</u> / <u id='regard_de_gork'>Regard de Gork</u> / <u id='poing_de_gork'>Poing De Gork</u> / <u id='regard_vindicatif'>Regard Vindicatif</u> / <u id='pied_de_gork'>Pied de Gork</u>.
-    -   Illusionisme\> 1 Rasoir Mental, 3 Colonne de cristal (p 331)
-    -   Elementalisme\> 3 Invocation d’Esprit Elémental, 5 Bourasque (p 327)
-    -   Magie de Bataille\> 1 Boule de feu, 3 Pilier de Flammes (p321)
+    
+    
+<details>
+
+<summary>Détails autres projectiles magiques possibles</summary>
+
+<p>
+
+-   Illusionisme\> 1 Rasoir Mental, 3 Colonne de cristal (p 331), 
+-   Elementalisme\> 3 Invocation d’Esprit Elémental, 5 Bourasque (p 327)
+-   Magie de Bataille\> 1 Boule de feu, 3 Pilier de Flammes (p321)
+
+</p>
+
+</details>
 
 ### 2) Jets de Touche (page 138)
 
