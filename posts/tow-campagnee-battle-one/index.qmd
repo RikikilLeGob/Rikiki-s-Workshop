@@ -28,7 +28,7 @@ text-align: justify}
 Au nord de la Péninsule Noire ce trouve Thessos, une colonie des Principautés Frontalières située proche du rivages maudits du Golfe Noir. Dans cette endroit des rumeurs circulent sur l’emplacement de la couronne de *Imephep l’Adulé*, un artefact doté de grand pouvoir. Mais les ombres de ce pouvoir attirent plus que les serviteurs de Nehekhara…
 
 
-Les orques et gobelins de la tribut des **Zouvreurs Ki Brill'**, ivres de pillage et de violence, ont eu vent de l'a découverte l’artéfact. Leur horde déferle comme une marée verte, hurlante et désordonnée, mais déterminée à s’emparer du butin avant que les elfes de la Garde Maritime ne puissent intervenir. Ces derniers, disciplinés et mortels, savent qu’une telle relique ne doit pas tomber entre les mains des peaux-vertes… et sont déterminer à s'en emparer.
+Les orques et gobelins de la tribut des **Zouvreurs Ki Brill'**, ivres de pillage et de violence, ont eu eu vent d'une rumeur qui indique la localisation de l’artéfact proche de Thesos. Sur les '*conseils*' du grand chaman Rikiki une avant garde a été envoyé pour faire des fouilles. Cette armée déferle comme une marée verte, hurlante et désordonnée, déterminée à s’emparer du butin avant que les elfes de la Garde Maritime ne puissent intervenir. Ces derniers, disciplinés et mortels, savent qu’une telle relique ne doit pas tomber entre les mains des peaux-vertes… et sont déterminer à s'en emparer.
 
 Au cœur de ce champ de bataille grisâtre, sillonné de ruisseaux noirs où l’eau semble absorber la lumière, se dresse un édifice ancien, rongé par les siècles et les malédictions. Ses murs, couverts de runes effacées, tremblent sous les assauts des deux armées.
 
@@ -54,7 +54,7 @@ Les orques chargent, hurlants, leurs haches levées vers le ciel. Sur le flanc g
 
 Au centre, un aigle géant, monté par des elfes, fond sur les gobelins. Ces derniers, hilares et fous, lancent leurs fanatiques drogués sur sa trajectoire. L’aigle blessé lors de son esquive du gobelin fou n'arrive pas se saisir suffisamment des vermines peaux vertes et ce retrouve repoussé. Obligé de se replié il est percuté par un bond chanceux du fanatique et s’écrase dans un geyser de sang et de plumes. Pendant ce temps, le noble griffon elfe, monstre de guerre aux serres d’acier, déchire les chevaucheurs de loups et perce jusqu’au char ennemi, semant la terreur.
 
-Avec la mort l'aigle, **M'ek Ki dens** le chaman gobelin ordonne la fouille de l'édifice. Les gobelins, avides, commencent à chercher. Six d’entre eux meurent dans d’horribles cris, leurs corps déchiquetés par des pièges anciens. Pendant ce temps, les orques noirs, plus disciplinés, massacrent les éclaireurs elfes, tandis que le griffon et son cavalier, occupé à briser le char, ne peut achever sa tâche.
+Avec la mort de l'aigle, **M'ek Ki dens** le chaman gobelin ordonne la fouille de l'édifice. Les gobelins, avides, commencent à chercher. Six d’entre eux meurent dans d’horribles cris, leurs corps déchiquetés par des pièges anciens. Pendant ce temps, les orques noirs, plus disciplinés, massacrent les éclaireurs elfes, tandis que le griffon et son cavalier, occupé à briser le char, ne peut achever sa tâche.
 
 
 ::: columns
