@@ -1,5 +1,5 @@
 ---
-title: "Massacre aux abords de Thessos"
+title: "Boucherie aux abords de Thessos"
 author: "Propan2one"
 date: "2026-03-12"
 filters:
