@@ -25,7 +25,7 @@ text-align: justify}
 
 ::: columns
 
-::: {.column width="42%"}
+::: {.column width="46%"}
 
 ![](2026-03-05-warhammer-the-old-world-map.png)
 :::
@@ -34,13 +34,41 @@ text-align: justify}
 
 :::
 
-::: {.column width="56%"}
+::: {.column width="52%"}
 Principautés Frontalières, 2277 après l'avènement de Sigmar. Settra, dans sa quête de vengeance des chevaliers Bretonniens qui ont profané ses terres, poursuit sa route à travers le sud du vieux monde. Alors que ses armées commencent la longue traversée des Voûtes, le grand monarque Nehekharien laisse derrière lui des terres ravagées. Des réfugiés affluent de toutes part, des gouvernements sont renversés. Les bandits profitant de l'absence des milices décimés par les morts vivants, se mettent à proliférer partout. Les Principautés Frontalières sont aujourd'hui encore plus inhospitalières que d'habitude. Pourtant, des aventuriers en provenance de tout le vieux monde arrivent de plus en plus nombreux chaque jour, car des Prêtres Liches de l'Impérissable, restés en retrait pour organiser des fouilles, ont attiré l'attention. Selon les dires, ils chercheraient la couronne de Imephep l'Adulé, puissant souverain qui gouvernait autrefois ces terres lors de l'apogée de Nehekhara. Et la rumeur se repend que quiconque possède cet artefact se voit doté de grand pouvoir !
-
 :::
 
 :::
 
+```{r audio, echo = FALSE}
+html_tag_audio <- function(file, type = c("mp3")) {
+  type <- match.arg(type)
+  htmltools::tags$div(
+    style = "
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 20px 0;
+    ",
+    htmltools::tags$audio(
+      style = "
+        border-radius: 10px;
+        background-color: #f0f0f0;
+        padding: 10px;
+        width: 100%;
+        max-width: 400px;
+      ",
+      controls = "",
+      htmltools::tags$source(
+        src = file,
+        type = glue::glue("audio/{type}", type = type)
+      )
+    )
+  )
+}
+
+html_tag_audio("../../audio/Campagne_Narrative_prefinish1.mp3", type = "mp3")
+```
 
 ## Organisation Campagne
 
@@ -78,37 +106,40 @@ Il y a 3 salons à notre disposition dans le discord pour organiser, parler et s
 
 ## Participants
 
-
 ::: columns
 
-::: {.column width="52%"}
+::: {.column width="69%"}
 
 [**Faction Ordre**]{style="color:blue"}
 
-- Finarfin : Hauts elfes
-- Podo : Hauts elfes
+- Finarfin :  [L'expédition des Aneltain](https://discord.com/channels/986707476894351400/1478754812115030217) [Hauts elfes]
+- Podo : [La chute D'Horynivlan](https://discord.com/channels/986707476894351400/1486864593946021988) [Hauts elfes]
 - Max69 : Hauts elfes
-- Benjamin : Elfes Sylvains grande alliance avec esprits de la forêt
+- Rhend : [Les Veilleurs des Feuilles-Tombantes](https://discord.com/channels/986707476894351400/1476151230651826237) [Esprits de la forêt]
 - Jean Lama-Nain d'Hashut : Couronne Renegate
-- fait faim : Elfes Sylvains
-- Aldur : Hommes Lezard
-- Akta : Hommes Lezard (ou demon)
+- Fait faim : [La princesse des principautés](https://discord.com/channels/986707476894351400/1477785699657973830)  [Elfes Sylvains]
+- Aldur : [L'Ost de la cité du Destin](https://discord.com/channels/986707476894351400/1476274018473611435) [Hommes Lezard]
+- Akta : [L'ost perdu d'Akta'nolt](https://discord.com/channels/986707476894351400/1476191963848904817) [Hommes Lezard (ou demon)]
 - Grumpyfuzzybear : Hommes Lezard
-- Gargarysm : Nains
-- Maniac : Bretonnien
+- Gargarysm : [Le throng de Karak Hirn](https://discord.com/channels/986707476894351400/1478736631786897493) [Nains]
+- Maniac : [Croisade du baron de Savoy](https://discord.com/channels/986707476894351400/1476202627791323196) [Bretonnien]
+
 
 [**Faction Destruction**]{style="color:green"}
 
 - Dalza : Orc et gob
-- lairder1 : Waagh nomad
-- propan2one : Orc et gob
-- Adie : Comtes Vampires
+- Lairder1 :  [La marche de la waaghh de Gorrak "Eul Kolec'sioner"](https://discord.com/channels/986707476894351400/1488502147061514350) [Waagh nomad]
+- Propan2one : [La tribut d’orques et gobelins des Zouvreurs Ki Brill’](../tow-armee-zouvreurs-Ki-Brill/) [Orc et gob]
+- Adie : [L’exil d’Arkhad le Voile Rouge](https://discord.com/channels/986707476894351400/1483222278727794829) [Comtes Vampires]
 
 [**Faction Chaos**]{style="color:red"}
 
 - Nopeace : Nains du chaos
 - bonnet100 : Hommes Betes
-- Skaragg : Loups de mer
+- Skaragg : [Clan du Grand dévoreur](https://discord.com/channels/986707476894351400/1477222686072770697) [Loups de mer]
+- Fraameto : [Varkhul, Fléau du Trône Écarlate](https://discord.com/channels/986707476894351400/1483222278727794829) [Guerrier du Chaos]
+- Garkonen : Guerrier du Chaos
+- Ethanes : [L’Ombre aux Mille Yeux](https://discord.com/channels/986707476894351400/1487113451846242477) [Skavens]
 
 :::
 
@@ -116,9 +147,9 @@ Il y a 3 salons à notre disposition dans le discord pour organiser, parler et s
 
 :::
 
-::: {.column width="46%"}
+::: {.column width="19%"}
 
-![](tombeking_cut.jpg)
+![](Faction_campagn.jpg)
 
 :::
 
@@ -126,11 +157,11 @@ Il y a 3 salons à notre disposition dans le discord pour organiser, parler et s
 
 ----------------------------------------------------
 
-## Vague 1, mois de mars 2026 - Fouille du site 
+## Vague 1, mois de mars 2026 - Découverte de la Couronne Maudite
 
 Pour ce mois de mars tous les adversaires vont jouer le même scénario, à savoir le scénario « fouille » qui suit :
 
-### L’Héritage des Morts : La Folie d’un Pouvoir Oublié
+### Scenario 1 : L’Héritage des Morts ou la Folie d’un Pouvoir Oublié
 
 *L’an 2277 du calendrier impérial, le sud du Vieux Monde tremble sous la marche de Settra. Le monarque nehekharien, traqué par sa soif de vengeance, laisse derrière ses légions un sillage de ruines et de chaos. Les Principautés Frontalières, déjà hostiles, deviennent un piège mortel.Pourtant, une rumeur attire les fous et les ambitieux : la couronne de Imephep l’Adulé, artefact perdu d’un pouvoir légendaire, serait sur le point d’être exhumée par les Prêtres-Liches de Settra. Malgré les dangers, les aventuriers se pressent, prêts à tout pour s’en emparer…*
 
@@ -168,7 +199,6 @@ La bataille durera six rounds, ou jusqu'à ce qu'un camp concède la partie, ou 
 Lors de la **phase de stratégie**, début de tour, si le joueur a une unité d'infanterie de `PU5` **minimum** à moins de 3" du décors concerné, il peut la faire fouiller à la condition qu'il n'y est pas d'unité adverse, non engagée, qui soit elle aussi à moins de 3" du décors, avec une PU supérieur.
 Une fois qu'elle à fouiller l'unité ne peux plus se déplacer, charger ou tirer. Plusieurs unités peuvent fouiller le même tour si elles remplissent les conditions.
 
-
 :::
 
 ::: {.column width="4%"}
@@ -205,6 +235,149 @@ Les objets trouvés sont portés par un personnage ou le champion de l'unité qu
 
 :::
 
+### Conclusion de la première vague
+
+Au centre de la forêt *Kharnost*, face aux Hommes Lézard de [**Aldur**]{style="color:blue"}, les Bretonniens de [**Maniac**]{style="color:blue"} trouvent un Marteau Météore après de nombreuses fouilles. Il décide finalement de ne pas le conserver car c’est une arme de Sygmarite !
+
+Non loin de *Zvorak*, malgré plusieurs fouilles les Hauts Elfes de [**Finarfin**]{style="color:blue"} ne trouveront rien, laissant dans l’incapacité de voler quoi que ce soit la Waaagh Nomad de [**Lairder1**]{style="color:green"}. Chaque armée repart de son côté, frustré mais ne voulant pas gaspiller plus de temps et de vie sur place.
+
+Dans les alentours de *[Thessos](../tow-campagnee-battle-one/)* les fanatiques de l’armée Orcs et Gobelins de [**Propan2one**]{style="color:green"} massacrent à la fois les leurs mais aussi la Garde Maritime Hauts Elfes de [**Podo**]{style="color:blue"}. Aucune fouille ne révèle quoi que ce soit, si ce n’est que de nombreux gobelins sont massacrés par les pièges présents dans la tour désaffectée qu’ils prospectaient.
+
+Dans *la forêt Hvargir* les Hommes Lézard de [**Akta**]{style="color:blue"} fouillent une ancienne ruine locale. Ils trouvent une antique armure de fer mététorite mais ne peuvent hélas pas rapporter leur butin, massacré par les Elfes Sylvains de [**Faitfaim**]{style="color:blue"} qui récupère l’artefact pour lui-même.
+
+A l’ouest de *Malko* les Nains de [**Gargarysm**]{style="color:blue"} affrontent leurs cousins Nains du Chaos de [**Nopeace**]{style="color:red"}. Il dénichent une armure de fer météorite au pied d’une gigantesque statue de leur ancêtre. Mais plutôt que d’engager une contre attaque, les Nains du Chaos qui n’ont subit aucune perte hormis des esclaves, effectuent un repli stratégique pour conserver leur force.
+
+::: columns
+
+::: {.column width="36%"}
+
+![](vampire_Arkhad.png)
+:::
+
+::: {.column width="2%"}
+
+:::
+
+::: {.column width="62%"}
+
+Dans les plaines entourant *Barak Varr* Le seigneur vampire Arkhad de [**Adie**]{style="color:green"} **déniche la Couronne de Imephep l’Adulée** dans une vieille tour désaffectée. Il l’a sécurise alors face au Hauts Elfes de [**Max69**]{style="color:blue"} qui ne réussira pas à récupérer l’artefact pour lui-même.
+
+Tout au sud de la forêt *Kharnost*, les Hommes Lézards de [**Grumpyfuzzybear**]{style="color:blue"} se font prendre en embuscade par les Hommes Bêtes de [**bonnet100**]{style="color:red"} Ces derniers en profitent pour fouiller longuement la ruine situé non loin du champs de bataille mais ne trouvent rien.
+
+:::
+
+:::
+
+Tout juste débarqué de leurs navires, les Guerriers du Chaos de [**Fraameto**]{style="color:red"} affrontent les Loups de Mers de [**Skaragg**]{style="color:red"} à l’est de *Malko*. Les guerriers venus des contrées loin au nord l’emportent face aux Norscans et trouvent même un Talisman de Protection après de nombreuses fouilles d’une ruine.
+
+Les esprits de la forêt de [**Rhend**]{style="color:blue"} s’approchent de *Vardanos*, défendu par les Couronnes Renégates de [**JeanLama**]{style="color:blue"}, pour fouiller un site magique non loin de la ville. L’alliance des humains, comprenant qu’un artefact pouvait se trouver là, décident de fouiller également les lieux. L’affrontement en restera là lorsque les deux armées réaliseront que le site est vide de tout objets ou armes antiques.
+
+----------------------------------------------------
+
+## Vague 2, mois d'avril 2026 - Le Dernier Assaut avant l’Éveil
+
+**Organisation** : Pour ce mois d’avril le MJ a défini les adversaires selon l’emplacement de leur dernière bataille, leur réponse données en privée concernant leur rythme de marche et les résultats des derniers scénarios. S’affronteront donc les adversaires suivants :
+
+- Scénario 1: [**Affrontement entre damnés pour la Couronne Maudite**]{style="color:orange"} ➜ [Adie]{style="color:green"} vs [Fraameto]{style="color:red"} au Nord de *High Hall*.
+
+- Scénario 2: **Rencontre fortuite près de la colline** ➜ pour tout les autres participants.
+
+### Scénario 2: Affrontement entre damnés pour la Couronne Maudite
+
+*C’est bien elle, la Couronne de Imephep l’Adulée est entre les mains de Arkhad, un puissant Seigneur Vampire. Pourtant la Couronne semble se refuser à lui au point de presque le tuer lorsqu’il tenta de la porter la première fois. Depuis il la met sous bonne garde dans son coffre le temps de l’étudier et de trouver un moyen de la plier à sa volonté. Mais le temps est quelque peu manquant dans une région ou les bandes de guerre pullulent, et des Guerriers du Chaos ne tardent d’ailleurs pas à se présenter en vue du campement des Morts-Vivants, très certainement pour voler le précieux artefact.*
+
+::: columns
+
+::: {.column width="48%"}
+
+**Mise En Place**
+
+La partie ce déroule sur une table au dimension 60x48 pouces. Si les joueurs mettent en place le terrain, placez et dispersez le terrain comme décrit à la page 16 du Guide du Jeu Égal. Avant le déploiement [Fraameto]{style="color:red"} jette `1D6` pour chaque unité. Sur un résultat de  `1` et `2` : L’unité est prise par surprise et n’a pas eu le temps de se déployer correctement. Elle doit être déployé en formation d’<u id='formation_ordre_de_marche'>ordre de marche</u> obligatoirement. [Adie]{style="color:green"} n'a pas à faire ce test.
+
+**Déploiement**
+
+Une fois le champ de bataille mis en place, [Adie]{style="color:green"} doit se déployer entièrement en premier, puis c’est au tour de [Fraameto]{style="color:red"} qui se déploie en second. Ensuite [Adie]{style="color:green"} déploie son <u id='train_de_ravitaillement'>Train de Ravitaillement</u>.
+
+**Premier Tour**
+
+[Fraameto]{style="color:red"} à le tour 1 automatiquement.
+
+:::
+
+::: {.column width="4%"}
+
+:::
+
+
+::: {.column width="48%"}
+
+
+**Durée De La Partie**
+
+La bataille durera six rounds, ou jusqu'à ce qu'un camp concède la partie, ou jusqu'à ce que la limite de temps que les joueurs auront décidé à l'avance soit atteinte.
+
+**Victoire !**
+
+- Si le <u id='train_de_ravitaillement'>Train de Ravitaillement</u> est toujours sur la table à la fin du tour 6, [Adie]{style="color:green"} est vainqueur. S’il est détruit [Fraameto]{style="color:red"} est vainqueur.
+
+**Règles Spéciales Du Scénario**
+
+Lors de la **construction d'armée**, [Fraameto]{style="color:red"} est autorisé à **utiliser un**, et seulement un seul, objet trouvé lors du dernier scénario. Il ne compte pas dans les points, et il peut l’équiper sur n’importe quel personnage ou champion d’unité, même si cela ne respecte pas la limite de point autorisé. Il faut par contre que le personnage équipé est le droit de porter un objet en temps normal (exit les monstres)
+
+:::
+
+:::
+
+
+### Scénario 3: Rencontre fortuite près de la colline
+
+*Les routes des Principautés Frontalières sont pleines de bande de guerres de différentes races et factions. Toutes convergent vers l’est dans le but d’intercepter la Couronne de Imephep l’Adulée des mains du Seigneur Vampire Arkhad, il n’est donc pas surprenant que de nombreuses armées se retrouvent inopinément face à un ennemi, malgré les précautions prises par les généraux pour couvrir leur avancée.*
+
+*Vous vous retrouvez soudainement nez à nez face à une armée adverse tandis que vos troupes sont légèrement prises de court. La bonne nouvelle c’est qu’en face ils semblent tout aussi surpris que vous, il vous faut rapidement agir et prendre avantage de la situation. Vous remarquez une colline non loin, prendre position dessus vous permettrait de facilement rallier vos troupes plus en retrait et encore en chemin, tout en démoralisant vos ennemis avant qu’ils ne forment leur ligne de bataille. Vous devez donc prendre cette colline à tout prix*
+
+::: columns
+
+::: {.column width="48%"}
+
+**Mise En Place**
+
+La partie ce déroule en format 1000 points sur une table au dimension  aux choix des joueurs. Si les joueurs mettent en place le terrain, placez et dispersez le terrain comme décrit à la page 16 du Guide du Jeu Égal. Dans les deux cas, assurez-vous qu'une seule grande colline (ne mesurant pas plus de 12" x 18") est placée au centre du champ de bataille. Une fois placée, cette colline ne se disperse pas.
+
+Avant le déploiement selon le rythme qu'a choisit l'armée, des règles additionnelles s'appliqueront :
+- Si l'armée avançait au **rythme standard** alors le joueur jette `1D6` pour chaque unité. Sur un résultat de `6` l'unité gagne la règle <u id='avant_garde'>avant garde</u>.
+- Si l'armée à **pressé le pas** alors le joueur jette `1D6` pour chaque unité. Sur un résultat de `1` et `2` l'unité doit être déployé en formation d’<u id='formation_ordre_de_marche'>ordre de marche</u>.
+
+
+:::
+
+::: {.column width="4%"}
+
+:::
+
+
+::: {.column width="48%"}
+
+
+**Premier Tour**
+
+Une fois le déploiement terminé, faites un tir au dé, et le gagnant prend le premier tour.
+
+
+**Durée De La Partie**
+
+La bataille durera six rounds, ou jusqu'à ce qu'un camp concède la partie, ou jusqu'à ce que la limite de temps que les joueurs auront décidé à l'avance soit atteinte.
+
+**Victoire !**
+
+- Le joueur avec **le plus de PU sur la colline** à la fin du tour 6 remporte la partie. Chaque figurine qui est au moins partiellement sur la colline compte pour sa PU individuellement. Mais si plus de 50% de l’unité est sur la colline, l’unité compte alors sa PU comme entièrement sur la colline.
+
+:::
+
+:::
+
+**Déploiement**
+
+Une fois le déploiement terminé, faites un tir au dé, et le gagnant prend le premier tour.
 
 ---------------------------
 
@@ -216,9 +389,22 @@ rule_armure_de_fer_meteorique <- "L’Armure de Fer Météorique confère à son
 rule_talisman_de_protection <- "Le Talisman de Protection confère à son porteur une sauvegarde Invulnérable de 5+ contre toute blessure subie."
 rule_armure_de_fer_argent <- "L’Armure de Fer-Argent est une armure qui confère à son porteur une valeur d’armure de 3+ qui ne peut être améliorée d’aucune façon."
 
+
+rule_formation_ordre_de_marche <- "Colonne De Marche (p.101): Une unité plus profonde que large (c.-à-d. qui a plus de  figurines par colonne que par rang, cf. Fig. 101.2) est appelée  Colonne de Marche. Une Colonne de Marche ne peut recevoir  de  Bonus de Rang et ne peut effectuer de mouvement de  charge, mais elle peut tripler sa caractéristique de Mouvement  quand elle effectue une Marche Forcée (cf. p. 123). "
+
+rule_train_de_ravitaillement <- "Le Train de Ravitaillement est sur un socle de 60x100, il est considéré comme terrain dangereux pour le déplacement mais ne gêne pas les lignes de vue. Il est placé sur le champs de bataille a 6 pouces minimum de tout bord de table et ne peux pas de déplacer"
+
+rule_avant_garde <- "Avant-garde [Vanguard] : peut faire un mouvement (mais pas de marche forcée) après le déploiement mais si effectué ne peut pas charger au 1er tour."
+
 # Apply ------------------------------------------------------------------------
+# Wave 1
 tippy::tippy_this(elementId = "lame_de_morsure", tooltip = rule_lame_de_morsure)
 tippy::tippy_this(elementId = "armure_de_fer_meteorique", tooltip = rule_armure_de_fer_meteorique)
 tippy::tippy_this(elementId = "talisman_de_protection", tooltip = rule_talisman_de_protection)
 tippy::tippy_this(elementId = "armure_de_fer_argent", tooltip = rule_armure_de_fer_argent)
+
+# Wave 2
+tippy::tippy_this(elementId = "formation_ordre_de_marche", tooltip = rule_formation_ordre_de_marche)
+tippy::tippy_this(elementId = "train_de_ravitaillement", tooltip = rule_train_de_ravitaillement)
+tippy::tippy_this(elementId = "avant_garde", tooltip = rule_avant_garde)
 ```

@@ -1,0 +1,30 @@
+Faction Ordre ------------------------------------------------------------------
+
+[**Finarfin**]{style="color:blue"}
+[**Podo**]{style="color:blue"}
+[**Max69**]{style="color:blue"}
+[**Rhend**]{style="color:blue"}
+[**JeanLama**]{style="color:blue"}
+[**Fait faim**]{style="color:blue"}
+[**Aldur**]{style="color:blue"}
+[**Akta**]{style="color:blue"}
+[**Grumpyfuzzybear**]{style="color:blue"}
+[**Gargarysm**]{style="color:blue"}
+[**Maniac**]{style="color:blue"}
+
+Faction Destruction ------------------------------------------------------------
+
+[**Dalza**]{style="color:green"}
+[**Lairder1**]{style="color:green"}
+[**Propan2one**]{style="color:green"}
+[**Adie**]{style="color:green"}
+
+
+Faction Chaos ------------------------------------------------------------------
+
+[**Nopeace**]{style="color:red"}
+[**bonnet100**]{style="color:red"}
+[**Skaragg**]{style="color:red"}
+[**Fraameto**]{style="color:red"}
+[**Garkonen**]{style="color:red"}
+[**Ethanes**]{style="color:red"}

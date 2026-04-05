@@ -658,6 +658,8 @@ Pour gagner, un joueur doit avoir plus de 100pdv que sont adversaire. Gagné de 
 
 ```{r, echo=FALSE}
 # I) ---------------------------------------------------------------------------
+rule_avant_garde <- "Avant-garde [Vanguard] : peut faire un mouvement (mais pas de marche forcée) après le déploiement mais si effectué ne peut pas charger au 1er tour." ## TODO not used
+
 rule_stupide <- "À moins d'être en train de fuir ou engagée en combat,une unité ayant cette règle spéciale doit effectuer un test de Stupidité en faisant un test sous sa caractéristique de Commandement à la sous-phase de Début du Tour de chacun de ses tours. En cas d'échec, l'unité cède à la Stupidité. Une unité qui a cédé à la Stupidité : • Ne peut pas se déplacer / Ne peut pas tirer ou lancer de sorts / Ne peut pas tenter de dissipation Magique. / Doit “Tenir sa Position” si elle est chargée par un ennemi."
 
 rule_lacher_fanatique <- "Lâchez les Fanatiques ! Une unité cachette peut lâcher un ou plusieurs des Fanatiques à n'importe quelle sous-phase de Début de Tour. Quand un Fanatique est lâché, il bondit dans les airs pour atterrir en tourbillonnant à plusieurs mètres de son unité cachette, avant de commencer son parcours erratique à travers le champ de bataille. Pour représenter cela, placez la figurine de sorte que son socle soit à 3” de son unité cachette, et qu'elle n'atteigne pas le socle d'aucune autre figurine. Il ce déplacera de 2D6 dans la direction choisi lors de sa sortie. [§]"
@@ -794,6 +796,7 @@ rule_immunise_psychologie <- "Immunisé à la psychologie : réussit automatique
 rule_ceder_du_terrain <- "Céder du terrain : recul de 2” sans reformation. Compte comme le même Corps à Corps. Le poursuivant peut se réorienter de 90° ou 180°"
 
 # Apply ------------------------------------------------------------------------
+tippy::tippy_this(elementId = "avant_garde", tooltip = rule_avant_garde) #TODO not used
 tippy::tippy_this(elementId = "stupide", tooltip = rule_stupide)
 tippy::tippy_this(elementId = "lacher_fanatique", tooltip = rule_lacher_fanatique)
 tippy::tippy_this(elementId = "mouvement_fanatique", tooltip = rule_mouvement_fanatique)
