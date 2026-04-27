@@ -293,7 +293,11 @@ Début et mise en place de la partie
 <h3 class="anchored" data-anchor-id="conjuration">3) Conjuration</h3>
 <ul>
 <li><p><u id="dissipation">Dissiper</u> les sorts restés en jeu si portée (penser aux objets cabalistique bonus comme <u id="effigie_de_mork">Effigie de Mork</u> et dissipation fatidique (p 110).</p></li>
-<li><p>Lancer les <strong>Enchantements et Maléfices</strong>. Notamment l’<u id="urticaire_ultime">urticaire ultime</u> / <u id="lever_dla_mauvaise_lune">Lever D’La Mauvaise Lune</u> / <u id="leklat_du_soleil_malefikk">L’Éklat Du Soleil Maléfikk</u> / <u id="on_y_va">On Y Va !</u> / <u id="malediction_de_mork">Malédiction de Mork</u>. Ne pas oublié la Loi du nombre : Si chaman orque dans pack a PU 10 ➜ +1 au lancement de sort (HS 14).</p></li>
+<li><p>Lancer les <strong>Enchantements et Maléfices</strong>. Ne pas oublié la <u id="loi_du_nombre">Loi du nombre</u>.</p>
+<ul>
+<li>Waaagh ➜ l’<u id="urticaire_ultime">urticaire ultime</u> / <u id="lever_dla_mauvaise_lune">Lever D’La Mauvaise Lune</u> / <u id="leklat_du_soleil_malefikk">L’Éklat Du Soleil Maléfikk</u> / <u id="on_y_va">On Y Va !</u> / <u id="malediction_de_mork">Malédiction de Mork</u>.</li>
+<li>Élémentaliste ➜ <u id="appeler_la_tempete">Appeler la tempete</u> / <u id="fleau_du_metal">Fleau du metal</u> / <u id="remparts_telluriques">Remparts telluriques</u>.</li>
+</ul></li>
 </ul>
 <details>
 <summary>
@@ -302,10 +306,8 @@ Détails autres Enchantements et Maléfices possibles
 <p>
 </p><ul>
 <li>Illusionnisme &gt; (p 330) E Robe étincelante</li>
-<li>Elementalisme &gt; (p 326) 4 Rempart tellurique</li>
 <li>Bataille &gt; (p 321), 5 Bouclier de Chêne Lancer les Maléfices :</li>
 <li>Illusionnisme &gt; (p 330) 4 Convocation déconcertante, 6 Mirage Miasmique</li>
-<li>Elementalisme &gt; (p 326), E Appeler la tempête</li>
 <li>Bataille &gt; (p 321), 2 Malédiction d’attraction des flèches, 6 Malédiction de couardise.</li>
 </ul>
 <p></p>
@@ -564,9 +566,10 @@ Résumé Phase de Tir
 <ul>
 <li>Une unité <span style="color:red"><strong>ne peut pas tirer</strong></span> ou <strong>lancer un vortex et projectile</strong> si elle a <strong>chargé</strong> ou effectué une <strong>marche forcée</strong> (p 137).</li>
 <li>Vérifier les lignes de vue comme décrit page 103 et vérifier la portée.</li>
-<li><strong>Vortex et projectiles magiques éventuels</strong> en sachant Loi du nombre ➜ Si chaman orque dans pack à PU 10 &gt;+1 au lancement de sort (HS p14) :
+<li><strong>Vortex et projectiles magiques éventuels</strong> en sachant <u id="loi_du_nombre">Loi du nombre</u> :
 <ul>
 <li>Magie Waagh ➜ <u id="kraz_tête">Kraz’Tête</u> / <u id="regard_de_gork">Regard de Gork</u> / <u id="poing_de_gork">Poing De Gork</u> / <u id="regard_vindicatif">Regard Vindicatif</u> / <u id="pied_de_gork">Pied de Gork</u>.</li>
+<li>Magie Waagh ➜ <u id="invocation_desprit_elemental">Invocation desprit elemental</u> / <u id="bourrasque">Bourrasque</u></li>
 </ul></li>
 </ul>
 <details>
@@ -742,10 +745,11 @@ Description de qui peu taper
 <p><strong>Attaque</strong></p>
 <ul>
 <li>Compter le <code>+1A</code> en attaque des unitées [<em>Orques Noir</em>, <em>sanglier</em>] avec le token de <u id="charges_devastatrices">charges dévastatrices</u>.</li>
-<li>Sort d’assaillement éventuelle en fonction de l’ initiative du lanceur:
+<li>Sort d’<u id="assaillement">Assaillement</u> éventuelle:
 <ul>
-<li>Magie Waagh &gt; (p 334) <u id="poing_de_gork">Poing de Mork</u> &amp; <u id="kraz_tête">Kraz Tête</u></li>
-<li>Illusionnisme &gt; (p 331) 5 Double Spectral, Elementalisme &gt; (p 326) 1 Epée Enflammée, Bataille &gt; (p 320), Main de Marteau.</li>
+<li>Magie Waagh ➜ <u id="poing_de_gork">Poing de Mork</u> &amp; <u id="kraz_tête">Kraz Tête</u></li>
+<li>Elementalisme ➜ <u id="epee_enflammee">Epee enflammee</u></li>
+<li>Other: Illusionnisme ➜ (p 331) 5 Double Spectral, Bataille &gt; (p 320), Main de Marteau.</li>
 </ul></li>
 </ul>
 </section>
@@ -1166,248 +1170,288 @@ Diagramme Résolution combat et moral
 <p><strong>Terrains spéciaux :</strong> cf scénario</p>
 <div class="cell">
 <div class="cell-output-display">
-<span class="tippy html-widget html-fill-item" height="464px" id="htmlwidget-b3a102899b6afc0900be" width="100%"></span>
-<script type="application/json" data-for="htmlwidget-b3a102899b6afc0900be">{"x":{"element":"stupide","opts":{"content":"À moins d'être en train de fuir ou engagée en combat,une unité ayant cette règle spéciale doit effectuer un test de Stupidité en faisant un test sous sa caractéristique de Commandement à la sous-phase de Début du Tour de chacun de ses tours. En cas d'échec, l'unité cède à la Stupidité. Une unité qui a cédé à la Stupidité : • Ne peut pas se déplacer / Ne peut pas tirer ou lancer de sorts / Ne peut pas tenter de dissipation Magique. / Doit “Tenir sa Position” si elle est chargée par un ennemi."}},"evals":[],"jsHooks":[]}</script>
+<span class="tippy html-widget html-fill-item" height="464px" id="htmlwidget-19b75c1e5fcfaf339e72" width="100%"></span>
+<script type="application/json" data-for="htmlwidget-19b75c1e5fcfaf339e72">{"x":{"element":"avant_garde","opts":{"content":"Avant-garde [Vanguard] : peut faire un mouvement (mais pas de marche forcée) après le déploiement mais si effectué ne peut pas charger au 1er tour."}},"evals":[],"jsHooks":[]}</script>
 </div>
 <div class="cell-output-display">
-<span class="tippy html-widget html-fill-item" height="464px" id="htmlwidget-4dfafc14a73431a05300" width="100%"></span>
-<script type="application/json" data-for="htmlwidget-4dfafc14a73431a05300">{"x":{"element":"lacher_fanatique","opts":{"content":"Lâchez les Fanatiques ! Une unité cachette peut lâcher un ou plusieurs des Fanatiques à n'importe quelle sous-phase de Début de Tour. Quand un Fanatique est lâché, il bondit dans les airs pour atterrir en tourbillonnant à plusieurs mètres de son unité cachette, avant de commencer son parcours erratique à travers le champ de bataille. Pour représenter cela, placez la figurine de sorte que son socle soit à 3” de son unité cachette, et qu'elle n'atteigne pas le socle d'aucune autre figurine. Il ce déplacera de 2D6 dans la direction choisi lors de sa sortie. [§]"}},"evals":[],"jsHooks":[]}</script>
+<span class="tippy html-widget html-fill-item" height="464px" id="htmlwidget-a607117d0ed05fe0d067" width="100%"></span>
+<script type="application/json" data-for="htmlwidget-a607117d0ed05fe0d067">{"x":{"element":"stupide","opts":{"content":"À moins d'être en train de fuir ou engagée en combat,une unité ayant cette règle spéciale doit effectuer un test de Stupidité en faisant un test sous sa caractéristique de Commandement à la sous-phase de Début du Tour de chacun de ses tours. En cas d'échec, l'unité cède à la Stupidité. Une unité qui a cédé à la Stupidité : • Ne peut pas se déplacer / Ne peut pas tirer ou lancer de sorts / Ne peut pas tenter de dissipation Magique. / Doit “Tenir sa Position” si elle est chargée par un ennemi."}},"evals":[],"jsHooks":[]}</script>
 </div>
 <div class="cell-output-display">
-<span class="tippy html-widget html-fill-item" height="464px" id="htmlwidget-350c93bca504a64e9b87" width="100%"></span>
-<script type="application/json" data-for="htmlwidget-350c93bca504a64e9b87">{"x":{"element":"mouvement_fanatique","opts":{"content":"Pendant la sous-phase de Mouvements Obligatoires du tour où il a été lâché, un Fanatique se déplace de 2D6” dans une direction choisie par son joueur en contrôle. À chacune des autres sous-phases de Mouvements Obligatoires, un Fanatique se déplace de 2D6” dans une direction aléatoire. Si le mouvement d’un Fanatique l’amène en contact avec une unité (amie ou ennemie), il traverse cette unité. Continuez à le déplacer dans la même direction jusqu’à ce qu’il puisse être placé sur le champ de bataille de sorte que son socle ne touche le socle d’aucune autre figurine."}},"evals":[],"jsHooks":[]}</script>
+<span class="tippy html-widget html-fill-item" height="464px" id="htmlwidget-02c0865353d7b828ec39" width="100%"></span>
+<script type="application/json" data-for="htmlwidget-02c0865353d7b828ec39">{"x":{"element":"lacher_fanatique","opts":{"content":"Lâchez les Fanatiques ! Une unité cachette peut lâcher un ou plusieurs des Fanatiques à n'importe quelle sous-phase de Début de Tour. Quand un Fanatique est lâché, il bondit dans les airs pour atterrir en tourbillonnant à plusieurs mètres de son unité cachette, avant de commencer son parcours erratique à travers le champ de bataille. Pour représenter cela, placez la figurine de sorte que son socle soit à 3” de son unité cachette, et qu'elle n'atteigne pas le socle d'aucune autre figurine. Il ce déplacera de 2D6 dans la direction choisi lors de sa sortie. [§]"}},"evals":[],"jsHooks":[]}</script>
 </div>
 <div class="cell-output-display">
-<span class="tippy html-widget html-fill-item" height="464px" id="htmlwidget-0fc5f8efae4254a5d318" width="100%"></span>
-<script type="application/json" data-for="htmlwidget-0fc5f8efae4254a5d318">{"x":{"element":"waaagh","opts":{"content":"Une fois par partie, pendant la sous-phase de Commandement de son tour, ce personnage peut tenter d'invoquer le pouvoir de la Waaagh ! en effectuant un test de Commandement (en utilisant son propre Commandement). En cas de réussite, jusqu'à votre prochaine sous-phase de Début de Tour, ce personnage, sa monture et toute unité Orques qui le rejoint peuvent relancer n’importe quel nombre de 1 naturels aux résultats des jets de Touche et, quand on calcule son résultat de combat, peut recevoir un bonus de +1 point de résultat de combat supplémentaire. [§]"}},"evals":[],"jsHooks":[]}</script>
+<span class="tippy html-widget html-fill-item" height="464px" id="htmlwidget-8a84a8d49e32b82718b8" width="100%"></span>
+<script type="application/json" data-for="htmlwidget-8a84a8d49e32b82718b8">{"x":{"element":"mouvement_fanatique","opts":{"content":"Pendant la sous-phase de Mouvements Obligatoires du tour où il a été lâché, un Fanatique se déplace de 2D6” dans une direction choisie par son joueur en contrôle. À chacune des autres sous-phases de Mouvements Obligatoires, un Fanatique se déplace de 2D6” dans une direction aléatoire. Si le mouvement d’un Fanatique l’amène en contact avec une unité (amie ou ennemie), il traverse cette unité. Continuez à le déplacer dans la même direction jusqu’à ce qu’il puisse être placé sur le champ de bataille de sorte que son socle ne touche le socle d’aucune autre figurine."}},"evals":[],"jsHooks":[]}</script>
 </div>
 <div class="cell-output-display">
-<span class="tippy html-widget html-fill-item" height="464px" id="htmlwidget-7c16b738742b5e5cd4c2" width="100%"></span>
-<script type="application/json" data-for="htmlwidget-7c16b738742b5e5cd4c2">{"x":{"element":"cri_de_ralliement","opts":{"content":"Pendant sa phase de Cd, peut forcer une unité à portée de Cd à faire un test de ralliement."}},"evals":[],"jsHooks":[]}</script>
+<span class="tippy html-widget html-fill-item" height="464px" id="htmlwidget-d932673a286baa02ad9f" width="100%"></span>
+<script type="application/json" data-for="htmlwidget-d932673a286baa02ad9f">{"x":{"element":"waaagh","opts":{"content":"Une fois par partie, pendant la sous-phase de Commandement de son tour, ce personnage peut tenter d'invoquer le pouvoir de la Waaagh ! en effectuant un test de Commandement (en utilisant son propre Commandement). En cas de réussite, jusqu'à votre prochaine sous-phase de Début de Tour, ce personnage, sa monture et toute unité Orques qui le rejoint peuvent relancer n’importe quel nombre de 1 naturels aux résultats des jets de Touche et, quand on calcule son résultat de combat, peut recevoir un bonus de +1 point de résultat de combat supplémentaire. [§]"}},"evals":[],"jsHooks":[]}</script>
 </div>
 <div class="cell-output-display">
-<span class="tippy html-widget html-fill-item" height="464px" id="htmlwidget-22f1b0bc8a09d8f5f4b1" width="100%"></span>
-<script type="application/json" data-for="htmlwidget-22f1b0bc8a09d8f5f4b1">{"x":{"element":"effigie_de_mork","opts":{"content":"Le porteur de l’Idole de Mork augmente sa portée de Dissipation de 3”. En outre, une fois par tour, quand il tente une dissipation Magique, le porteur de l’Idole de Mork peut relancer le jet de Dissipation."}},"evals":[],"jsHooks":[]}</script>
+<span class="tippy html-widget html-fill-item" height="464px" id="htmlwidget-63f4e742ed3ca07bde2b" width="100%"></span>
+<script type="application/json" data-for="htmlwidget-63f4e742ed3ca07bde2b">{"x":{"element":"cri_de_ralliement","opts":{"content":"Pendant sa phase de Cd, peut forcer une unité à portée de Cd à faire un test de ralliement."}},"evals":[],"jsHooks":[]}</script>
 </div>
 <div class="cell-output-display">
-<span class="tippy html-widget html-fill-item" height="464px" id="htmlwidget-5f455c36965781f6b452" width="100%"></span>
-<script type="application/json" data-for="htmlwidget-5f455c36965781f6b452">{"x":{"element":"dissipation","opts":{"content":"La portée de Dissipation varie selon le Niveau du Sorcier désigné : Niveau 1 et 2 ➜ portée de 18” / Niveau 3 et 4 ➜ portée de 24”. Les Sorciers engagés en combat, qui sont en fuite ou qui ne sont pas sur le champ de bataille ne peuvent pas être désignés. Jetez 2D6 et , ajoutez le Niveau du Sorcier au résultat de ce jet pour obtenir le 'résultat de dissipation'. Dénouement = double 6 ➜ dissipation | Surclassé double 1 ➜ jet sur le tableau des Fiascos [§]"}},"evals":[],"jsHooks":[]}</script>
+<span class="tippy html-widget html-fill-item" height="464px" id="htmlwidget-7448e1e7d62487d10c7b" width="100%"></span>
+<script type="application/json" data-for="htmlwidget-7448e1e7d62487d10c7b">{"x":{"element":"effigie_de_mork","opts":{"content":"Le porteur de l’Idole de Mork augmente sa portée de Dissipation de 3”. En outre, une fois par tour, quand il tente une dissipation Magique, le porteur de l’Idole de Mork peut relancer le jet de Dissipation."}},"evals":[],"jsHooks":[]}</script>
 </div>
 <div class="cell-output-display">
-<span class="tippy html-widget html-fill-item" height="464px" id="htmlwidget-4ef789d9c7118024f8e1" width="100%"></span>
-<script type="application/json" data-for="htmlwidget-4ef789d9c7118024f8e1">{"x":{"element":"kraz_tête","opts":{"content":"[Gork default 1 OG] Type : Assaillement / Valeur de Lancement : 10+ / Portée : Combat / Effet : Une seule figurine ennemie avec qui le lanceur est engagé en combat subit une seule touche de Force 6 avec la règle spéciale Blessures Multiples (D3) et sans sauvegarde d’Armure ni de Régénération autorisées (les sauvegardes Invulnérables peuvent être tentées normalement)."}},"evals":[],"jsHooks":[]}</script>
+<span class="tippy html-widget html-fill-item" height="464px" id="htmlwidget-9c47028c8ce4bb18af14" width="100%"></span>
+<script type="application/json" data-for="htmlwidget-9c47028c8ce4bb18af14">{"x":{"element":"loi_du_nombre","opts":{"content":"Si ce personnage a rejoint une unité d’Orques ayant une PU de 10 ou plus, il peut appliquer un modificateur de +1 à tout jet de Lancement qu’il effectue. S’il quitte l’unité pour quelque raison que ce soit, ou si la PU de l’unité descend en dessous de 10, ce modificateur est perdu."}},"evals":[],"jsHooks":[]}</script>
 </div>
 <div class="cell-output-display">
-<span class="tippy html-widget html-fill-item" height="464px" id="htmlwidget-a7972d7b118aa7d8d4a9" width="100%"></span>
-<script type="application/json" data-for="htmlwidget-a7972d7b118aa7d8d4a9">{"x":{"element":"regard_de_gork","opts":{"content":"[Gork default 2 OG] Type : Projectile Magique / Valeur de Lancement : 9+ / Portée : 5D6” / Effet : Tracez une ligne droite de 5D6” de long, à partir du bord du socle du lanceur. Toute figurine (amie ou ennemie) dont le socle se trouve sous cette ligne subit une touche de Force 5, PA -3."}},"evals":[],"jsHooks":[]}</script>
+<span class="tippy html-widget html-fill-item" height="464px" id="htmlwidget-ee31cb5d653d0a6951ae" width="100%"></span>
+<script type="application/json" data-for="htmlwidget-ee31cb5d653d0a6951ae">{"x":{"element":"dissipation","opts":{"content":"La portée de Dissipation varie selon le Niveau du Sorcier désigné : Niveau 1 et 2 ➜ portée de 18” / Niveau 3 et 4 ➜ portée de 24”. Les Sorciers engagés en combat, qui sont en fuite ou qui ne sont pas sur le champ de bataille ne peuvent pas être désignés. Jetez 2D6 et , ajoutez le Niveau du Sorcier au résultat de ce jet pour obtenir le 'résultat de dissipation'. Dénouement = double 6 ➜ dissipation | Surclassé double 1 ➜ jet sur le tableau des Fiascos [§]"}},"evals":[],"jsHooks":[]}</script>
 </div>
 <div class="cell-output-display">
-<span class="tippy html-widget html-fill-item" height="464px" id="htmlwidget-f7739f1299304e919f71" width="100%"></span>
-<script type="application/json" data-for="htmlwidget-f7739f1299304e919f71">{"x":{"element":"malediction_de_mork","opts":{"content":"[Mork default 1 OG] Type : Maléfice / Valeur de Lancement : 8+ / Portée : 18” / Effet : Reste en Jeu. Tant que ce sort est en jeu, l’unité ennemie visée doit relancer tout jet de Sauvegarde d’Armure ayant donné un 6 naturel."}},"evals":[],"jsHooks":[]}</script>
+<span class="tippy html-widget html-fill-item" height="464px" id="htmlwidget-3d98ab50e7e9dceaf368" width="100%"></span>
+<script type="application/json" data-for="htmlwidget-3d98ab50e7e9dceaf368">{"x":{"element":"assaillement","opts":{"content":"Sorts d’Assaillement: Si un sorcier qui est engagé en combat connait un ou plusieurs sorts d’Assaillement, il peut tenter de les lancer en plus de ses attaques normales quand c’est son tour de combattre, comme déterminé par son Initiative."}},"evals":[],"jsHooks":[]}</script>
 </div>
 <div class="cell-output-display">
-<span class="tippy html-widget html-fill-item" height="464px" id="htmlwidget-35bd884b5eac4661d9b3" width="100%"></span>
-<script type="application/json" data-for="htmlwidget-35bd884b5eac4661d9b3">{"x":{"element":"urticaire_ultime","opts":{"content":"[Mork default 2 OG] Type : Maléfice / Valeur de Lancement : 9+ / Portée : 15” / Effet : Jusqu’à votre prochaine sous-phase de Début de Tour, l’unité ennemie visée subit un modificateur de -D3 à ses caractéristiques d’Endurance et d’Initiative (jusqu’à un minimum de 1)."}},"evals":[],"jsHooks":[]}</script>
+<span class="tippy html-widget html-fill-item" height="464px" id="htmlwidget-0066e638045ae5b0489f" width="100%"></span>
+<script type="application/json" data-for="htmlwidget-0066e638045ae5b0489f">{"x":{"element":"kraz_tête","opts":{"content":"[Gork default 1 OG] Type : Assaillement / Valeur de Lancement : 10+ / Portée : Combat / Effet : Une seule figurine ennemie avec qui le lanceur est engagé en combat subit une seule touche de Force 6 avec la règle spéciale Blessures Multiples (D3) et sans sauvegarde d’Armure ni de Régénération autorisées (les sauvegardes Invulnérables peuvent être tentées normalement)."}},"evals":[],"jsHooks":[]}</script>
 </div>
 <div class="cell-output-display">
-<span class="tippy html-widget html-fill-item" height="464px" id="htmlwidget-e1efef0dd761c67db6b4" width="100%"></span>
-<script type="application/json" data-for="htmlwidget-e1efef0dd761c67db6b4">{"x":{"element":"poing_de_gork","opts":{"content":"[default Waaagh] Type: Assaillement / Valeur de Lancement : 8+* / Portée : Combat / Effet: Placez un grand (5”) gabarit dexplosion de sorte que son trou central soit directement au-dessus du centre d'une unité avec laquelle le lanceur est engagé en combat. Une fois en place, le gabarit dévie de D3”+1. Toute figurine (amie ou ennemie) dont le socle se trouve sous la  position finale du gabarit risque dêtre touchée (voir p.95) et Les Domaines De Magie subit une seule touche de Force 4 avec une PA de -1."}},"evals":[],"jsHooks":[]}</script>
+<span class="tippy html-widget html-fill-item" height="464px" id="htmlwidget-4cda28dbd6413f9a4088" width="100%"></span>
+<script type="application/json" data-for="htmlwidget-4cda28dbd6413f9a4088">{"x":{"element":"regard_de_gork","opts":{"content":"[Gork default 2 OG] Type : Projectile Magique / Valeur de Lancement : 9+ / Portée : 5D6” / Effet : Tracez une ligne droite de 5D6” de long, à partir du bord du socle du lanceur. Toute figurine (amie ou ennemie) dont le socle se trouve sous cette ligne subit une touche de Force 5, PA -3."}},"evals":[],"jsHooks":[]}</script>
 </div>
 <div class="cell-output-display">
-<span class="tippy html-widget html-fill-item" height="464px" id="htmlwidget-d581b9fdeab9c04c2de1" width="100%"></span>
-<script type="application/json" data-for="htmlwidget-d581b9fdeab9c04c2de1">{"x":{"element":"regard_vindicatif","opts":{"content":"[1 Waaagh] Type : Projectile Magique / Valeur de Lancement : 8+ / Portée : 21” / Effet : L’unité cible ennemie subit une seule touche de Force 7 avec la règle spéciale Blessures Multiples (D3) et sans sauvegarde d’armure autorisée (les sauvegardes invulnérables et de Régénération peuvent être tentées normalement). Ce sort peut cibler une unité ennemie engagée en combat."}},"evals":[],"jsHooks":[]}</script>
+<span class="tippy html-widget html-fill-item" height="464px" id="htmlwidget-211f5c51a4f7d0b369e3" width="100%"></span>
+<script type="application/json" data-for="htmlwidget-211f5c51a4f7d0b369e3">{"x":{"element":"malediction_de_mork","opts":{"content":"[Mork default 1 OG] Type : Maléfice / Valeur de Lancement : 8+ / Portée : 18” / Effet : Reste en Jeu. Tant que ce sort est en jeu, l’unité ennemie visée doit relancer tout jet de Sauvegarde d’Armure ayant donné un 6 naturel."}},"evals":[],"jsHooks":[]}</script>
 </div>
 <div class="cell-output-display">
-<span class="tippy html-widget html-fill-item" height="464px" id="htmlwidget-1b2f7925e796a1ec202d" width="100%"></span>
-<script type="application/json" data-for="htmlwidget-1b2f7925e796a1ec202d">{"x":{"element":"main_de_mork","opts":{"content":"[2 Waaagh] Type : Transfert / Valeur de Lancement : 7+ / Portée : 1” / Effet : Ce sort peut cibler uniquement les personnages amis, mais il peut cibler des personnages engagés en combat. Vous pouvez immédiatement retirer le personnage ciblé du champ de bataille et le replacer n’importe où à 2D” de sa position d’origine, mais pas à plus de 3” de toute figurine ennemie. Toutefois, en cas de double 1, le personnage atterrit mal et perd un seul Point de Vie.Notez que ce sort autorise un personnage à quitter le combat."}},"evals":[],"jsHooks":[]}</script>
+<span class="tippy html-widget html-fill-item" height="464px" id="htmlwidget-f2345f303e509a402995" width="100%"></span>
+<script type="application/json" data-for="htmlwidget-f2345f303e509a402995">{"x":{"element":"urticaire_ultime","opts":{"content":"[Mork default 2 OG] Type : Maléfice / Valeur de Lancement : 9+ / Portée : 15” / Effet : Jusqu’à votre prochaine sous-phase de Début de Tour, l’unité ennemie visée subit un modificateur de -D3 à ses caractéristiques d’Endurance et d’Initiative (jusqu’à un minimum de 1)."}},"evals":[],"jsHooks":[]}</script>
 </div>
 <div class="cell-output-display">
-<span class="tippy html-widget html-fill-item" height="464px" id="htmlwidget-82757dd05113fbf9f627" width="100%"></span>
-<script type="application/json" data-for="htmlwidget-82757dd05113fbf9f627">{"x":{"element":"lever_dla_mauvaise_lune","opts":{"content":"[3 Waaagh] Type : Maléfice / Valeur de Lancement : 10+ / Portée : 15” / Effet : Jusqu’à la fin de ce tour, l’unité cible ennemie subit un modificateur de -D3 à ses caractéristiques de Capacité de Combat et d’Initiative (jusqu’à un minimum de 1)."}},"evals":[],"jsHooks":[]}</script>
+<span class="tippy html-widget html-fill-item" height="464px" id="htmlwidget-ebec74ecd8e77e50e9d8" width="100%"></span>
+<script type="application/json" data-for="htmlwidget-ebec74ecd8e77e50e9d8">{"x":{"element":"poing_de_gork","opts":{"content":"[default Waaagh] Type: Assaillement / Valeur de Lancement : 8+* / Portée : Combat / Effet: Placez un grand (5”) gabarit dexplosion de sorte que son trou central soit directement au-dessus du centre d'une unité avec laquelle le lanceur est engagé en combat. Une fois en place, le gabarit dévie de D3”+1. Toute figurine (amie ou ennemie) dont le socle se trouve sous la  position finale du gabarit risque dêtre touchée (voir p.95) et Les Domaines De Magie subit une seule touche de Force 4 avec une PA de -1."}},"evals":[],"jsHooks":[]}</script>
 </div>
 <div class="cell-output-display">
-<span class="tippy html-widget html-fill-item" height="464px" id="htmlwidget-0bd63fd98b1dbb2a12c7" width="100%"></span>
-<script type="application/json" data-for="htmlwidget-0bd63fd98b1dbb2a12c7">{"x":{"element":"leklat_du_soleil_malefikk","opts":{"content":"[4 Waaagh] Type : Enchantement / Valeur de Lancement : 9+ / Portée : Lanceur / Effet : Jusqu’à votre prochaine sous-phase de Début du Tour, les unités amies qui sont dans la portée de Commandement du lanceur peuvent relancer tout résultat de 1 au jet de Touche, et améliorent la caractéristique de PA de leurs armes de 1."}},"evals":[],"jsHooks":[]}</script>
+<span class="tippy html-widget html-fill-item" height="464px" id="htmlwidget-c9a093e4463928eb7c60" width="100%"></span>
+<script type="application/json" data-for="htmlwidget-c9a093e4463928eb7c60">{"x":{"element":"regard_vindicatif","opts":{"content":"[1 Waaagh] Type : Projectile Magique / Valeur de Lancement : 8+ / Portée : 21” / Effet : L’unité cible ennemie subit une seule touche de Force 7 avec la règle spéciale Blessures Multiples (D3) et sans sauvegarde d’armure autorisée (les sauvegardes invulnérables et de Régénération peuvent être tentées normalement). Ce sort peut cibler une unité ennemie engagée en combat."}},"evals":[],"jsHooks":[]}</script>
 </div>
 <div class="cell-output-display">
-<span class="tippy html-widget html-fill-item" height="464px" id="htmlwidget-3f41e56fc3d85e71e8f6" width="100%"></span>
-<script type="application/json" data-for="htmlwidget-3f41e56fc3d85e71e8f6">{"x":{"element":"on_y_va","opts":{"content":"[5 Waaagh] Type : Enchantement / Valeur de Lancement : 8+* / Portée : Lanceur / Effet : Toute unité amie qui est dans la portée de Commandement du lanceur à la sous-phase Déclarer les Charges & les Réactions aux Charges de ce tour augmente sa portée maximale de charge de 3” et quand elle effectue un jet de Charge, peut appliquer un modificateur de +D3 au jet."}},"evals":[],"jsHooks":[]}</script>
+<span class="tippy html-widget html-fill-item" height="464px" id="htmlwidget-eeb2ad54d447f81025f9" width="100%"></span>
+<script type="application/json" data-for="htmlwidget-eeb2ad54d447f81025f9">{"x":{"element":"main_de_mork","opts":{"content":"[2 Waaagh] Type : Transfert / Valeur de Lancement : 7+ / Portée : 1” / Effet : Ce sort peut cibler uniquement les personnages amis, mais il peut cibler des personnages engagés en combat. Vous pouvez immédiatement retirer le personnage ciblé du champ de bataille et le replacer n’importe où à 2D” de sa position d’origine, mais pas à plus de 3” de toute figurine ennemie. Toutefois, en cas de double 1, le personnage atterrit mal et perd un seul Point de Vie.Notez que ce sort autorise un personnage à quitter le combat."}},"evals":[],"jsHooks":[]}</script>
 </div>
 <div class="cell-output-display">
-<span class="tippy html-widget html-fill-item" height="464px" id="htmlwidget-25591973eda0b7a989de" width="100%"></span>
-<script type="application/json" data-for="htmlwidget-25591973eda0b7a989de">{"x":{"element":"pied_de_gork","opts":{"content":"[6 Waaagh] Type : Vortex Magique / Valeur de Lancement : 8+ / Portée : 15” / Effet : Reste en jeu. Placez un grand (5”) gabarit d’explosion de sorte que son trou central soit à 1” du lanceur. Tant qu’il est en jeu, le gabarit ne se déplace pas et est traité comme du terrain dangereux. Le gabarit se déplace de 2D6” dans une direction aléatoire à chaque sous-phase de Début du Tour. Toute unité (amie ou ennemie) que le gabarit mouvant touche subit D3+3 touches de Force 5, chacune avec une PA de -1."}},"evals":[],"jsHooks":[]}</script>
+<span class="tippy html-widget html-fill-item" height="464px" id="htmlwidget-08926b6c68b432202fb2" width="100%"></span>
+<script type="application/json" data-for="htmlwidget-08926b6c68b432202fb2">{"x":{"element":"lever_dla_mauvaise_lune","opts":{"content":"[3 Waaagh] Type : Maléfice / Valeur de Lancement : 10+ / Portée : 15” / Effet : Jusqu’à la fin de ce tour, l’unité cible ennemie subit un modificateur de -D3 à ses caractéristiques de Capacité de Combat et d’Initiative (jusqu’à un minimum de 1)."}},"evals":[],"jsHooks":[]}</script>
 </div>
 <div class="cell-output-display">
-<span class="tippy html-widget html-fill-item" height="464px" id="htmlwidget-3b7719a211bb67123ce5" width="100%"></span>
-<script type="application/json" data-for="htmlwidget-3b7719a211bb67123ce5">{"x":{"element":"test_commandement","opts":{"content":"Pour effectuer un test de Commandement, jetez 2D6. Si le résultat est inférieur ou égal à la valeur de Commandement de la figurine, le test est réussi. Si le résultat est supérieur, c’est un échec."}},"evals":[],"jsHooks":[]}</script>
+<span class="tippy html-widget html-fill-item" height="464px" id="htmlwidget-a5c6e23dc9905d88e1aa" width="100%"></span>
+<script type="application/json" data-for="htmlwidget-a5c6e23dc9905d88e1aa">{"x":{"element":"leklat_du_soleil_malefikk","opts":{"content":"[4 Waaagh] Type : Enchantement / Valeur de Lancement : 9+ / Portée : Lanceur / Effet : Jusqu’à votre prochaine sous-phase de Début du Tour, les unités amies qui sont dans la portée de Commandement du lanceur peuvent relancer tout résultat de 1 au jet de Touche, et améliorent la caractéristique de PA de leurs armes de 1."}},"evals":[],"jsHooks":[]}</script>
 </div>
 <div class="cell-output-display">
-<span class="tippy html-widget html-fill-item" height="464px" id="htmlwidget-c0bfb6d3b2356cb84589" width="100%"></span>
-<script type="application/json" data-for="htmlwidget-c0bfb6d3b2356cb84589">{"x":{"element":"peur","opts":{"content":"Pour déclarer une charge contre une figurine avec cette règle, si l’ennemi à une PU inferieure, l'unité doit faire un test de Cd. Si échec : la charge est ratée. Au combat : si l’ennemi à une PU inférieure, elle doit faire un test de Cd. Si échec : -1 aux jets de touches contre l’unité. Immunisé à la peur. [§] (p168)"}},"evals":[],"jsHooks":[]}</script>
+<span class="tippy html-widget html-fill-item" height="464px" id="htmlwidget-244d79d9e375d8c1b406" width="100%"></span>
+<script type="application/json" data-for="htmlwidget-244d79d9e375d8c1b406">{"x":{"element":"on_y_va","opts":{"content":"[5 Waaagh] Type : Enchantement / Valeur de Lancement : 8+* / Portée : Lanceur / Effet : Toute unité amie qui est dans la portée de Commandement du lanceur à la sous-phase Déclarer les Charges & les Réactions aux Charges de ce tour augmente sa portée maximale de charge de 3” et quand elle effectue un jet de Charge, peut appliquer un modificateur de +D3 au jet."}},"evals":[],"jsHooks":[]}</script>
 </div>
 <div class="cell-output-display">
-<span class="tippy html-widget html-fill-item" height="464px" id="htmlwidget-82ad007960ae2d7ae5a5" width="100%"></span>
-<script type="application/json" data-for="htmlwidget-82ad007960ae2d7ae5a5">{"x":{"element":"mouvement_og","opts":{"content":"Mouvement: Gobs Orques & Orques noir: M4 | Sanglier & araigné [rapides]: M7 | Loup [rapide]: M9 | Vouivre [rapides]: Vol9 | Squig: M3D6"}},"evals":[],"jsHooks":[]}</script>
+<span class="tippy html-widget html-fill-item" height="464px" id="htmlwidget-344adb25650e03703ffb" width="100%"></span>
+<script type="application/json" data-for="htmlwidget-344adb25650e03703ffb">{"x":{"element":"pied_de_gork","opts":{"content":"[6 Waaagh] Type : Vortex Magique / Valeur de Lancement : 8+ / Portée : 15” / Effet : Reste en jeu. Placez un grand (5”) gabarit d’explosion de sorte que son trou central soit à 1” du lanceur. Tant qu’il est en jeu, le gabarit ne se déplace pas et est traité comme du terrain dangereux. Le gabarit se déplace de 2D6” dans une direction aléatoire à chaque sous-phase de Début du Tour. Toute unité (amie ou ennemie) que le gabarit mouvant touche subit D3+3 touches de Force 5, chacune avec une PA de -1."}},"evals":[],"jsHooks":[]}</script>
 </div>
 <div class="cell-output-display">
-<span class="tippy html-widget html-fill-item" height="464px" id="htmlwidget-70c7454f6efd9f3a390b" width="100%"></span>
-<script type="application/json" data-for="htmlwidget-70c7454f6efd9f3a390b">{"x":{"element":"marche_force","opts":{"content":"Une unité en marche forcée peut doubler sa caractéristique de Mouvement, elle peut faire une roue pour changer de direction, mais elle ne peut pas exécuter d'autres manœuvres. Si l'unité est à 8'' d’une unité ennemie (en ignorant les unités ennemies en fuite), elle doit d’abord effectuer un test de Commandement. En cas d’échec, l’unité refuse de faire une marche forcée mais peut se déplacer normalement.[§]"}},"evals":[],"jsHooks":[]}</script>
+<span class="tippy html-widget html-fill-item" height="464px" id="htmlwidget-99053505e8e9c432e98d" width="100%"></span>
+<script type="application/json" data-for="htmlwidget-99053505e8e9c432e98d">{"x":{"element":"appeler_la_tempete","opts":{"content":"[default Elementaliste] Type : Maléfice / Valeur de Lancement : 7+ / Portée : 12” / Effet : Jusqu’à votre prochaine sous-phase de Début du Tour, l’unité cible ennemie subit un modificateur de -1 à ses caractéristiques de Mouvement et d’Initiative (jusqu’à un minimum de 1). Si ce sort est lancé, les effets de tout autre Maléfice lancé précédemment sur l’unité cible expirent immédiatement."}},"evals":[],"jsHooks":[]}</script>
 </div>
 <div class="cell-output-display">
-<span class="tippy html-widget html-fill-item" height="464px" id="htmlwidget-81dd1bd215f2a0c84d58" width="100%"></span>
-<script type="application/json" data-for="htmlwidget-81dd1bd215f2a0c84d58">{"x":{"element":"pesant","opts":{"content":"Pesant : compte comme en ordre serré (+1 au résultat du combat si en ordre de combat si PU≥10) même en fig individuelle. Peut pivoter après mouvement jusqu’à 90° (sauf si marche forcée ou fuite). Ne peut pas être rejointe par un personnage."}},"evals":[],"jsHooks":[]}</script>
+<span class="tippy html-widget html-fill-item" height="464px" id="htmlwidget-781559e93a0652533bda" width="100%"></span>
+<script type="application/json" data-for="htmlwidget-781559e93a0652533bda">{"x":{"element":"epee_enflammee","opts":{"content":"[1 Elementaliste] Type : Assaillement / Valeur de Lancement : 6+ / Portée : Combat / Effet : Une seule unité ennemie avec laquelle le lanceur est engagé en combat subit D6+1 touches de Force 3, chacune avec une PA de -. Ces touches ont la règle spéciale Attaques Enflammées."}},"evals":[],"jsHooks":[]}</script>
 </div>
 <div class="cell-output-display">
-<span class="tippy html-widget html-fill-item" height="464px" id="htmlwidget-cec2e861fd26d62d902a" width="100%"></span>
-<script type="application/json" data-for="htmlwidget-cec2e861fd26d62d902a">{"x":{"element":"escorteurs_de_chars","opts":{"content":"Les figurines amies dont le type de troupe est “char” peuvent se déplacer à travers les figurines ayant cette règle spéciale et peuvent se déplacer à travers des unités d’Escorteurs de Chars amies qui sont en formation de Tirailleurs."}},"evals":[],"jsHooks":[]}</script>
+<span class="tippy html-widget html-fill-item" height="464px" id="htmlwidget-7c1b711d318fd2415cf9" width="100%"></span>
+<script type="application/json" data-for="htmlwidget-7c1b711d318fd2415cf9">{"x":{"element":"fleau_du_metal","opts":{"content":"[2 Elementaliste] Type : Maléfice / Valeur de Lancement : 9+ / Portée : 21” Effet : Jusqu’à votre prochaine sous-phase de Début du Tour, l’unité cible ennemie subit un modificateur de -2 à sa valeur d’armure. Ce sort peut cibler une unité ennemie engagée en combat."}},"evals":[],"jsHooks":[]}</script>
 </div>
 <div class="cell-output-display">
-<span class="tippy html-widget html-fill-item" height="464px" id="htmlwidget-370d0ac3e3e5f1bfaa1a" width="100%"></span>
-<script type="application/json" data-for="htmlwidget-370d0ac3e3e5f1bfaa1a">{"x":{"element":"commandement_og","opts":{"content":"Commandement: <br> Gobs: CD5|6 / Night Gobs: CD 4|5  <br> Orques: CD6|7 / Troll CD4 (CD5 ceux d'eau)  <br> Orques noir: CD8 <br> ~~ Héro ~~ <br> Gobs: CD6|7 / Héro Night Gobs: CD 5|6  <br> Héro Orques: CD7|8 / Héro Orques noir: CD8|9"}},"evals":[],"jsHooks":[]}</script>
+<span class="tippy html-widget html-fill-item" height="464px" id="htmlwidget-50375454091b797343ec" width="100%"></span>
+<script type="application/json" data-for="htmlwidget-50375454091b797343ec">{"x":{"element":"invocation_desprit_elemental","opts":{"content":"[3 Elementaliste] Type : Vortex Magique / Valeur de Lancement : 9+ / Portée : 15” / Effet : Reste en Jeu. Placez un petit (3”) gabarit d’explosion de sorte que le trou central soit à 15” du lanceur. Tant qu’il est en jeu, le gabarit est traité comme du terrain dangereux par-dessus lequel aucune ligne de vue ne peut être tracée. Le gabarit se déplace de D6” dans une direction aléatoire à chaque sous-phase de Début du Tour. Toute unité ennemie que le gabarit mouvant touche subit D3+3 touches de Force 4 chacune avec une PA de -1."}},"evals":[],"jsHooks":[]}</script>
 </div>
 <div class="cell-output-display">
-<span class="tippy html-widget html-fill-item" height="464px" id="htmlwidget-2a3b6cfde266c0c982ae" width="100%"></span>
-<script type="application/json" data-for="htmlwidget-2a3b6cfde266c0c982ae">{"x":{"element":"impetueux","opts":{"content":"Impétueux : Si, au cours de la sous-phase de Déclarer les Charges & Réactions aux Charges de son tour, une unité qui inclut au moins une figurine Impétueuse peut déclarer une charge, elle doit faire un test de Commandement. En cas d’échec, l'unité doit déclarer une charge. En cas de réussite, l'unité peut agir normalement."}},"evals":[],"jsHooks":[]}</script>
+<span class="tippy html-widget html-fill-item" height="464px" id="htmlwidget-3fe1b9ffec787faaa97a" width="100%"></span>
+<script type="application/json" data-for="htmlwidget-3fe1b9ffec787faaa97a">{"x":{"element":"remparts_telluriques","opts":{"content":"[4 Elementaliste] Type : Enchantement / Valeur de Lancement : 10+ / Portée : 15” / Effet : Jusqu’à votre prochaine sous-phase de Début du Tour, l’unité cible amie gagne une sauvegarde invulnérable de 5+ contre toute blessure subie et compte comme étant derrière un obstacle linéaire bas défendu si elle est chargée. Cependant, tant que ce sort est en jeu l’unité ne peut pas faire de marche forcée ni charger."}},"evals":[],"jsHooks":[]}</script>
 </div>
 <div class="cell-output-display">
-<span class="tippy html-widget html-fill-item" height="464px" id="htmlwidget-f0b84a5285a2e3bc4e45" width="100%"></span>
-<script type="application/json" data-for="htmlwidget-f0b84a5285a2e3bc4e45">{"x":{"element":"rapide","opts":{"content":"Rapide : Une unité ayant cette règle spéciale augmente sa portée de charge maximale possible de 3\" et, quand elle effectue un jet de Charge, de Fuite ou de Poursuite, elle peut appliquer un modificateur de +D6 au résultat. Une unité composée entièrement de figurines ayant cette règle spéciale augmente sa portée de charge maximum possible de 3\" et, avant d’effectuer un jet de Charge, de Fuite ou de Poursuite, elle peut appliquer un modificateur de +D6 au résultat."}},"evals":[],"jsHooks":[]}</script>
+<span class="tippy html-widget html-fill-item" height="464px" id="htmlwidget-8fa7a792d479f2927bd3" width="100%"></span>
+<script type="application/json" data-for="htmlwidget-8fa7a792d479f2927bd3">{"x":{"element":"bourrasque","opts":{"content":"[5 Elementaliste] Type : Projectile Magique / Valeur de Lancement : 8+ / Portée : 15” / Effet : L’unité cible ennemie subit D3+3 touches de Force 5, chacune avec une PA de -1. Une fois ces touches résolues, l’unité doit Céder du Terrain."}},"evals":[],"jsHooks":[]}</script>
 </div>
 <div class="cell-output-display">
-<span class="tippy html-widget html-fill-item" height="464px" id="htmlwidget-07a8cda70517a2b39fc6" width="100%"></span>
-<script type="application/json" data-for="htmlwidget-07a8cda70517a2b39fc6">{"x":{"element":"bande_de_guerre","opts":{"content":"À moins quelle soit en fuite, une Bande de guerre gagne un modificateur positif (+) à sa caractéristique de Commandement égal à son Bonus de rang actuel, jusquà un maximum de Cd de 10. Cependant, une Bande de Guerre ne peut pas utiliser ce modificateur si elle choisit d'effectuer un test de Retenue. En outre, si la majorité des figurines d'une unité ont cette règle spéciale, elle peut relancer son jet de Charge. Une Bande de Guerre ne peut pas utiliser ce modificateur si elle choisit d'effectuer un test de Retenue ou, si elle est Impétueuse, quand elle fait un test pour savoir si elle doit déclarer une charge ou peut agir normalement."}},"evals":[],"jsHooks":[]}</script>
+<span class="tippy html-widget html-fill-item" height="464px" id="htmlwidget-a109cefadfc3f99850b8" width="100%"></span>
+<script type="application/json" data-for="htmlwidget-a109cefadfc3f99850b8">{"x":{"element":"passage_mystique","opts":{"content":"[6 Elementaliste] Type : Transfert / Valeur de Lancement : 10+ / Portée : 9” / Effet : Si l’unité cible amie n’est pas en fuite et ne s’est pas déplacée à cette phase de Mouvement, vous pouvez immédiatement la retirer du champ de bataille et la placer n’importe où à 12” de sa position d’origine, mais à plus de 6” de toute figurine ennemie. L’unité cible amie ne peut pas se déplacer de nouveau à cette phase de Mouvement."}},"evals":[],"jsHooks":[]}</script>
 </div>
 <div class="cell-output-display">
-<span class="tippy html-widget html-fill-item" height="464px" id="htmlwidget-5f631ce45fc4840e2b5e" width="100%"></span>
-<script type="application/json" data-for="htmlwidget-5f631ce45fc4840e2b5e">{"x":{"element":"charges_devastatrices","opts":{"content":"Charge Dévastatrice: Lors d'un tour où elle a effectué un mouvement de charge de 3” ou plus, une figurine ayant cette règle spéciale gagne un modificateur de +1 à sa caractéristique d'Attaques."}},"evals":[],"jsHooks":[]}</script>
+<span class="tippy html-widget html-fill-item" height="464px" id="htmlwidget-c54f5df6aa37f740c99e" width="100%"></span>
+<script type="application/json" data-for="htmlwidget-c54f5df6aa37f740c99e">{"x":{"element":"test_commandement","opts":{"content":"Pour effectuer un test de Commandement, jetez 2D6. Si le résultat est inférieur ou égal à la valeur de Commandement de la figurine, le test est réussi. Si le résultat est supérieur, c’est un échec."}},"evals":[],"jsHooks":[]}</script>
 </div>
 <div class="cell-output-display">
-<span class="tippy html-widget html-fill-item" height="464px" id="htmlwidget-16b5248d0cf242fb59d7" width="100%"></span>
-<script type="application/json" data-for="htmlwidget-16b5248d0cf242fb59d7">{"x":{"element":"contre_charge","opts":{"content":"Si l’unité ennemi cavalerie, char ou monstre charge sur l’arc frontal de l’unité sur une distance plus longue que son mouvement, pivote vers l’ennemi et effectue un mouvement de D3+1”avant la charge. Compte comme ayant chargé."}},"evals":[],"jsHooks":[]}</script>
+<span class="tippy html-widget html-fill-item" height="464px" id="htmlwidget-66125cd7e825ef3a7c88" width="100%"></span>
+<script type="application/json" data-for="htmlwidget-66125cd7e825ef3a7c88">{"x":{"element":"peur","opts":{"content":"Pour déclarer une charge contre une figurine avec cette règle, si l’ennemi à une PU inferieure, l'unité doit faire un test de Cd. Si échec : la charge est ratée. Au combat : si l’ennemi à une PU inférieure, elle doit faire un test de Cd. Si échec : -1 aux jets de touches contre l’unité. Immunisé à la peur. [§] (p168)"}},"evals":[],"jsHooks":[]}</script>
 </div>
 <div class="cell-output-display">
-<span class="tippy html-widget html-fill-item" height="464px" id="htmlwidget-ed36bb91142bd5d9f034" width="100%"></span>
-<script type="application/json" data-for="htmlwidget-ed36bb91142bd5d9f034">{"x":{"element":"mouvement_aleatoire","opts":{"content":"Mouvement Aléatoire: Les figurines ayant cette règle spéciale n'ont pas de caractéristique de Mouvement normale. À la place, leur profil affiche un jet de dé (ex 2D6). Chaque fois qu'une figurine ayant cette règle spéciale se déplace (pour quelque raison que ce soit), jetez les dés pour déterminer la distance maximal à laquelle elle se déplace. Les figurines ayant cette règle spéciale se déplacent à la sous-phase des Mouvements Obligatoires. Elles ne peuvent pas effectuer de marche forcée ou déclarer de charge. Elles peuvent effectuer des roues pour changer de direction, mais ne peuvent pas exécuter d'autres manœuvres. Si la figurine peut entrer en contact avec une unité ennemie, elle doit déclarer une poursuite, elle peut le faire et effectuer comme annoncé. Une unité chargeée de cette manière doit faire un test de Commandement pour tenter sa Position. Si toutes les figurines d'une unité ont cette règle spéciale, faites un jet de dé pour toute l'unité. Si au moins deux figurines d'une unité ont des caractéristiques de Mouvement Aléatoire différentes, effectuez un jet pour chacune et il sera appliqué séparément, puis pour la totalité de l'unité."}},"evals":[],"jsHooks":[]}</script>
+<span class="tippy html-widget html-fill-item" height="464px" id="htmlwidget-5dd13641f76fb0a66ac7" width="100%"></span>
+<script type="application/json" data-for="htmlwidget-5dd13641f76fb0a66ac7">{"x":{"element":"mouvement_og","opts":{"content":"Mouvement: Gobs Orques & Orques noir: M4 | Sanglier & araigné [rapides]: M7 | Loup [rapide]: M9 | Vouivre [rapides]: Vol9 | Squig: M3D6"}},"evals":[],"jsHooks":[]}</script>
 </div>
 <div class="cell-output-display">
-<span class="tippy html-widget html-fill-item" height="464px" id="htmlwidget-8c738946b0050ccc47af" width="100%"></span>
-<script type="application/json" data-for="htmlwidget-8c738946b0050ccc47af">{"x":{"element":"arc_court","opts":{"content":"Portée 18” / F3 / PA0 - Règle spéciales: Tir rapide, Tir de Volée"}},"evals":[],"jsHooks":[]}</script>
+<span class="tippy html-widget html-fill-item" height="464px" id="htmlwidget-366f7255c6a09cb70c6c" width="100%"></span>
+<script type="application/json" data-for="htmlwidget-366f7255c6a09cb70c6c">{"x":{"element":"marche_force","opts":{"content":"Une unité en marche forcée peut doubler sa caractéristique de Mouvement, elle peut faire une roue pour changer de direction, mais elle ne peut pas exécuter d'autres manœuvres. Si l'unité est à 8'' d’une unité ennemie (en ignorant les unités ennemies en fuite), elle doit d’abord effectuer un test de Commandement. En cas d’échec, l’unité refuse de faire une marche forcée mais peut se déplacer normalement.[§]"}},"evals":[],"jsHooks":[]}</script>
 </div>
 <div class="cell-output-display">
-<span class="tippy html-widget html-fill-item" height="464px" id="htmlwidget-ca8fce40a5311cf29ad4" width="100%"></span>
-<script type="application/json" data-for="htmlwidget-ca8fce40a5311cf29ad4">{"x":{"element":"arc_de_guerre","opts":{"content":"Portée 24” / F utilisateur(Ork: F3) / PA0 - Règle spéciales: Tir de Volée"}},"evals":[],"jsHooks":[]}</script>
+<span class="tippy html-widget html-fill-item" height="464px" id="htmlwidget-1dd797ddc48bac64af55" width="100%"></span>
+<script type="application/json" data-for="htmlwidget-1dd797ddc48bac64af55">{"x":{"element":"pesant","opts":{"content":"Pesant : compte comme en ordre serré (+1 au résultat du combat si en ordre de combat si PU≥10) même en fig individuelle. Peut pivoter après mouvement jusqu’à 90° (sauf si marche forcée ou fuite). Ne peut pas être rejointe par un personnage."}},"evals":[],"jsHooks":[]}</script>
 </div>
 <div class="cell-output-display">
-<span class="tippy html-widget html-fill-item" height="464px" id="htmlwidget-0b38be3856f1b3525a49" width="100%"></span>
-<script type="application/json" data-for="htmlwidget-0b38be3856f1b3525a49">{"x":{"element":"tir_rapide","opts":{"content":"Une arme ayant cette règle spéciale ne subit pas le modificateur habituel de -1 aux jets de Touche quand son porteur se Déplace et Tire. De plus, une unité équipée d'armes ayant cette règle spéciale peut les utiliser pour effectuer une réaction de charge Tenir sa Position & Tirer quelle que soit la proximité de l'unité qui charge."}},"evals":[],"jsHooks":[]}</script>
+<span class="tippy html-widget html-fill-item" height="464px" id="htmlwidget-4c47250b6ae34d7348ed" width="100%"></span>
+<script type="application/json" data-for="htmlwidget-4c47250b6ae34d7348ed">{"x":{"element":"escorteurs_de_chars","opts":{"content":"Les figurines amies dont le type de troupe est “char” peuvent se déplacer à travers les figurines ayant cette règle spéciale et peuvent se déplacer à travers des unités d’Escorteurs de Chars amies qui sont en formation de Tirailleurs."}},"evals":[],"jsHooks":[]}</script>
 </div>
 <div class="cell-output-display">
-<span class="tippy html-widget html-fill-item" height="464px" id="htmlwidget-92ced47e999aa0563763" width="100%"></span>
-<script type="application/json" data-for="htmlwidget-92ced47e999aa0563763">{"x":{"element":"tir_de_Volee","opts":{"content":"Quand une unité ayant cette règle spéciale effectue une attaque de tir, la moitié des figurines de chaque rang hormis le rang frontal en arrondissant au supérieur, peuvent tirer (en plus des figurines qui tirent du rang frontal, ou des deux rangs frontaux si l'unité est sur une colline). Une unité ne peut pas effectuer de Tir de Volée si elle sest déplacée pour quelque raison que ce soit à ce tour (y compris pour une reformation), ou quand elle effectue une réaction de charge Tenir sa Position & Tirer. [§]"}},"evals":[],"jsHooks":[]}</script>
+<span class="tippy html-widget html-fill-item" height="464px" id="htmlwidget-7cf979f62d571d3f6b6e" width="100%"></span>
+<script type="application/json" data-for="htmlwidget-7cf979f62d571d3f6b6e">{"x":{"element":"commandement_og","opts":{"content":"Commandement: <br> Gobs: CD5|6 / Night Gobs: CD 4|5  <br> Orques: CD6|7 / Troll CD4 (CD5 ceux d'eau)  <br> Orques noir: CD8 <br> ~~ Héro ~~ <br> Gobs: CD6|7 / Héro Night Gobs: CD 5|6  <br> Héro Orques: CD7|8 / Héro Orques noir: CD8|9"}},"evals":[],"jsHooks":[]}</script>
 </div>
 <div class="cell-output-display">
-<span class="tippy html-widget html-fill-item" height="464px" id="htmlwidget-c97b6a86545f51817320" width="100%"></span>
-<script type="application/json" data-for="htmlwidget-c97b6a86545f51817320">{"x":{"element":"fuite_feinte","opts":{"content":"Fuite feinte [Feigned Flight] : l'unité se rallie automatiquement après avoir fui en réaction à une charge [§]"}},"evals":[],"jsHooks":[]}</script>
+<span class="tippy html-widget html-fill-item" height="464px" id="htmlwidget-e403f1eab69332d04703" width="100%"></span>
+<script type="application/json" data-for="htmlwidget-e403f1eab69332d04703">{"x":{"element":"impetueux","opts":{"content":"Impétueux : Si, au cours de la sous-phase de Déclarer les Charges & Réactions aux Charges de son tour, une unité qui inclut au moins une figurine Impétueuse peut déclarer une charge, elle doit faire un test de Commandement. En cas d’échec, l'unité doit déclarer une charge. En cas de réussite, l'unité peut agir normalement."}},"evals":[],"jsHooks":[]}</script>
 </div>
 <div class="cell-output-display">
-<span class="tippy html-widget html-fill-item" height="464px" id="htmlwidget-6b9dce25976b653af193" width="100%"></span>
-<script type="application/json" data-for="htmlwidget-6b9dce25976b653af193">{"x":{"element":"tir_fuite","opts":{"content":"L’unité Tient sa Position & Tire (comme décrit p120) avant de fuir la charge. Quand elle effectue son jet de Fuite, l’unité jette deux D6 et défausse le résultat le plus bas. Notez que si la distance entre cette unité et l’unité qui charge est inférieure à la caractéristique de Mouvement de l’unité qui charge, cette unité doit soit Tenir sa Position, soit Fuir. [§]"}},"evals":[],"jsHooks":[]}</script>
+<span class="tippy html-widget html-fill-item" height="464px" id="htmlwidget-4af5b2bdd4b64efc316b" width="100%"></span>
+<script type="application/json" data-for="htmlwidget-4af5b2bdd4b64efc316b">{"x":{"element":"rapide","opts":{"content":"Rapide : Une unité ayant cette règle spéciale augmente sa portée de charge maximale possible de 3\" et, quand elle effectue un jet de Charge, de Fuite ou de Poursuite, elle peut appliquer un modificateur de +D6 au résultat. Une unité composée entièrement de figurines ayant cette règle spéciale augmente sa portée de charge maximum possible de 3\" et, avant d’effectuer un jet de Charge, de Fuite ou de Poursuite, elle peut appliquer un modificateur de +D6 au résultat."}},"evals":[],"jsHooks":[]}</script>
 </div>
 <div class="cell-output-display">
-<span class="tippy html-widget html-fill-item" height="464px" id="htmlwidget-7e35cccf4dcd4a398643" width="100%"></span>
-<script type="application/json" data-for="htmlwidget-7e35cccf4dcd4a398643">{"x":{"element":"repli_en_bon_ordre","opts":{"content":"Se Replier en Bon Ordre: Si une unité contient encore plus e la moitié (50%) ou plus des figurines quelle comptait au début de la bataille, elle se Repliera en Bon Ordre. L'unité se déplace directement à l'opposé de l'unité ennemie dont les dommage ont causé le test de Panique, comme décrit page 134. C'est à dire qu'elle jette deux D6 et défausse le résultat le plus bas. Si les deux dés donnent le même résultat, défaussez celui de votre choix. Une unité qui se Replie en Bon Ordre se rallie automatiquement à la fin de son mouvement de fuite "}},"evals":[],"jsHooks":[]}</script>
+<span class="tippy html-widget html-fill-item" height="464px" id="htmlwidget-3c6758650dbe3093c157" width="100%"></span>
+<script type="application/json" data-for="htmlwidget-3c6758650dbe3093c157">{"x":{"element":"bande_de_guerre","opts":{"content":"À moins quelle soit en fuite, une Bande de guerre gagne un modificateur positif (+) à sa caractéristique de Commandement égal à son Bonus de rang actuel, jusquà un maximum de Cd de 10. Cependant, une Bande de Guerre ne peut pas utiliser ce modificateur si elle choisit d'effectuer un test de Retenue. En outre, si la majorité des figurines d'une unité ont cette règle spéciale, elle peut relancer son jet de Charge. Une Bande de Guerre ne peut pas utiliser ce modificateur si elle choisit d'effectuer un test de Retenue ou, si elle est Impétueuse, quand elle fait un test pour savoir si elle doit déclarer une charge ou peut agir normalement."}},"evals":[],"jsHooks":[]}</script>
 </div>
 <div class="cell-output-display">
-<span class="tippy html-widget html-fill-item" height="464px" id="htmlwidget-caec7feb0e7d607fa89b" width="100%"></span>
-<script type="application/json" data-for="htmlwidget-caec7feb0e7d607fa89b">{"x":{"element":"armures","opts":{"content":"Pas d'armure: 7+ / Armure légère: 6+ / Armure lourde: 5+ / Armure de plate: 4+ / Bouclier: +1 / Caparaçon: +1 / Peau blindée (X): +X"}},"evals":[],"jsHooks":[]}</script>
+<span class="tippy html-widget html-fill-item" height="464px" id="htmlwidget-23f15ae863abdc21f67f" width="100%"></span>
+<script type="application/json" data-for="htmlwidget-23f15ae863abdc21f67f">{"x":{"element":"charges_devastatrices","opts":{"content":"Charge Dévastatrice: Lors d'un tour où elle a effectué un mouvement de charge de 3” ou plus, une figurine ayant cette règle spéciale gagne un modificateur de +1 à sa caractéristique d'Attaques."}},"evals":[],"jsHooks":[]}</script>
 </div>
 <div class="cell-output-display">
-<span class="tippy html-widget html-fill-item" height="464px" id="htmlwidget-5670e79109c76588e427" width="100%"></span>
-<script type="application/json" data-for="htmlwidget-5670e79109c76588e427">{"x":{"element":"svg_og","opts":{"content":"Orques noires: 4|3+* / Orques: 6|5+* <br> Sanglier 5|4+* / Char Sanglier 4+ <br> Gobelin: 6|5+* / Loups: 7|6*|5°+ <br> Squig: 7+|6° <br> [* ➜ Bouclier] & [°➜ Armure légère payante]"}},"evals":[],"jsHooks":[]}</script>
+<span class="tippy html-widget html-fill-item" height="464px" id="htmlwidget-55916920cd9cdac4d49f" width="100%"></span>
+<script type="application/json" data-for="htmlwidget-55916920cd9cdac4d49f">{"x":{"element":"contre_charge","opts":{"content":"Si l’unité ennemi cavalerie, char ou monstre charge sur l’arc frontal de l’unité sur une distance plus longue que son mouvement, pivote vers l’ennemi et effectue un mouvement de D3+1”avant la charge. Compte comme ayant chargé."}},"evals":[],"jsHooks":[]}</script>
 </div>
 <div class="cell-output-display">
-<span class="tippy html-widget html-fill-item" height="464px" id="htmlwidget-4593c9d61c422991fbb5" width="100%"></span>
-<script type="application/json" data-for="htmlwidget-4593c9d61c422991fbb5">{"x":{"element":"kostos","opts":{"content":"Au combat, +1 en F et Arme Perforante (1) (PA-1 sur un jet de 6 pour blesser)"}},"evals":[],"jsHooks":[]}</script>
+<span class="tippy html-widget html-fill-item" height="464px" id="htmlwidget-000f1dc3e4ad9417ed5d" width="100%"></span>
+<script type="application/json" data-for="htmlwidget-000f1dc3e4ad9417ed5d">{"x":{"element":"mouvement_aleatoire","opts":{"content":"Mouvement Aléatoire: Les figurines ayant cette règle spéciale n'ont pas de caractéristique de Mouvement normale. À la place, leur profil affiche un jet de dé (ex 2D6). Chaque fois qu'une figurine ayant cette règle spéciale se déplace (pour quelque raison que ce soit), jetez les dés pour déterminer la distance maximal à laquelle elle se déplace. Les figurines ayant cette règle spéciale se déplacent à la sous-phase des Mouvements Obligatoires. Elles ne peuvent pas effectuer de marche forcée ou déclarer de charge. Elles peuvent effectuer des roues pour changer de direction, mais ne peuvent pas exécuter d'autres manœuvres. Si la figurine peut entrer en contact avec une unité ennemie, elle doit déclarer une poursuite, elle peut le faire et effectuer comme annoncé. Une unité chargeée de cette manière doit faire un test de Commandement pour tenter sa Position. Si toutes les figurines d'une unité ont cette règle spéciale, faites un jet de dé pour toute l'unité. Si au moins deux figurines d'une unité ont des caractéristiques de Mouvement Aléatoire différentes, effectuez un jet pour chacune et il sera appliqué séparément, puis pour la totalité de l'unité."}},"evals":[],"jsHooks":[]}</script>
 </div>
 <div class="cell-output-display">
-<span class="tippy html-widget html-fill-item" height="464px" id="htmlwidget-2a0877b13223d7aa4ea3" width="100%"></span>
-<script type="application/json" data-for="htmlwidget-2a0877b13223d7aa4ea3">{"x":{"element":"lance_cavalerie","opts":{"content":"Combat F+1 | PA-1 | Combat sur plusieurs rangs Modificateurs de F et PA uniquement un tour où le porteur a chargé. Pas d'attaque de soutien le tour où le porteur a chargé"}},"evals":[],"jsHooks":[]}</script>
+<span class="tippy html-widget html-fill-item" height="464px" id="htmlwidget-38f3cafb9d42034ae35a" width="100%"></span>
+<script type="application/json" data-for="htmlwidget-38f3cafb9d42034ae35a">{"x":{"element":"arc_court","opts":{"content":"Portée 18” / F3 / PA0 - Règle spéciales: Tir rapide, Tir de Volée"}},"evals":[],"jsHooks":[]}</script>
 </div>
 <div class="cell-output-display">
-<span class="tippy html-widget html-fill-item" height="464px" id="htmlwidget-77a277a984d50faca928" width="100%"></span>
-<script type="application/json" data-for="htmlwidget-77a277a984d50faca928">{"x":{"element":"cac_hero_og","opts":{"content":"CAC Héro: <br> Chef,grand Zarb Night Gobs: CC4,3|F3|E4,3|PV3,2|I4,3|A2,1 <br> Chef,grand Night Gobs: CC5,4|F4|E4|PV3,2|I5,4|A4,3 <br> Chef,grand Orques: CC6,5|F5,4|E5|PV3,2|I5,4|A4,3 <br> Chef,grand Orques noir: CC7,6|F5,4|E5|PV3,2|I6,5|A4,3°"}},"evals":[],"jsHooks":[]}</script>
+<span class="tippy html-widget html-fill-item" height="464px" id="htmlwidget-721f82d09a819cdf3007" width="100%"></span>
+<script type="application/json" data-for="htmlwidget-721f82d09a819cdf3007">{"x":{"element":"arc_de_guerre","opts":{"content":"Portée 24” / F utilisateur(Ork: F3) / PA0 - Règle spéciales: Tir de Volée"}},"evals":[],"jsHooks":[]}</script>
 </div>
 <div class="cell-output-display">
-<span class="tippy html-widget html-fill-item" height="464px" id="htmlwidget-0c3ca27da3a08c7999ce" width="100%"></span>
-<script type="application/json" data-for="htmlwidget-0c3ca27da3a08c7999ce">{"x":{"element":"cac_troupes_og","opts":{"content":"CAC:<br>Gobs & Night Gobs: CC2|F3|E3|I3|A1* <br> Squigs CC4|F5|E3|I4|A2|PA-1 perf* <br> Loups CC3|F3|E3|I3|A1 <br> Orques: CC3|F3|E4|I3|A1* <br> Sanglier: CC3|F3°|E4|I3|A1 <br> Troll CC3|F5|E4|I1|A3|perf* <br> Orques noir: CC4|F4|E4|I3|A1*"}},"evals":[],"jsHooks":[]}</script>
+<span class="tippy html-widget html-fill-item" height="464px" id="htmlwidget-ed4ea3d8240b52556f1f" width="100%"></span>
+<script type="application/json" data-for="htmlwidget-ed4ea3d8240b52556f1f">{"x":{"element":"tir_rapide","opts":{"content":"Une arme ayant cette règle spéciale ne subit pas le modificateur habituel de -1 aux jets de Touche quand son porteur se Déplace et Tire. De plus, une unité équipée d'armes ayant cette règle spéciale peut les utiliser pour effectuer une réaction de charge Tenir sa Position & Tirer quelle que soit la proximité de l'unité qui charge."}},"evals":[],"jsHooks":[]}</script>
 </div>
 <div class="cell-output-display">
-<span class="tippy html-widget html-fill-item" height="464px" id="htmlwidget-a0d00e46e0c0594151e4" width="100%"></span>
-<script type="application/json" data-for="htmlwidget-a0d00e46e0c0594151e4">{"x":{"element":"touches_impact","opts":{"content":"Touches d'Impact (X) : Si charge ≥3”, X touches par une fig au contact. Résolu avant de lancer les Défis et le reste du combat. Touche auto. Force porteur."}},"evals":[],"jsHooks":[]}</script>
+<span class="tippy html-widget html-fill-item" height="464px" id="htmlwidget-4079ebe1c7b3d064554b" width="100%"></span>
+<script type="application/json" data-for="htmlwidget-4079ebe1c7b3d064554b">{"x":{"element":"tir_de_Volee","opts":{"content":"Quand une unité ayant cette règle spéciale effectue une attaque de tir, la moitié des figurines de chaque rang hormis le rang frontal en arrondissant au supérieur, peuvent tirer (en plus des figurines qui tirent du rang frontal, ou des deux rangs frontaux si l'unité est sur une colline). Une unité ne peut pas effectuer de Tir de Volée si elle sest déplacée pour quelque raison que ce soit à ce tour (y compris pour une reformation), ou quand elle effectue une réaction de charge Tenir sa Position & Tirer. [§]"}},"evals":[],"jsHooks":[]}</script>
 </div>
 <div class="cell-output-display">
-<span class="tippy html-widget html-fill-item" height="464px" id="htmlwidget-207bba36e5fda6b69761" width="100%"></span>
-<script type="application/json" data-for="htmlwidget-207bba36e5fda6b69761">{"x":{"element":"parade","opts":{"content":"Tant qu'elle est engagée au corps à corps, une figurine ayant cette règle qui est équipée de et choisit d'utiliser une arme de base et un bouclier améliore sa valeur d'armure de 1, jusqu'à un maximum de 3+ (Infanterie)."}},"evals":[],"jsHooks":[]}</script>
+<span class="tippy html-widget html-fill-item" height="464px" id="htmlwidget-30f674a82c5922f92b27" width="100%"></span>
+<script type="application/json" data-for="htmlwidget-30f674a82c5922f92b27">{"x":{"element":"fuite_feinte","opts":{"content":"Fuite feinte [Feigned Flight] : l'unité se rallie automatiquement après avoir fui en réaction à une charge [§]"}},"evals":[],"jsHooks":[]}</script>
 </div>
 <div class="cell-output-display">
-<span class="tippy html-widget html-fill-item" height="464px" id="htmlwidget-db08b7998ce0b5b3bc5f" width="100%"></span>
-<script type="application/json" data-for="htmlwidget-db08b7998ce0b5b3bc5f">{"x":{"element":"masse_infanterie","opts":{"content":"Quand on détermine les résultats de combat, si un camp a une Puissance d'Unité supérieure à l'autre et inclut au moins une unité ayant cette règle, le camp concerné peut avoir un bonus de +1 point de résultat de combat (Infanterie)."}},"evals":[],"jsHooks":[]}</script>
+<span class="tippy html-widget html-fill-item" height="464px" id="htmlwidget-41bb40e0c76dd5fcc703" width="100%"></span>
+<script type="application/json" data-for="htmlwidget-41bb40e0c76dd5fcc703">{"x":{"element":"tir_fuite","opts":{"content":"L’unité Tient sa Position & Tire (comme décrit p120) avant de fuir la charge. Quand elle effectue son jet de Fuite, l’unité jette deux D6 et défausse le résultat le plus bas. Notez que si la distance entre cette unité et l’unité qui charge est inférieure à la caractéristique de Mouvement de l’unité qui charge, cette unité doit soit Tenir sa Position, soit Fuir. [§]"}},"evals":[],"jsHooks":[]}</script>
 </div>
 <div class="cell-output-display">
-<span class="tippy html-widget html-fill-item" height="464px" id="htmlwidget-206ca47c24a2c9809173" width="100%"></span>
-<script type="application/json" data-for="htmlwidget-206ca47c24a2c9809173">{"x":{"element":"haine","opts":{"content":"Haine (X) [Hatred (X)] : relance jets de touche ratés contre X au 1er round du combat."}},"evals":[],"jsHooks":[]}</script>
+<span class="tippy html-widget html-fill-item" height="464px" id="htmlwidget-24b9c30e9d728efef099" width="100%"></span>
+<script type="application/json" data-for="htmlwidget-24b9c30e9d728efef099">{"x":{"element":"repli_en_bon_ordre","opts":{"content":"Se Replier en Bon Ordre: Si une unité contient encore plus e la moitié (50%) ou plus des figurines quelle comptait au début de la bataille, elle se Repliera en Bon Ordre. L'unité se déplace directement à l'opposé de l'unité ennemie dont les dommage ont causé le test de Panique, comme décrit page 134. C'est à dire qu'elle jette deux D6 et défausse le résultat le plus bas. Si les deux dés donnent le même résultat, défaussez celui de votre choix. Une unité qui se Replie en Bon Ordre se rallie automatiquement à la fin de son mouvement de fuite "}},"evals":[],"jsHooks":[]}</script>
 </div>
 <div class="cell-output-display">
-<span class="tippy html-widget html-fill-item" height="464px" id="htmlwidget-b5d5d880ede16ea3bd24" width="100%"></span>
-<script type="application/json" data-for="htmlwidget-b5d5d880ede16ea3bd24">{"x":{"element":"pietinement","opts":{"content":"Attaque de piétinement (X) [Stompattacks (X)] : X attaques effectuées après toutes les attaques du combat. Touche auto. Force porteur."}},"evals":[],"jsHooks":[]}</script>
+<span class="tippy html-widget html-fill-item" height="464px" id="htmlwidget-b2522d8884c5f0abf01b" width="100%"></span>
+<script type="application/json" data-for="htmlwidget-b2522d8884c5f0abf01b">{"x":{"element":"armures","opts":{"content":"Pas d'armure: 7+ / Armure légère: 6+ / Armure lourde: 5+ / Armure de plate: 4+ / Bouclier: +1 / Caparaçon: +1 / Peau blindée (X): +X"}},"evals":[],"jsHooks":[]}</script>
 </div>
 <div class="cell-output-display">
-<span class="tippy html-widget html-fill-item" height="464px" id="htmlwidget-c9a1cd80a914c867a651" width="100%"></span>
-<script type="application/json" data-for="htmlwidget-c9a1cd80a914c867a651">{"x":{"element":"kikoup","opts":{"content":"Après avoir chargé, peut relancer les 1 nat. aux jets de Blessure et +1 à la PA (sauf montures et armes magiques)"}},"evals":[],"jsHooks":[]}</script>
+<span class="tippy html-widget html-fill-item" height="464px" id="htmlwidget-d94b2286af848c93ca38" width="100%"></span>
+<script type="application/json" data-for="htmlwidget-d94b2286af848c93ca38">{"x":{"element":"svg_og","opts":{"content":"Orques noires: 4|3+* / Orques: 6|5+* <br> Sanglier 4|3+* / Char Sanglier 4+ <br> Gobelin: 6|5+* / Loups: 7|6*|5°+ <br> Squig: 7+|6° <br> [* ➜ Bouclier] & [°➜ Armure légère payante]"}},"evals":[],"jsHooks":[]}</script>
 </div>
 <div class="cell-output-display">
-<span class="tippy html-widget html-fill-item" height="464px" id="htmlwidget-7d4662a54fa9ca28982b" width="100%"></span>
-<script type="application/json" data-for="htmlwidget-7d4662a54fa9ca28982b">{"x":{"element":"arme_lourde","opts":{"content":"Arme lourde Combat F+2 -2 Arme perforante (1), Arme à deux mains, frappe en dernier (réduit Init. à 1.)"}},"evals":[],"jsHooks":[]}</script>
+<span class="tippy html-widget html-fill-item" height="464px" id="htmlwidget-ac4e7f638fc5d348adbd" width="100%"></span>
+<script type="application/json" data-for="htmlwidget-ac4e7f638fc5d348adbd">{"x":{"element":"kostos","opts":{"content":"Au combat, +1 en F et Arme Perforante (1) (PA-1 sur un jet de 6 pour blesser)"}},"evals":[],"jsHooks":[]}</script>
 </div>
 <div class="cell-output-display">
-<span class="tippy html-widget html-fill-item" height="464px" id="htmlwidget-e292db63c73bf679aaef" width="100%"></span>
-<script type="application/json" data-for="htmlwidget-e292db63c73bf679aaef">{"x":{"element":"attaque_soutien","opts":{"content":"Attaque_soutien : derrière rang combattant et ≤ Mvt. 1 attaque."}},"evals":[],"jsHooks":[]}</script>
+<span class="tippy html-widget html-fill-item" height="464px" id="htmlwidget-51a49056bc0b0472a69a" width="100%"></span>
+<script type="application/json" data-for="htmlwidget-51a49056bc0b0472a69a">{"x":{"element":"lance_cavalerie","opts":{"content":"Combat F+1 | PA-1 | Combat sur plusieurs rangs Modificateurs de F et PA uniquement un tour où le porteur a chargé. Pas d'attaque de soutien le tour où le porteur a chargé"}},"evals":[],"jsHooks":[]}</script>
 </div>
 <div class="cell-output-display">
-<span class="tippy html-widget html-fill-item" height="464px" id="htmlwidget-eeb00ca13a51f12757db" width="100%"></span>
-<script type="application/json" data-for="htmlwidget-eeb00ca13a51f12757db">{"x":{"element":"charge_de_sanglier","opts":{"content":"Après avoir chargé, les Défenses d’un Sanglier ont F+1 et PA-1"}},"evals":[],"jsHooks":[]}</script>
+<span class="tippy html-widget html-fill-item" height="464px" id="htmlwidget-e50902ef1c5318e42a34" width="100%"></span>
+<script type="application/json" data-for="htmlwidget-e50902ef1c5318e42a34">{"x":{"element":"cac_hero_og","opts":{"content":"CAC Héro: <br> Chef,grand Zarb Night Gobs: CC4,3|F3|E4,3|PV3,2|I4,3|A2,1 <br> Chef,grand Night Gobs: CC5,4|F4|E4|PV3,2|I5,4|A4,3 <br> Chef,grand Orques: CC6,5|F5,4|E5|PV3,2|I5,4|A4,3 <br> Chef,grand Orques noir: CC7,6|F5,4|E5|PV3,2|I6,5|A4,3°"}},"evals":[],"jsHooks":[]}</script>
 </div>
 <div class="cell-output-display">
-<span class="tippy html-widget html-fill-item" height="464px" id="htmlwidget-fedbbc2d91b291c0bae4" width="100%"></span>
-<script type="application/json" data-for="htmlwidget-fedbbc2d91b291c0bae4">{"x":{"element":"test_de_panique","opts":{"content":"Test de commandement sous la caractéristique de Cd de l'unité. En cas d'échec (test > CD), l'unité a cédé à la panique et doit se Replier en Bon Ordre ou fuir. En cas de réussite (test < CD), l'unité demeure résolue et ne panique pas."}},"evals":[],"jsHooks":[]}</script>
+<span class="tippy html-widget html-fill-item" height="464px" id="htmlwidget-d839de792f2540219251" width="100%"></span>
+<script type="application/json" data-for="htmlwidget-d839de792f2540219251">{"x":{"element":"cac_troupes_og","opts":{"content":"CAC:<br>Gobs & Night Gobs: CC2|F3|E3|I3|A1* <br> Squigs CC4|F5|E3|I4|A2|PA-1 perf* <br> Loups CC3|F3|E3|I3|A1 <br> Orques: CC3|F3|E4|I3|A1* <br> Sanglier: CC3|F3°|E4|I3|A1 <br> Troll CC3|F5|E4|I1|A3|perf* <br> Orques noir: CC4|F4|E4|I3|A1*"}},"evals":[],"jsHooks":[]}</script>
 </div>
 <div class="cell-output-display">
-<span class="tippy html-widget html-fill-item" height="464px" id="htmlwidget-54416c0070cf7a6f9b64" width="100%"></span>
-<script type="application/json" data-for="htmlwidget-54416c0070cf7a6f9b64">{"x":{"element":"se_retenir_et_se_reformer","opts":{"content":"Plutôt que d'effectuer un mouvement de suite (i.e. suivre un unité qui cède du Terrain) ou de poursuite, en effectuant un test de “Retenue” Pour effectuer un test de Retenue, faites un test sous la caractéristique de Commandement de l'unité. En cas d'échec, l'unité doit suivre ou poursuivre. En cas de réussite, l'unité reste où elle est et effectue une reformation gratuite. [§]"}},"evals":[],"jsHooks":[]}</script>
+<span class="tippy html-widget html-fill-item" height="464px" id="htmlwidget-78b8ced0f8f8dcf29637" width="100%"></span>
+<script type="application/json" data-for="htmlwidget-78b8ced0f8f8dcf29637">{"x":{"element":"touches_impact","opts":{"content":"Touches d'Impact (X) : Si charge ≥3”, X touches par une fig au contact. Résolu avant de lancer les Défis et le reste du combat. Touche auto. Force porteur."}},"evals":[],"jsHooks":[]}</script>
 </div>
 <div class="cell-output-display">
-<span class="tippy html-widget html-fill-item" height="464px" id="htmlwidget-2a53a94cce1d258742f4" width="100%"></span>
-<script type="application/json" data-for="htmlwidget-2a53a94cce1d258742f4">{"x":{"element":"percee","opts":{"content":"Si une unité détruit totalement son ennemi avant la sous-phase des Tests de Moral, elle peut “percer” Une unité qui perce effectue un mouvement de poursuite normal, mais elle doit se déplacer droit devant sans pivoter."}},"evals":[],"jsHooks":[]}</script>
+<span class="tippy html-widget html-fill-item" height="464px" id="htmlwidget-132a83fba77fb0cb0ffe" width="100%"></span>
+<script type="application/json" data-for="htmlwidget-132a83fba77fb0cb0ffe">{"x":{"element":"parade","opts":{"content":"Tant qu'elle est engagée au corps à corps, une figurine ayant cette règle qui est équipée de et choisit d'utiliser une arme de base et un bouclier améliore sa valeur d'armure de 1, jusqu'à un maximum de 3+ (Infanterie)."}},"evals":[],"jsHooks":[]}</script>
 </div>
 <div class="cell-output-display">
-<span class="tippy html-widget html-fill-item" height="464px" id="htmlwidget-8635b610a93512da8936" width="100%"></span>
-<script type="application/json" data-for="htmlwidget-8635b610a93512da8936">{"x":{"element":"coup_fatal","opts":{"content":"Coup fatal [Killing blow] : contre les infanterie ou cavalerie, sur un 6 naturel pour blesser, tue automatiquement. Svg Invulnérable autorisée uniquement"}},"evals":[],"jsHooks":[]}</script>
+<span class="tippy html-widget html-fill-item" height="464px" id="htmlwidget-4cc21f5d84b03563659f" width="100%"></span>
+<script type="application/json" data-for="htmlwidget-4cc21f5d84b03563659f">{"x":{"element":"masse_infanterie","opts":{"content":"Quand on détermine les résultats de combat, si un camp a une Puissance d'Unité supérieure à l'autre et inclut au moins une unité ayant cette règle, le camp concerné peut avoir un bonus de +1 point de résultat de combat (Infanterie)."}},"evals":[],"jsHooks":[]}</script>
 </div>
 <div class="cell-output-display">
-<span class="tippy html-widget html-fill-item" height="464px" id="htmlwidget-3ecd653be98b3b572b54" width="100%"></span>
-<script type="application/json" data-for="htmlwidget-3ecd653be98b3b572b54">{"x":{"element":"ordre_serre","opts":{"content":"ordre serré : +1 au résultat du combat si en ordre de combat si PU≥10. Peut être en ordre de combat ou en colonne de marche"}},"evals":[],"jsHooks":[]}</script>
+<span class="tippy html-widget html-fill-item" height="464px" id="htmlwidget-76df9c7de8341932ec53" width="100%"></span>
+<script type="application/json" data-for="htmlwidget-76df9c7de8341932ec53">{"x":{"element":"haine","opts":{"content":"Haine (X) [Hatred (X)] : relance jets de touche ratés contre X au 1er round du combat."}},"evals":[],"jsHooks":[]}</script>
 </div>
 <div class="cell-output-display">
-<span class="tippy html-widget html-fill-item" height="464px" id="htmlwidget-45ea1d1821af1667d2d4" width="100%"></span>
-<script type="application/json" data-for="htmlwidget-45ea1d1821af1667d2d4">{"x":{"element":"immunise_psychologie","opts":{"content":"Immunisé à la psychologie : réussit automatiquement les tests de Peur, Panique ou Terreur. Ne peut pas choisir la fuite comme réaction de charge."}},"evals":[],"jsHooks":[]}</script>
+<span class="tippy html-widget html-fill-item" height="464px" id="htmlwidget-eb20c620351c12870019" width="100%"></span>
+<script type="application/json" data-for="htmlwidget-eb20c620351c12870019">{"x":{"element":"pietinement","opts":{"content":"Attaque de piétinement (X) [Stompattacks (X)] : X attaques effectuées après toutes les attaques du combat. Touche auto. Force porteur."}},"evals":[],"jsHooks":[]}</script>
 </div>
 <div class="cell-output-display">
-<span class="tippy html-widget html-fill-item" height="464px" id="htmlwidget-63bb7aca5e53797a7c93" width="100%"></span>
-<script type="application/json" data-for="htmlwidget-63bb7aca5e53797a7c93">{"x":{"element":"fuite","opts":{"content":"Lorsqu’une unité fuit, elle ce déplace à l’opposé de l’unité ennemie qui a causé la fuite (en la faisant pivoter sur son axe). Elle effectue alors un mouvement de 2D6 (peut ajouter +1D6 si rapide). Le résultat du jet est la distance totale en pouces dont l’unité en fuite se déplace.Si une unité en fuite entre en contact avec le bord du champ de bataille ou le franchit, elle est retirée du jeu et considérée comme détruite. [§]"}},"evals":[],"jsHooks":[]}</script>
+<span class="tippy html-widget html-fill-item" height="464px" id="htmlwidget-93dd5c5c3b08547b6530" width="100%"></span>
+<script type="application/json" data-for="htmlwidget-93dd5c5c3b08547b6530">{"x":{"element":"kikoup","opts":{"content":"Après avoir chargé, peut relancer les 1 nat. aux jets de Blessure et +1 à la PA (sauf montures et armes magiques)"}},"evals":[],"jsHooks":[]}</script>
 </div>
 <div class="cell-output-display">
-<span class="tippy html-widget html-fill-item" height="464px" id="htmlwidget-33087fb709851c578fc1" width="100%"></span>
-<script type="application/json" data-for="htmlwidget-33087fb709851c578fc1">{"x":{"element":"ceder_du_terrain","opts":{"content":"Céder du terrain : recul de 2” sans reformation. Compte comme le même Corps à Corps. Le poursuivant peut se réorienter de 90° ou 180°"}},"evals":[],"jsHooks":[]}</script>
+<span class="tippy html-widget html-fill-item" height="464px" id="htmlwidget-ab5ac12c2cc222cb93f4" width="100%"></span>
+<script type="application/json" data-for="htmlwidget-ab5ac12c2cc222cb93f4">{"x":{"element":"arme_lourde","opts":{"content":"Arme lourde Combat F+2 -2 Arme perforante (1), Arme à deux mains, frappe en dernier (réduit Init. à 1.)"}},"evals":[],"jsHooks":[]}</script>
+</div>
+<div class="cell-output-display">
+<span class="tippy html-widget html-fill-item" height="464px" id="htmlwidget-58dcf2032cb17dc147fe" width="100%"></span>
+<script type="application/json" data-for="htmlwidget-58dcf2032cb17dc147fe">{"x":{"element":"attaque_soutien","opts":{"content":"Attaque_soutien : derrière rang combattant et ≤ Mvt. 1 attaque."}},"evals":[],"jsHooks":[]}</script>
+</div>
+<div class="cell-output-display">
+<span class="tippy html-widget html-fill-item" height="464px" id="htmlwidget-51bc352a22909c8200c6" width="100%"></span>
+<script type="application/json" data-for="htmlwidget-51bc352a22909c8200c6">{"x":{"element":"charge_de_sanglier","opts":{"content":"Après avoir chargé, les Défenses d’un Sanglier ont F+1 et PA-1"}},"evals":[],"jsHooks":[]}</script>
+</div>
+<div class="cell-output-display">
+<span class="tippy html-widget html-fill-item" height="464px" id="htmlwidget-9181b5f20f8f6cb5c6b9" width="100%"></span>
+<script type="application/json" data-for="htmlwidget-9181b5f20f8f6cb5c6b9">{"x":{"element":"test_de_panique","opts":{"content":"Test de commandement sous la caractéristique de Cd de l'unité. En cas d'échec (test > CD), l'unité a cédé à la panique et doit se Replier en Bon Ordre ou fuir. En cas de réussite (test < CD), l'unité demeure résolue et ne panique pas."}},"evals":[],"jsHooks":[]}</script>
+</div>
+<div class="cell-output-display">
+<span class="tippy html-widget html-fill-item" height="464px" id="htmlwidget-16f0c29053bcfe6440e0" width="100%"></span>
+<script type="application/json" data-for="htmlwidget-16f0c29053bcfe6440e0">{"x":{"element":"se_retenir_et_se_reformer","opts":{"content":"Plutôt que d'effectuer un mouvement de suite (i.e. suivre un unité qui cède du Terrain) ou de poursuite, en effectuant un test de “Retenue” Pour effectuer un test de Retenue, faites un test sous la caractéristique de Commandement de l'unité. En cas d'échec, l'unité doit suivre ou poursuivre. En cas de réussite, l'unité reste où elle est et effectue une reformation gratuite. [§]"}},"evals":[],"jsHooks":[]}</script>
+</div>
+<div class="cell-output-display">
+<span class="tippy html-widget html-fill-item" height="464px" id="htmlwidget-9b9a25d604050e697ece" width="100%"></span>
+<script type="application/json" data-for="htmlwidget-9b9a25d604050e697ece">{"x":{"element":"percee","opts":{"content":"Si une unité détruit totalement son ennemi avant la sous-phase des Tests de Moral, elle peut “percer” Une unité qui perce effectue un mouvement de poursuite normal, mais elle doit se déplacer droit devant sans pivoter."}},"evals":[],"jsHooks":[]}</script>
+</div>
+<div class="cell-output-display">
+<span class="tippy html-widget html-fill-item" height="464px" id="htmlwidget-4df90e3db1891b23625e" width="100%"></span>
+<script type="application/json" data-for="htmlwidget-4df90e3db1891b23625e">{"x":{"element":"coup_fatal","opts":{"content":"Coup fatal [Killing blow] : contre les infanterie ou cavalerie, sur un 6 naturel pour blesser, tue automatiquement. Svg Invulnérable autorisée uniquement"}},"evals":[],"jsHooks":[]}</script>
+</div>
+<div class="cell-output-display">
+<span class="tippy html-widget html-fill-item" height="464px" id="htmlwidget-70646bd63a4e2e1d60e6" width="100%"></span>
+<script type="application/json" data-for="htmlwidget-70646bd63a4e2e1d60e6">{"x":{"element":"ordre_serre","opts":{"content":"ordre serré : +1 au résultat du combat si en ordre de combat si PU≥10. Peut être en ordre de combat ou en colonne de marche"}},"evals":[],"jsHooks":[]}</script>
+</div>
+<div class="cell-output-display">
+<span class="tippy html-widget html-fill-item" height="464px" id="htmlwidget-5f1230d7490d246c6f99" width="100%"></span>
+<script type="application/json" data-for="htmlwidget-5f1230d7490d246c6f99">{"x":{"element":"immunise_psychologie","opts":{"content":"Immunisé à la psychologie : réussit automatiquement les tests de Peur, Panique ou Terreur. Ne peut pas choisir la fuite comme réaction de charge."}},"evals":[],"jsHooks":[]}</script>
+</div>
+<div class="cell-output-display">
+<span class="tippy html-widget html-fill-item" height="464px" id="htmlwidget-871158521f88003da3b0" width="100%"></span>
+<script type="application/json" data-for="htmlwidget-871158521f88003da3b0">{"x":{"element":"fuite","opts":{"content":"Lorsqu’une unité fuit, elle ce déplace à l’opposé de l’unité ennemie qui a causé la fuite (en la faisant pivoter sur son axe). Elle effectue alors un mouvement de 2D6 (peut ajouter +1D6 si rapide). Le résultat du jet est la distance totale en pouces dont l’unité en fuite se déplace.Si une unité en fuite entre en contact avec le bord du champ de bataille ou le franchit, elle est retirée du jeu et considérée comme détruite. [§]"}},"evals":[],"jsHooks":[]}</script>
+</div>
+<div class="cell-output-display">
+<span class="tippy html-widget html-fill-item" height="464px" id="htmlwidget-191a8e0c63c8621f51c8" width="100%"></span>
+<script type="application/json" data-for="htmlwidget-191a8e0c63c8621f51c8">{"x":{"element":"ceder_du_terrain","opts":{"content":"Céder du terrain : recul de 2” sans reformation. Compte comme le même Corps à Corps. Le poursuivant peut se réorienter de 90° ou 180°"}},"evals":[],"jsHooks":[]}</script>
 </div>
 </div>
 <p><a href="#top">Retour Phase de Stratégie</a></p>

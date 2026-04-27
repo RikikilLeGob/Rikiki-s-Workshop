@@ -83,7 +83,9 @@ Pour une vue exhaustive des scénarios il est possible de ce référer à [WTOW 
 
 -   <u id='dissipation'>Dissiper</u> les sorts restés en jeu si portée (penser aux objets cabalistique bonus comme <u id='effigie_de_mork'>Effigie de Mork</u> et dissipation fatidique (p 110).
 
--   Lancer les **Enchantements et Maléfices**. Notamment l'<u id='urticaire_ultime'>urticaire ultime</u> / <u id='lever_dla_mauvaise_lune'>Lever D’La Mauvaise Lune</u> / <u id='leklat_du_soleil_malefikk'>L'Éklat Du Soleil Maléfikk</u> / <u id='on_y_va'>On Y Va !</u> / <u id='malediction_de_mork'>Malédiction de Mork</u>. Ne pas oublié la Loi du nombre : Si chaman orque dans pack a PU 10 ➜ +1 au lancement de sort (HS 14).
+-   Lancer les **Enchantements et Maléfices**. Ne pas oublié la <u id='loi_du_nombre'>Loi du nombre</u>.
+    - Waaagh ➜ l'<u id='urticaire_ultime'>urticaire ultime</u> / <u id='lever_dla_mauvaise_lune'>Lever D’La Mauvaise Lune</u> / <u id='leklat_du_soleil_malefikk'>L'Éklat Du Soleil Maléfikk</u> / <u id='on_y_va'>On Y Va !</u> / <u id='malediction_de_mork'>Malédiction de Mork</u>.
+    - Élémentaliste  ➜ <u id='appeler_la_tempete'>Appeler la tempete</u> / <u id='fleau_du_metal'>Fleau du metal</u> / <u id='remparts_telluriques'>Remparts telluriques</u>.
 
 <details>
 
@@ -92,10 +94,8 @@ Pour une vue exhaustive des scénarios il est possible de ce référer à [WTOW 
 <p>
 
 -   Illusionnisme \> (p 330) E Robe étincelante
--   Elementalisme \> (p 326) 4 Rempart tellurique
 -   Bataille \> (p 321), 5 Bouclier de Chêne Lancer les Maléfices :
 -   Illusionnisme \> (p 330) 4 Convocation déconcertante, 6 Mirage Miasmique
--   Elementalisme \> (p 326), E Appeler la tempête
 -   Bataille \> (p 321), 2 Malédiction d’attraction des flèches, 6 Malédiction de couardise.
 
 </p>
@@ -319,8 +319,9 @@ Sauvegardes d'Armure : Pour chaque blessure, votre adversaire fait un jet de Sau
 
 -   Une unité [**ne peut pas tirer**]{style="color:red"} ou **lancer un vortex et projectile** si elle a **chargé** ou effectué une **marche forcée** (p 137).
 -   Vérifier les lignes de vue comme décrit page 103 et vérifier la portée.
--   **Vortex et projectiles magiques éventuels** en sachant Loi du nombre ➜ Si chaman orque dans pack à PU 10 \>+1 au lancement de sort (HS p14) :
+-   **Vortex et projectiles magiques éventuels** en sachant <u id='loi_du_nombre'>Loi du nombre</u> :
     -   Magie Waagh ➜ <u id='kraz_tête'>Kraz'Tête</u> / <u id='regard_de_gork'>Regard de Gork</u> / <u id='poing_de_gork'>Poing De Gork</u> / <u id='regard_vindicatif'>Regard Vindicatif</u> / <u id='pied_de_gork'>Pied de Gork</u>.
+    -   Magie Waagh ➜ <u id='invocation_desprit_elemental'>Invocation desprit elemental</u> / <u id='bourrasque'>Bourrasque</u> 
     
     
 <details>
@@ -465,9 +466,10 @@ Overview CAC O&G : <u id='cac_hero_og'>Héro O&G</u> et <u id='cac_troupes_og'>T
 **Attaque**
 
 -   Compter le `+1A` en attaque des unitées \[*Orques Noir*, *sanglier*\] avec le token de <u id='charges_devastatrices'>charges dévastatrices</u>.
--   Sort d’assaillement éventuelle en fonction de l’ initiative du lanceur:
-    -   Magie Waagh \> (p 334) <u id='poing_de_gork'>Poing de Mork</u> & <u id='kraz_tête'>Kraz Tête</u>
-    -   Illusionnisme \> (p 331) 5 Double Spectral, Elementalisme \> (p 326) 1 Epée Enflammée, Bataille \> (p 320), Main de Marteau.
+-   Sort d’<u id='assaillement'>Assaillement</u> éventuelle:
+    -   Magie Waagh ➜ <u id='poing_de_gork'>Poing de Mork</u> & <u id='kraz_tête'>Kraz Tête</u>
+    -   Elementalisme ➜  <u id='epee_enflammee'>Epee enflammee</u> 
+    -   Other: Illusionnisme ➜ (p 331) 5 Double Spectral, Bataille \> (p 320), Main de Marteau.
 
 ### 3) Jet pour toucher
 
@@ -677,7 +679,11 @@ rule_tir_fuite <- "L’unité Tient sa Position & Tire (comme décrit p120) avan
 
 rule_pesant <- "Pesant : compte comme en ordre serré (+1 au résultat du combat si en ordre de combat si PU≥10) même en fig individuelle. Peut pivoter après mouvement jusqu’à 90° (sauf si marche forcée ou fuite). Ne peut pas être rejointe par un personnage."
 
-## Magie
+rule_loi_du_nombre <- "Si ce personnage a rejoint une unité d’Orques ayant une PU de 10 ou plus, il peut appliquer un modificateur de +1 à tout jet de Lancement qu’il effectue. S’il quitte l’unité pour quelque raison que ce soit, ou si la PU de l’unité descend en dessous de 10, ce modificateur est perdu."
+
+rule_assaillement <- "Sorts d’Assaillement: Si un sorcier qui est engagé en combat connait un ou plusieurs sorts d’Assaillement, il peut tenter de les lancer en plus de ses attaques normales quand c’est son tour de combattre, comme déterminé par son Initiative."
+
+## Magie Ork
 rule_dissipation <- "La portée de Dissipation varie selon le Niveau du Sorcier désigné : Niveau 1 et 2 ➜ portée de 18” / Niveau 3 et 4 ➜ portée de 24”. Les Sorciers engagés en combat, qui sont en fuite ou qui ne sont pas sur le champ de bataille ne peuvent pas être désignés. Jetez 2D6 et , ajoutez le Niveau du Sorcier au résultat de ce jet pour obtenir le 'résultat de dissipation'. Dénouement = double 6 ➜ dissipation | Surclassé double 1 ➜ jet sur le tableau des Fiascos [§]"
 
 rule_effigie_de_mork <- "Le porteur de l’Idole de Mork augmente sa portée de Dissipation de 3”. En outre, une fois par tour, quand il tente une dissipation Magique, le porteur de l’Idole de Mork peut relancer le jet de Dissipation."
@@ -703,6 +709,22 @@ rule_leklat_du_soleil_malefikk <- "[4 Waaagh] Type : Enchantement / Valeur de La
 rule_on_y_va <- "[5 Waaagh] Type : Enchantement / Valeur de Lancement : 8+* / Portée : Lanceur / Effet : Toute unité amie qui est dans la portée de Commandement du lanceur à la sous-phase Déclarer les Charges & les Réactions aux Charges de ce tour augmente sa portée maximale de charge de 3” et quand elle effectue un jet de Charge, peut appliquer un modificateur de +D3 au jet."
 
 rule_pied_de_gork <- "[6 Waaagh] Type : Vortex Magique / Valeur de Lancement : 8+ / Portée : 15” / Effet : Reste en jeu. Placez un grand (5”) gabarit d’explosion de sorte que son trou central soit à 1” du lanceur. Tant qu’il est en jeu, le gabarit ne se déplace pas et est traité comme du terrain dangereux. Le gabarit se déplace de 2D6” dans une direction aléatoire à chaque sous-phase de Début du Tour. Toute unité (amie ou ennemie) que le gabarit mouvant touche subit D3+3 touches de Force 5, chacune avec une PA de -1."
+
+## Magie Elementaliste
+rule_appeler_la_tempete <- "[default Elementaliste] Type : Maléfice / Valeur de Lancement : 7+ / Portée : 12” / Effet : Jusqu’à votre prochaine sous-phase de Début du Tour, l’unité cible ennemie subit un modificateur de -1 à ses caractéristiques de Mouvement et d’Initiative (jusqu’à un minimum de 1). Si ce sort est lancé, les effets de tout autre Maléfice lancé précédemment sur l’unité cible expirent immédiatement."
+
+rule_epee_enflammee <- "[1 Elementaliste] Type : Assaillement / Valeur de Lancement : 6+ / Portée : Combat / Effet : Une seule unité ennemie avec laquelle le lanceur est engagé en combat subit D6+1 touches de Force 3, chacune avec une PA de -. Ces touches ont la règle spéciale Attaques Enflammées." 
+
+
+rule_fleau_du_metal <- "[2 Elementaliste] Type : Maléfice / Valeur de Lancement : 9+ / Portée : 21” Effet : Jusqu’à votre prochaine sous-phase de Début du Tour, l’unité cible ennemie subit un modificateur de -2 à sa valeur d’armure. Ce sort peut cibler une unité ennemie engagée en combat."
+
+rule_invocation_desprit_elemental <- "[3 Elementaliste] Type : Vortex Magique / Valeur de Lancement : 9+ / Portée : 15” / Effet : Reste en Jeu. Placez un petit (3”) gabarit d’explosion de sorte que le trou central soit à 15” du lanceur. Tant qu’il est en jeu, le gabarit est traité comme du terrain dangereux par-dessus lequel aucune ligne de vue ne peut être tracée. Le gabarit se déplace de D6” dans une direction aléatoire à chaque sous-phase de Début du Tour. Toute unité ennemie que le gabarit mouvant touche subit D3+3 touches de Force 4 chacune avec une PA de -1."
+
+rule_remparts_telluriques <- "[4 Elementaliste] Type : Enchantement / Valeur de Lancement : 10+ / Portée : 15” / Effet : Jusqu’à votre prochaine sous-phase de Début du Tour, l’unité cible amie gagne une sauvegarde invulnérable de 5+ contre toute blessure subie et compte comme étant derrière un obstacle linéaire bas défendu si elle est chargée. Cependant, tant que ce sort est en jeu l’unité ne peut pas faire de marche forcée ni charger."
+
+rule_bourrasque <- "[5 Elementaliste] Type : Projectile Magique / Valeur de Lancement : 8+ / Portée : 15” / Effet : L’unité cible ennemie subit D3+3 touches de Force 5, chacune avec une PA de -1. Une fois ces touches résolues, l’unité doit Céder du Terrain."
+
+rule_passage_mystique <- "[6 Elementaliste] Type : Transfert / Valeur de Lancement : 10+ / Portée : 9” / Effet : Si l’unité cible amie n’est pas en fuite et ne s’est pas déplacée à cette phase de Mouvement, vous pouvez immédiatement la retirer du champ de bataille et la placer n’importe où à 12” de sa position d’origine, mais à plus de 6” de toute figurine ennemie. L’unité cible amie ne peut pas se déplacer de nouveau à cette phase de Mouvement."
 
 
 # rule_tenez_vos_rangs #I.4.iv)
@@ -756,7 +778,7 @@ rule_parade <- "Tant qu'elle est engagée au corps à corps, une figurine ayant 
 
 rule_masse_infanterie <- "Quand on détermine les résultats de combat, si un camp a une Puissance d'Unité supérieure à l'autre et inclut au moins une unité ayant cette règle, le camp concerné peut avoir un bonus de +1 point de résultat de combat (Infanterie)."
 
-overview_svg <- "Orques noires: 4|3+* / Orques: 6|5+* <br> Sanglier 5|4+* / Char Sanglier 4+ <br> Gobelin: 6|5+* / Loups: 7|6*|5°+ <br> Squig: 7+|6° <br> [* ➜ Bouclier] & [°➜ Armure légère payante]"
+overview_svg <- "Orques noires: 4|3+* / Orques: 6|5+* <br> Sanglier 4|3+* / Char Sanglier 4+ <br> Gobelin: 6|5+* / Loups: 7|6*|5°+ <br> Squig: 7+|6° <br> [* ➜ Bouclier] & [°➜ Armure légère payante]"
 
 
 # VI) --------------------------------------------------------------------------
@@ -803,7 +825,9 @@ tippy::tippy_this(elementId = "mouvement_fanatique", tooltip = rule_mouvement_fa
 tippy::tippy_this(elementId = "waaagh", tooltip = rule_waaagh) # p46 O&G
 tippy::tippy_this(elementId = "cri_de_ralliement", tooltip = rule_cri_de_ralliement)
 tippy::tippy_this(elementId = "effigie_de_mork", tooltip = rule_effigie_de_mork)
+tippy::tippy_this(elementId = "loi_du_nombre", tooltip = rule_loi_du_nombre)
 tippy::tippy_this(elementId = "dissipation", tooltip = rule_dissipation)
+tippy::tippy_this(elementId = "assaillement", tooltip = rule_assaillement)
 tippy::tippy_this(elementId = "kraz_tête", tooltip = rule_kraz_tête)
 tippy::tippy_this(elementId = "regard_de_gork", tooltip = rule_regard_de_gork)
 tippy::tippy_this(elementId = "malediction_de_mork", tooltip = rule_malediction_de_mork)
@@ -815,6 +839,13 @@ tippy::tippy_this(elementId = "lever_dla_mauvaise_lune", tooltip = rule_lever_dl
 tippy::tippy_this(elementId = "leklat_du_soleil_malefikk", tooltip = rule_leklat_du_soleil_malefikk) # Magie Waagh p334
 tippy::tippy_this(elementId = "on_y_va", tooltip = rule_on_y_va) # Magie Waagh p334
 tippy::tippy_this(elementId = "pied_de_gork", tooltip = rule_pied_de_gork) # Magie Waagh p334
+tippy::tippy_this(elementId = "appeler_la_tempete" , tooltip = rule_appeler_la_tempete) # Elementalisme p326
+tippy::tippy_this(elementId = "epee_enflammee" , tooltip = rule_epee_enflammee) # Elementalisme p326
+tippy::tippy_this(elementId = "fleau_du_metal" , tooltip = rule_fleau_du_metal) # Elementalisme p326
+tippy::tippy_this(elementId = "invocation_desprit_elemental" , tooltip = rule_invocation_desprit_elemental) # Elementalisme p326
+tippy::tippy_this(elementId = "remparts_telluriques" , tooltip = rule_remparts_telluriques) # Elementalisme p326
+tippy::tippy_this(elementId = "bourrasque" , tooltip = rule_bourrasque) # Elementalisme p326
+tippy::tippy_this(elementId = "passage_mystique" , tooltip = rule_passage_mystique) # Elementalisme p326
 tippy::tippy_this(elementId = "test_commandement", tooltip = rule_test_commandement)
 tippy::tippy_this(elementId = "peur", tooltip = rule_peur) # p168
 tippy::tippy_this(elementId = "mouvement_og", tooltip = overview_mouv)
