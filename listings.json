@@ -1,6 +1,6 @@
 [
   {
-    "listing": "/index.html",
+    "listing": "/homepage.html",
     "items": [
       "/posts/tow-armee-zouvreurs-Ki-Brill/index.html",
       "/posts/tow-campagnee-battle-one/index.html",
@@ -9,7 +9,7 @@
     ]
   },
   {
-    "listing": "/homepage.html",
+    "listing": "/index.html",
     "items": [
       "/posts/tow-armee-zouvreurs-Ki-Brill/index.html",
       "/posts/tow-campagnee-battle-one/index.html",
