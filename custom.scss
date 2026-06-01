@@ -16,3 +16,7 @@ $navbar-fg: #ffffff ;
 // $dark:          $gray-900 !default;
 
 /*-- scss:rules --*/
+
+img.rounded {
+  border-radius: 25px; /* ajustez la valeur pour plus ou moins d'arrondi */
+}

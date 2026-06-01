@@ -27,7 +27,7 @@ text-align: justify}
 
 ::: {.column width="46%"}
 
-![](2026-03-05-warhammer-the-old-world-map.png)
+![](2026-03-05-warhammer-the-old-world-map.png){.rounded}
 :::
 
 ::: {.column width="2%"}
@@ -89,7 +89,7 @@ L’idée est de jouer plusieurs parties, peut être 4 ou 5, sur un rythme d’u
 
 ::: {.column width="32%"}
 
-![](tombking_vs_breto.jpg)
+![](tombking_vs_breto.jpg){.rounded}
 
 :::
 
@@ -251,7 +251,7 @@ A l’ouest de *Malko* les Nains de [**Gargarysm**]{style="color:blue"} affronte
 
 ::: {.column width="36%"}
 
-![](vampire_Arkhad.png)
+![](vampire_Arkhad.png){.rounded}
 :::
 
 ::: {.column width="2%"}
@@ -274,15 +274,15 @@ Les esprits de la forêt de [**Rhend**]{style="color:blue"} s’approchent de *V
 
 ----------------------------------------------------
 
-## Vague 2, mois d'avril 2026 - Le Dernier Assaut avant l’Éveil
+## Vague 2, mois d'avril 2026 - L'Assaut avant l’Éveil
 
 **Organisation** : Pour ce mois d’avril le MJ a défini les adversaires selon l’emplacement de leur dernière bataille, leur réponse données en privée concernant leur rythme de marche et les résultats des derniers scénarios. S’affronteront donc les adversaires suivants :
 
-- Scénario 1: [**Affrontement entre damnés pour la Couronne Maudite**]{style="color:orange"} ➜ [Adie]{style="color:green"} vs [Fraameto]{style="color:red"} au Nord de *High Hall*.
+- Scénario 3: [**Affrontement entre damnés pour la Couronne Maudite**]{style="color:orange"} ➜ [Adie]{style="color:green"} vs [Fraameto]{style="color:red"} au Nord de *High Hall*.
 
-- Scénario 2: **Rencontre fortuite près de la colline** ➜ pour tout les autres participants.
+- Scénario 4: **Rencontre fortuite près de la colline** ➜ pour tout les autres participants.
 
-### Scénario 2: Affrontement entre damnés pour la Couronne Maudite
+### Scénario 3: Affrontement entre damnés pour la Couronne Maudite
 
 *C’est bien elle, la Couronne de Imephep l’Adulée est entre les mains de Arkhad, un puissant Seigneur Vampire. Pourtant la Couronne semble se refuser à lui au point de presque le tuer lorsqu’il tenta de la porter la première fois. Depuis il la met sous bonne garde dans son coffre le temps de l’étudier et de trouver un moyen de la plier à sa volonté. Mais le temps est quelque peu manquant dans une région ou les bandes de guerre pullulent, et des Guerriers du Chaos ne tardent d’ailleurs pas à se présenter en vue du campement des Morts-Vivants, très certainement pour voler le précieux artefact.*
 
@@ -329,7 +329,7 @@ Lors de la **construction d'armée**, [Fraameto]{style="color:red"} est autoris�
 :::
 
 
-### Scénario 3: Rencontre fortuite près de la colline
+### Scénario 4: Rencontre fortuite près de la colline
 
 *Les routes des Principautés Frontalières sont pleines de bande de guerres de différentes races et factions. Toutes convergent vers l’est dans le but d’intercepter la Couronne de Imephep l’Adulée des mains du Seigneur Vampire Arkhad, il n’est donc pas surprenant que de nombreuses armées se retrouvent inopinément face à un ennemi, malgré les précautions prises par les généraux pour couvrir leur avancée.*
 
@@ -380,6 +380,129 @@ La bataille durera six rounds, ou jusqu'à ce qu'un camp concède la partie, ou 
 :::
 
 
+----------------------------------------------------
+
+## Vague 3, mois de mai 2026 - Le Pont du Destin
+
+**Organisation** : Pour ce mois de mai le MJ a défini les adversaires selon l’emplacement
+de leur dernière bataille et les résultats des derniers scénarios.
+A savoir que les objets trouvés lors de la vague 1 sont dorénavant
+inutilisable pour les prochaines parties, trop vieux et usée par le temps.
+Si un joueur a choisi d’engager les mercenaires lors de l’interlude, il se
+voit ajouter l’utilisation gratuite en points d’une seule et unique unité de
+Brigands des Principautés Frontalières (profil ci-dessous). Son utilisation
+est obligatoire, mais l’équipement reste au choix du joueur avec une
+valeur totale de l’unité ne dépassant pas 80 points.
+
+- Scénario 4: [**Prise du pont**]{style="color:orange"} ➜ [Faitfaim]{style="color:blue"} vs [Fraameto]{style="color:red"} sur le pont non loin de *Ghoulstone Keep*.
+
+- Scénario 5: **Capture de Chariot de vivre** ➜ pour tout les autres participants.
+
+### Scénario 4: Prise du pont
+
+*La Couronne se refuse à délivrer tout son pouvoir, ni même à se plier à la volonté de quiconque. Mais elle insuffle des rêves au général guerrier du Chaos qui la détient. Pour enfin libérer toute sa puissance, elle doit charger son pouvoir sur un site magique précis qui se situe dans les Montagnes Noires*
+
+*L’armée des adorateurs de Khorne se met alors en chemin pour atteindre le lieu en question. Mais sur la route une autre armée l’attend près d’un pont qu’ils doivent absolument emprunter. En effet, guider par des visions magiques des Elfes Sylvains tentent de couper la route aux Chaotiques. Faute d’autres routes à proximité, hormis en faisant un détour de plusieurs jours, les Guerriers de Khorne décident de lancer l’assaut afin de prendre ce pont et de sécuriser leur avancée.*
+
+::: columns
+
+::: {.column width="48%"}
+
+**Mise En Place**
+
+La partie ce déroule au format 1250 points sur une table au dimension 60x48 pouces. Si les joueurs mettent en place le terrain, placez et dispersez le terrain comme décrit à la page 16 du Guide du Jeu Égal. **Une rivière doit traverser complètement la table de jeu**, il s’agit d’un terrain dangereux. Un pont doit être placé sur cette dernière, à un endroit à distance égale des deux zones de déploiement. Il est également possible de rajouter un guet sur la rivière. Le pont est un terrain normal et le guet un terrain difficile.
+
+**Déploiement**
+
+Une fois le champ de bataille mis en place, le gagnant d’un tir au dé choisit quel joueur déploie la première unité. Le gagnant de ce tir au dé doit également choisir sa Zone de Déploiement. Les joueurs déploient alors leurs armées selon la méthode du déploiement alterné.
+
+**Premier Tour**
+
+Une fois le déploiement terminé, faites un tir au dé, et le gagnant prend le premier tour.
+
+:::
+
+::: {.column width="4%"}
+
+:::
+
+
+::: {.column width="48%"}
+
+**Durée De La Partie**
+
+La bataille durera six rounds, ou jusqu’à ce qu’un camp concède la partie, ou jusqu’à ce que la limite de temps que les joueurs auront décidé à l’avance soit atteinte.
+
+**Victoire !**
+
+A la fin du T6, si [Fraameto]{style="color:red"} contrôle le pont il remporte la partie, sinon c’est [Faitfaim]{style="color:blue"}  qui l’emporte. Le joueur qui a l’unité, de `pu5` minimum, la plus proche du centre du pont contrôle ce dernier.
+
+![](pont.jpg){.rounded}
+
+:::
+
+:::
+
+
+### Scénario 5: Capture de Chariot de vivre
+
+*Vous étiez partis avec une campagne rapide en tête mais finalement cette dernière s’annonce plus longue que prévu. Les vivres et le matériel militaire vont rapidement venir à manquer et vous décidez de prendre les devants pour renflouer vos réserves.*
+
+*L’état des Principautés Frontalières fait que de nombreux marchands et réfugiés sont sur les routes, parfois avec une jolie cargaison qui ne demande qu’à être récupéré. Les villes et villages étant trop fortifiés pour un assaut frontal, vous sillonnez les routes à la recherche d’un chariot de vivres. Il ne vous faut que quelques jours pour en apercevoir un, mais ce dernier semble déjà être pris en chasse par une autre armée. Pas le choix il va donc falloir vous battre pour gagner votre bien.*
+
+::: columns
+
+::: {.column width="48%"}
+
+**Mise En Place**
+
+La partie ce déroule en format 1250 points sur une table au dimension aux choix des joueurs. Il s’agit d’un scénario de capture d’objectif, au centre du champs de bataille placez un train de ravitaillement pour représenté le chariot de vivres.
+
+
+**Déploiement**
+
+Une fois le déploiement terminé, faites un tir au dé, et le gagnant prend le premier tour.
+
+**Durée De La Partie**
+
+La bataille durera six rounds, ou jusqu'à ce qu'un camp concède la partie, ou jusqu'à ce que la limite de temps que les joueurs auront décidé à l'avance soit atteinte.
+
+**Victoire !**
+
+Le joueur qui contrôle le chariot de vivres à la fin du T6 gagne la partie, si personne ne le contrôle c’est une égalité.
+
+
+**Règles Spéciales Du Scénario**
+
+- Le chariot de vivres se déplace de `2D6` à toutes les phases de stratégie, en contournant les terrains dangereux et infranchissables, ainsi que toutes les unités sur le champ de bataille. Il s’arrête à 1 pouce de distance de toute unité dans tous les cas.
+
+- Le chariot est tirailleur, il est également considéré comme ayant une valeur de mouvement de 6 et ne possède pas le rapide. Il ne peut être pris pour cible par des tirs et si un gabarit dévie sur lui cela n’a pas d’effet (c’est un robuste chariot voilà tout …)
+
+- Il fuit toujours en réaction de charge de `1D6` en contournant les obstacles et les terrains si besoin. Il ne traverse aucune unité dans son mouvement de fuite et les contourne si possible. Il s’arrête avant la fin de son mouvement s’il est bloqué
+
+
+:::
+
+::: {.column width="4%"}
+
+:::
+
+
+::: {.column width="48%"}
+
+
+- Pour le capturer il faut qu’une unité, de `pu5` minimum l’impacte lors d’une charge. Pas de combat, c’est une victoire automatique. Le chariot est ensuite placé à l’arrière de l’unité qui l’a capturé. Juste après la capture l’unité effectue un test de Commandement, s’il est réussi elle peut se reformer, sinon elle reste sur place.
+
+- Le chariot sera considéré comme contrôlé par l’unité qui l’a capturé et suivra cette dernière partout ou elle se déplace. Elle n’empêche pas non plus l’unité de tirer ou de se battre. L’unité devra avancer à la valeur de mouvement la plus faible des deux (chariot ou unité).
+
+- Le chariot ne fait pas réellement du terrain tant qu’il est contrôlé par une unité. Il ne gêne ni les lignes de vue, ni les tirs, ni les déclarations de charge, et n’interfère pas dans les mesures de portée. N’hésitez pas à le déplacer temporairement sur le côté de l’unité si besoin, voir à la retirer complètement du terrain le temps qu’il faudra, si nécessaire.
+
+- Si l’unité qui le contrôle fuit, se replie en bon ordre, ou se retrouve avec une Pu inférieure à 5, le chariot est de nouveau libre. Effectuer le mouvement de fuite/repli de l’unité vaincu, puis faite bouger de `1D6` le chariot au plus loin de toute unité ennemie en partant de la position initiale de l’unité qui le contrôlait juste avant qu’elle ne bouge. Puis effectuer le mouvement de l’unité vainqueur : poursuite, reformation, etc. La poursuite, s’il y en a une, ne peux se faire que sur l’unité ennemie, et pas sur le chariot (l’unité est trop occupée à combattre pour capturer le chariot présentement)
+
+:::
+
+:::
+
 
 ---------------------------
 
@@ -410,3 +533,4 @@ tippy::tippy_this(elementId = "formation_ordre_de_marche", tooltip = rule_format
 tippy::tippy_this(elementId = "train_de_ravitaillement", tooltip = rule_train_de_ravitaillement)
 tippy::tippy_this(elementId = "avant_garde", tooltip = rule_avant_garde)
 ```
+
